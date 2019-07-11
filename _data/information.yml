@@ -1,0 +1,11 @@
+phone_number: "092 565 10 50"
+address: "Hanoi Vietnam"
+mail_address: "johnanddavidcompany@gmail.com"
+
+social:
+  - icon: "facebook"
+    link: "facebook.com"
+  - icon: "linkedin"
+    link: "linkedin.com"
+  - icon: "twitter"
+    link: "twitter.com"

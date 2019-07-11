@@ -1,0 +1,186 @@
+/* Base */
+$logo_color: #212258;
+$red_color: #7b0002;
+
+$font_size_big: 50px;
+$font_size_normal: 25px;
+$font_size_small: 20px;
+$font_size_extra_small: 15px;
+
+$bold: 600;
+$normal: 400;
+$light: 300;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+.clear {
+  display: block;
+}
+
+.clear:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Sections */
+
+header,
+section,
+footer {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
+/* Header */
+header {
+  .logo{
+    height: 50px;
+  }
+  .navbar-default {
+    border-color: #ffffff00;
+    .navbar-nav{
+      li{
+        font-size: $font_size_extra_small;
+        font-weight: $normal;
+        padding: 15px 10px;
+        a.active{
+          color: $logo_color;
+          font-weight: $bold;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    .logo{
+      height: 30px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  header {
+    .logo{
+      height: 30px;
+    }
+  }
+}
+@media (min-width: 992px) {
+  header {
+    .logo{
+      margin-top: 3px;
+      height: 45px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  header {
+  }
+}
+/* Footer */
+
+/* Home */
+#introduce{
+  .jumbotron{
+    background: url(../img/introduce.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 700px;
+    color: #fff;
+    padding: 30px 0;
+    .banner_text{
+      font-size: $font_size_big;
+      font-weight: $bold;
+      position: relative;
+      padding-left: 70px;
+      margin-top: 110px;
+      .heading{
+        margin: 15px 0;
+      }
+    }
+    .banner_text:before{
+      content: url("/img/inverted-commas-image.png");
+      position: absolute;
+      left: 0px;
+    }
+
+    .btn-default{
+      background-color: $red_color;
+      color: #fff;
+      font-size: $font_size_small;
+      font-weight: $normal;
+      border-color: #ffffff00;
+      border-radius: 3;
+      padding: 5px 20px;
+    }
+
+    .banner_bottom_panel{
+      position: relative;
+      bottom: -150px;
+
+      .panel_list{
+        position: absolute;
+        right: 0;
+        display: flex;
+        background-color: $red_color;
+        li{
+          list-style-type: none;
+          margin: 20px 35px 20px 0px;
+          a{
+            color: #fff;
+            font-size: $font_size_small;
+            font-weight: $normal;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  #introduce{
+    .jumbotron{
+
+    }
+  }
+}
+@media (min-width: 768px) {
+  #introduce{
+    .jumbotron{
+
+    }
+  }
+}
+@media (min-width: 992px) {
+  #introduce{
+    .jumbotron{
+
+    }
+  }
+}
+@media (min-width: 1200px) {
+  #introduce{
+    .jumbotron{
+
+    }
+  }
+}
