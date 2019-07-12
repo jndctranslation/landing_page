@@ -4,17 +4,19 @@
             GET IN TOUCH
         </div>
         <div class="telephone">
-        
+            {{ site.data.information.tel }}
         </div>
         <div class="address">
-
+            {{ site.data.information.address }}
         </div>
         <div class="email_address">
-
+            {{ site.data.information.email_address}}
         </div>
         <div class="social">
             {% for item in site.data.information.social %}
-                
+                <span><a href="{{item.link}}">
+                    <img src="/img/{{item.icon}}" class="social_icon">
+                </a></span>
             {% endfor %}
         </div>
     </div>

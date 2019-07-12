@@ -1,11 +1,13 @@
 /* Base */
 $logo_color: #212258;
+$light_logo_color: #e1e2fc;
 $red_color: #7b0002;
 
-$font_size_big: 50px;
+$font_size_extra_big: 50px;
+$font_size_big: 40px;
 $font_size_normal: 25px;
 $font_size_small: 20px;
-$font_size_extra_small: 15px;
+$font_size_extra_small: 16px;
 
 $bold: 600;
 $normal: 400;
@@ -24,7 +26,8 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   color: #000;
-  background-color: #fff;
+  font-size: $font_size_normal;
+  background-color: $light_logo_color;
 }
 
 .clear {
@@ -47,6 +50,31 @@ footer {
   float: left;
   width: 100%;
   clear: both;
+}
+
+h1{
+  font-size: $font_size_extra_big;
+  font-weight: $bold;
+}
+
+h2{
+  font-size: $font_size_big;
+  font-weight: $bold;
+}
+
+h3{
+  font-size: $font_size_normal;
+  font-weight: $bold;
+}
+
+p{
+  font-size: $font_size_small;
+  font-weight: $normal;
+  color: rgb(54, 54, 54);
+}
+
+li{
+  list-style-type: none;
 }
 
 /* Header */
@@ -97,6 +125,23 @@ header {
   }
 }
 /* Footer */
+footer{
+  background-color: $red_color;
+  color: #fff;
+  font-size: $font_size_small;
+  font-weight: $light;
+  padding: 50px 0;
+  line-height: 2;
+  .title{
+    font-size: $font_size_normal;
+    font-weight: $normal;
+  }
+  .social_icon{
+    width: 25px;
+    color: #fff;
+    margin: 20px 20px 10px 0px;
+  }
+}
 
 /* Home */
 #introduce{
@@ -107,7 +152,7 @@ header {
     color: #fff;
     padding: 30px 0;
     .banner_text{
-      font-size: $font_size_big;
+      font-size: $font_size_extra_big;
       font-weight: $bold;
       position: relative;
       padding-left: 70px;
@@ -142,7 +187,6 @@ header {
         display: flex;
         background-color: $red_color;
         li{
-          list-style-type: none;
           margin: 20px 35px 20px 0px;
           a{
             color: #fff;
@@ -155,32 +199,150 @@ header {
   }
 }
 
+.container{
+  .title{
+    margin: 0px 0px 30px 0px;
+  }
+  
+  .content{
+    line-height: 1.7em;
+  }  
+}
+
+#overview{
+  padding: 70px 0;
+}
+
+#vision{
+  padding: 70px 0;
+  background-color: $logo_color;
+  h2, p{
+    color: #fff;
+  }
+}
+
+.side_title{
+  background-color: #212258c2;
+  color: #fff;
+}
+
+#belief{
+  background-color: #fff;
+  .container-fluid{
+    background: url("../img/goal.jpg") no-repeat;
+    background-size: auto 100%;
+    background-position: top left;
+    .side_description{
+      background-color: #fff;
+    }
+  }
+}
+
+#jobs{
+  background-color: $light_logo_color;
+  .container-fluid{
+    background: url("../img/hand_punch.jpg") no-repeat;
+    background-size: auto 100%;
+    background-position: top right;
+    .side_description{
+      background-color: $light_logo_color;
+    }
+  }
+}
+
+#team{
+  padding: 70px 0;
+  background-color: #fff;
+  img{
+    width: 70px;
+    margin-bottom: 20px;
+  }
+}
+
+.side_description{
+  ul{
+    .media_rect{
+      margin: 50px 0px;
+      max-width: 800px;
+      .media_text{
+        h3{
+          margin: 0px 0px 10px 0px;
+        }
+      }
+      .media_icon{
+        img{
+          width: 100px;
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 768px) {
   #introduce{
     .jumbotron{
-
+      .banner_text{
+        padding-left: 0px;
+      }
+      .banner_text:before{
+        display: none;
+      }
     }
   }
 }
 @media (min-width: 768px) {
   #introduce{
     .jumbotron{
-
+      .banner_text{
+        padding-left: 0px;
+      }
+      .banner_text:before{
+        display: none;
+      }
     }
   }
 }
 @media (min-width: 992px) {
   #introduce{
     .jumbotron{
-
+      .banner_text{
+        padding-left: 70px;
+      }
+      .banner_text:before{
+        display: block;
+      }
+    }
+  }
+  .side_title{
+    top: 230px;
+    padding: 10px;
+  }
+  .side_description{
+    ul{
+      width: 100%;
+      margin: 0 auto;
     }
   }
 }
 @media (min-width: 1200px) {
   #introduce{
     .jumbotron{
-
+      .banner_text{
+        padding-left: 70px;
+      }
+      .banner_text:before{
+        display: block;
+      }
+    }
+  }
+  .side_title{
+    top: 230px;
+    padding: 20px;
+  }
+  .side_description{
+    ul{
+      width: 80%;
+      margin: 0 auto;
     }
   }
 }
