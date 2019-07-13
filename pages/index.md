@@ -4,6 +4,7 @@ overview: true
 permalink: /
 ---
 
+<!-- Banner -->
 <section id="introduce">
     <div class="jumbotron">
         <div class="container">
@@ -23,5 +24,13 @@ permalink: /
                 </ul>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- Overview -->
+<section id="overview">
+    <div class="container text-center">
+        <h3>Who We Are</h3>
+        <p>John and David Company or JNDC is a Vietnamese Languages Company We is a leader in providing translation services in the translation marketplace that offers a transparent, intuitive and cost-effective online portal to customers who need documents, web content and video content translated guaranteeing high-quality and high speed. John and David Company connects its customers with highly rated, certified, Vietnamese native translators who can deliver quality translation and follow our company strict standards.</p>
     </div>
 </section>
