@@ -7,10 +7,14 @@ backend:
 media_folder: 'img'
 
 collections:
-  - name: "information"
-    label: "Website information"
-    file: "_data/information.yml"
-    fields:
-      - name: "tel"
-        label: "Telephone"
-        widget: "string"
+  - name: "setting"
+    label: "Website setting"
+    files:
+      - label: "Web Information"
+        name: "information"
+        file: "_data/information.yml"
+        fields:
+          - label: 'Telephone'
+            name: 'tel'
+            widget: 'string'
+
