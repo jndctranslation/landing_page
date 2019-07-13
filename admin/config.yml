@@ -1,0 +1,15 @@
+# config.yml
+
+backend:
+  name: jndctranslation
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: 'img'
+
+collections:
+  - name: "information"
+    label: "Website information"
+    file: "_data/information.yml"
+    fields:
+      - name: "tel"
+        label: "Telephone"
+        widget: "string"

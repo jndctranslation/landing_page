@@ -1,80 +1,25 @@
 /* Base */
-$logo_color: #212258;
-$light_logo_color: #e1e2fc;
-$red_color: #7b0002;
+$blue: #212258;
+$red: #7b0002;
+$light_blue: #e1e2fc;
+$light_black: #dfdfdf;
 
-$font_size_extra_big: 50px;
-$font_size_big: 40px;
-$font_size_normal: 25px;
-$font_size_small: 20px;
-$font_size_extra_small: 16px;
+$xs: 576px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
 
-$bold: 600;
-$normal: 400;
-$light: 300;
-
-html {
-  box-sizing: border-box;
+@media (max-width: 768px) {
 }
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #000;
-  font-size: $font_size_normal;
-  background-color: $light_logo_color;
-}
-
-.clear {
-  display: block;
-}
-
-.clear:after {
-  content: " ";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-/* Sections */
-
-header,
-section,
-footer {
-  float: left;
-  width: 100%;
-  clear: both;
-}
-
-h1{
-  font-size: $font_size_extra_big;
-  font-weight: $bold;
-}
-
-h2{
-  font-size: $font_size_big;
-  font-weight: $bold;
-}
-
-h3{
-  font-size: $font_size_normal;
-  font-weight: $bold;
-}
-
-p{
-  font-size: $font_size_small;
-  font-weight: $normal;
-  color: rgb(54, 54, 54);
-}
-
-li{
-  list-style-type: none;
 }
 
 /* Header */
@@ -83,67 +28,55 @@ header {
     height: 50px;
   }
   .navbar-default {
-    border-color: #ffffff00;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0;
     .navbar-nav{
-      li{
-        font-size: $font_size_extra_small;
-        font-weight: $normal;
-        padding: 15px 10px;
-        a.active{
-          color: $logo_color;
-          font-weight: $bold;
-        }
-      }
+      padding: 1.5rem;
     }
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $md) {
   header {
     .logo{
       height: 30px;
     }
   }
 }
-@media (min-width: 768px) {
+
+@media (min-width: $md) {
   header {
     .logo{
-      height: 30px;
+      height: 50px;
     }
   }
 }
-@media (min-width: 992px) {
-  header {
-    .logo{
-      margin-top: 3px;
-      height: 45px;
-    }
-  }
-}
-@media (min-width: 1200px) {
-  header {
-  }
-}
+
 /* Footer */
 footer{
-  background-color: $red_color;
+  background-color: $red;
   color: #fff;
-  font-size: $font_size_small;
-  font-weight: $light;
-  padding: 50px 0;
+  padding: 30px 0;
   line-height: 2;
-  .title{
-    font-size: $font_size_normal;
-    font-weight: $normal;
-  }
   .social_icon{
-    width: 25px;
+    width: 20px;
     color: #fff;
     margin: 20px 20px 10px 0px;
   }
 }
 
 /* Home */
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+html {
+  font-size: 1rem;
+}
+
 #introduce{
   .jumbotron{
     background: url(../img/introduce.jpg) no-repeat center;
@@ -151,47 +84,47 @@ footer{
     min-height: 700px;
     color: #fff;
     padding: 30px 0;
+    border-radius: 0;
+    
     .banner_text{
-      font-size: $font_size_extra_big;
-      font-weight: $bold;
       position: relative;
-      padding-left: 70px;
-      margin-top: 110px;
-      .heading{
-        margin: 15px 0;
-      }
+      margin:0;
+      padding: 150px 80px;
+      max-width: 900px;
     }
+
     .banner_text:before{
       content: url("/img/inverted-commas-image.png");
       position: absolute;
       left: 0px;
     }
-
-    .btn-default{
-      background-color: $red_color;
+    
+    .btn_custom{
       color: #fff;
-      font-size: $font_size_small;
-      font-weight: $normal;
-      border-color: #ffffff00;
+      background-color: $red;
+      border: 0;
       border-radius: 3;
-      padding: 5px 20px;
+      padding: 10px 20px;
+      margin: 30px 0;
     }
 
     .banner_bottom_panel{
       position: relative;
-      bottom: -150px;
-
+      bottom: 20px;
       .panel_list{
         position: absolute;
         right: 0;
         display: flex;
-        background-color: $red_color;
+        background-color: $red;
         li{
           margin: 20px 35px 20px 0px;
+          list-style-type: none;
           a{
             color: #fff;
-            font-size: $font_size_small;
-            font-weight: $normal;
+          }
+          a:hover{
+            text-decoration: none;
+            font-weight: 600;
           }
         }
       }
@@ -199,150 +132,22 @@ footer{
   }
 }
 
-.container{
-  .title{
-    margin: 0px 0px 30px 0px;
-  }
-  
-  .content{
-    line-height: 1.7em;
-  }  
-}
-
-#overview{
-  padding: 70px 0;
-}
-
-#vision{
-  padding: 70px 0;
-  background-color: $logo_color;
-  h2, p{
-    color: #fff;
-  }
-}
-
-.side_title{
-  background-color: #212258c2;
-  color: #fff;
-}
-
-#belief{
-  background-color: #fff;
-  .container-fluid{
-    background: url("../img/goal.jpg") no-repeat;
-    background-size: auto 100%;
-    background-position: top left;
-    .side_description{
-      background-color: #fff;
-    }
-  }
-}
-
-#jobs{
-  background-color: $light_logo_color;
-  .container-fluid{
-    background: url("../img/hand_punch.jpg") no-repeat;
-    background-size: auto 100%;
-    background-position: top right;
-    .side_description{
-      background-color: $light_logo_color;
-    }
-  }
-}
-
-#team{
-  padding: 70px 0;
-  background-color: #fff;
-  img{
-    width: 70px;
-    margin-bottom: 20px;
-  }
-}
-
-.side_description{
-  ul{
-    .media_rect{
-      margin: 50px 0px;
-      max-width: 800px;
-      .media_text{
-        h3{
-          margin: 0px 0px 10px 0px;
-        }
-      }
-      .media_icon{
-        img{
-          width: 100px;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: $md) {
   #introduce{
     .jumbotron{
+      min-height: 100px;
       .banner_text{
-        padding-left: 0px;
+        padding: 120px 0px;
+        h1{
+          font-size: 1.5rem;
+        }
+        h4{
+          font-size: 1rem;
+        }
       }
       .banner_text:before{
         display: none;
       }
-    }
-  }
-}
-@media (min-width: 768px) {
-  #introduce{
-    .jumbotron{
-      .banner_text{
-        padding-left: 0px;
-      }
-      .banner_text:before{
-        display: none;
-      }
-    }
-  }
-}
-@media (min-width: 992px) {
-  #introduce{
-    .jumbotron{
-      .banner_text{
-        padding-left: 70px;
-      }
-      .banner_text:before{
-        display: block;
-      }
-    }
-  }
-  .side_title{
-    top: 230px;
-    padding: 10px;
-  }
-  .side_description{
-    ul{
-      width: 100%;
-      margin: 0 auto;
-    }
-  }
-}
-@media (min-width: 1200px) {
-  #introduce{
-    .jumbotron{
-      .banner_text{
-        padding-left: 70px;
-      }
-      .banner_text:before{
-        display: block;
-      }
-    }
-  }
-  .side_title{
-    top: 230px;
-    padding: 20px;
-  }
-  .side_description{
-    ul{
-      width: 80%;
-      margin: 0 auto;
     }
   }
 }

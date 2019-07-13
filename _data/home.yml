@@ -1,11 +1,11 @@
 menu:
-  - title: "OVERVIEW"
+  - title: "Overview"
     link: "#overview"
-  - title: 'VISION'
+  - title: 'Vision'
     link: '#vision'
-  - title: 'BELIEF'
+  - title: 'Belief'
     link: '#belief'
-  - title: 'JOBS'
+  - title: 'Jobs'
     link: '#jobs'
-  - title: 'TEAM'
+  - title: 'Team'
     link: '#team'
