@@ -1,15 +1,15 @@
 <footer>
     <div class="container">
-        <h3 class="font-weight-bolder">GET IN TOUCH</h3>
-        <div class="telephone">
+        <h3 class="font-weight-bolder pb-3">GET IN TOUCH</h3>
+        <p class="telephone">
             {{ site.data.information.tel }}
-        </div>
-        <div class="address">
+        </p>
+        <p class="address">
             {{ site.data.information.address }}
-        </div>
-        <div class="email_address">
+        </p>
+        <p class="email_address">
             {{ site.data.information.email_address}}
-        </div>
+        </p>
         <div class="social">
             {% for item in site.data.information.social %}
                 <span><a href="{{item.link}}">

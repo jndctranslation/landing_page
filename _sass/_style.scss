@@ -22,15 +22,31 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.pd_lg {
+  padding: 90px 0;
+}
+
+@media all and (max-width: 667px) {
+  .content_web .pd_lg {
+    padding: 50px 0;
+  }
+}
+@media all and (min-width: 400px) and (max-width: 480px),
+  all and (min-width: 320px) and (max-width: 375px) {
+  .content_web .pd_lg {
+    padding: 35px 0;
+  }
+}
+
 /* Header */
 header {
-  .logo{
+  .logo {
     height: 50px;
   }
   .navbar-default {
     background-color: rgba(255, 255, 255, 0.8);
     border: 0;
-    .navbar-nav{
+    .navbar-nav {
       padding: 1.5rem;
     }
   }
@@ -38,7 +54,7 @@ header {
 
 @media (max-width: $md) {
   header {
-    .logo{
+    .logo {
       height: 30px;
     }
   }
@@ -46,19 +62,20 @@ header {
 
 @media (min-width: $md) {
   header {
-    .logo{
+    .logo {
       height: 50px;
     }
   }
 }
 
 /* Footer */
-footer{
+footer {
   background-color: $red;
-  color: #fff;
   padding: 30px 0;
-  line-height: 2;
-  .social_icon{
+  h3, p{
+    color: #fff;
+  }
+  .social_icon {
     width: 20px;
     color: #fff;
     margin: 20px 20px 10px 0px;
@@ -71,36 +88,63 @@ footer{
   margin: 0;
   font-weight: 400;
   line-height: 1.5;
+  color: #232d50;
 }
+
+p{
+  color: #515d84;
+  line-height: 1.7;
+}
+
+.light_text{
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+  }
+  color: #fff;
+}
+
+.dark_text{
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #232d50;
+  }
+  p {
+    color: #515d84;
+  }
+  color: #232d50;
+}  
 
 html {
   font-size: 1rem;
 }
 
-#introduce{
-  .jumbotron{
-    background: url(../img/introduce.jpg) no-repeat center;
-    background-size: cover;
+.background{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#introduce {
+  .jumbotron {
+    background: none;
     min-height: 700px;
-    color: #fff;
     padding: 30px 0;
     border-radius: 0;
-    
-    .banner_text{
+    margin-bottom: 0;
+
+    .banner_text {
       position: relative;
-      margin:0;
+      margin: 0;
       padding: 150px 80px;
       max-width: 900px;
     }
 
-    .banner_text:before{
+    .banner_text:before {
       content: url("/img/inverted-commas-image.png");
       position: absolute;
       left: 0px;
     }
-    
-    .btn_custom{
-      color: #fff;
+
+    .btn_custom {
       background-color: $red;
       border: 0;
       border-radius: 3;
@@ -108,21 +152,21 @@ html {
       margin: 30px 0;
     }
 
-    .banner_bottom_panel{
+    .banner_bottom_panel {
       position: relative;
       bottom: 20px;
-      .panel_list{
+      .panel_list {
         position: absolute;
         right: 0;
         display: flex;
         background-color: $red;
-        li{
+        li {
           margin: 20px 35px 20px 0px;
           list-style-type: none;
-          a{
-            color: #fff;
-          }
-          a:hover{
+          // a {
+          //   color: #fff;
+          // }
+          a:hover {
             text-decoration: none;
             font-weight: 600;
           }
@@ -133,21 +177,81 @@ html {
 }
 
 @media (max-width: $md) {
-  #introduce{
-    .jumbotron{
+  #introduce {
+    .jumbotron {
       min-height: 100px;
-      .banner_text{
+      .banner_text {
         padding: 120px 0px;
-        h1{
+        h1 {
           font-size: 1.5rem;
         }
-        h4{
+        h4 {
           font-size: 1rem;
         }
       }
-      .banner_text:before{
+      .banner_text:before {
         display: none;
       }
     }
   }
+}
+
+.side_img{
+  width: 100%;
+  height: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.side_item{
+  clear: both;
+  margin-bottom: 3em;
+  .side_icon {
+    display: inline-block;
+    width: 80px;
+    height: 90px;
+    float: left;
+    overflow: hidden;
+    margin-right: 50px;
+    margin-top: 0.5em;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .side_title {
+    text-align: start;
+    margin-left: 114px;
+  }
+  
+  .side_text {
+    margin-left: 114px;
+  }
+}
+
+
+.sub_item{
+  margin-bottom: 3em;
+  text-align: center;
+  .sub_icon {
+    width: 80px;
+    height: 90px;
+    margin: 0 auto;
+    overflow: hidden;
+    img{
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .sub_title {
+  }
+  .sub_text {
+  }
+}
+
+.image_underlay{
+  display: flex;
 }
