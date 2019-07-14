@@ -64,7 +64,7 @@ jobs_text_color: 'dark_text'
 team_title: 'Our Team'
 team_description:
   - title: 'Something here'
-    text: Our team have at least 5 year of experience. They are confident in them translation skills and they can take care all translation projects from English into Vietnamese and vice versa.'
+    text: 'Our team have at least 5 year of experience. They are confident in them translation skills and they can take care all translation projects from English into Vietnamese and vice versa.'
     icon: '/img/recommended.png'
   - title: 'Something here'
     text: 'Our translator are all native speaker'

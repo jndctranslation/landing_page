@@ -27,13 +27,13 @@ body {
 }
 
 @media all and (max-width: 667px) {
-  .content_web .pd_lg {
+  .pd_lg {
     padding: 50px 0;
   }
 }
 @media all and (min-width: 400px) and (max-width: 480px),
   all and (min-width: 320px) and (max-width: 375px) {
-  .content_web .pd_lg {
+  .pd_lg {
     padding: 35px 0;
   }
 }
@@ -209,8 +209,8 @@ html {
   margin-bottom: 3em;
   .side_icon {
     display: inline-block;
-    width: 80px;
-    height: 90px;
+    width: 64px;
+    height: 70px;
     float: left;
     overflow: hidden;
     margin-right: 50px;
@@ -236,8 +236,8 @@ html {
   margin-bottom: 3em;
   text-align: center;
   .sub_icon {
-    width: 80px;
-    height: 90px;
+    width: 64px;
+    height: 70px;
     margin: 0 auto;
     overflow: hidden;
     img{

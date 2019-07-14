@@ -52,7 +52,7 @@ permalink: /
                 <div class="side_img" style="background-image: url({{site.data.pages.home.belief_side_image}});">
                 </div>
             </div>
-            <div class="col-md-12 col-lg-6 pl-5">
+            <div class="col-md-12 col-lg-6 p-5">
                     <h2  class="font-weight-bold mb-5">{{site.data.pages.home.belief_title}}</h2>
                     {% for item in site.data.pages.home.belief_description %}
                     <div class="side_item">
@@ -70,7 +70,7 @@ permalink: /
 <section id="jobs" class="{{site.data.pages.home.jobs_text_color}} background" style="background-image: url({{site.data.pages.home.jobs_background_image}}); box-shadow:inset 0 0 0 10000px {{site.data.pages.home.jobs_color_overlay}};">
     <div class="container pd_lg">
         <div class="row">
-            <div class="col-md-12 col-lg-6 pr-5">
+            <div class="col-md-12 col-lg-6 p-5">
                     <h2 class="font-weight-bold mb-5">{{site.data.pages.home.jobs_title}}</h2>
                     {% for item in site.data.pages.home.jobs_description %}
                     <div class="side_item">
