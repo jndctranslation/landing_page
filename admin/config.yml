@@ -3,7 +3,7 @@
 backend:
   name: github
   repo: jndctranslation/landing_page
-  branch: master # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optionsal; defaults to master)
 media_folder: 'img'
 
 collections:
@@ -35,25 +35,19 @@ collections:
         - {label: 'Link Introduce Button', name: 'link_introduce_button', widget: 'string'}
         - {label: 'Introduce Background Image', name: 'introduce_background_image', widget: 'image'}
         - {label: 'Introduce Color Overlay', name: 'introduce_color_overlay', widget: 'string'}
-        - {label: 'Introduce Text Color', name: 'introduce_text_color', widget: 'select', option: ['light_text', 'dark_text']}
+        - {label: 'Introduce Text Color', name: 'introduce_text_color', widget: 'select', options: ['light_text', 'dark_text']}
 
         - {label: 'Overview Title', name: 'overview_title', widget: 'string'}
         - {label: 'Overview Text', name: 'overview_text', widget: 'string'}
-        - {label: 'Overview Background Image', name: 'overview_background_image', widget: 'string'}
+        - {label: 'Overview Background Image', name: 'overview_background_image', widget: 'image'}
         - {label: 'Overview Color Overlay', name: 'overview_color_overlay', widget: 'string'}
-        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', option: ['light_text', 'dark_text']}
+        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', options: ['light_text', 'dark_text']}
 
-        - {label: 'Overview Title', name: 'overview_title', widget: 'string'}
-        - {label: 'Overview Text', name: 'overview_text', widget: 'string'}
-        - {label: 'Overview Background Image', name: 'overview_background_image', widget: 'string'}
-        - {label: 'Overview Color Overlay', name: 'overview_color_overlay', widget: 'string'}
-        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', option: ['light_text', 'dark_text']}
-
-        - {label: 'Overview Title', name: 'overview_title', widget: 'string'}
-        - {label: 'Overview Text', name: 'overview_text', widget: 'string'}
-        - {label: 'Overview Background Image', name: 'overview_background_image', widget: 'string'}
-        - {label: 'Overview Color Overlay', name: 'overview_color_overlay', widget: 'string'}
-        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', option: ['light_text', 'dark_text']}
+        - {label: 'Vision Title', name: 'vision_title', widget: 'string'}
+        - {label: 'Vision Text', name: 'vision_text', widget: 'string'}
+        - {label: 'Vision Background Image', name: 'vision_background_image', widget: 'image'}
+        - {label: 'Vision Color Overlay', name: 'vision_color_overlay', widget: 'string'}
+        - {label: 'Vision Text Color', name: 'vision_text_color', widget: 'select', options: ['light_text', 'dark_text']}
 
         - {label: 'Belief Title', name: 'belief_title', widget: 'string'}
         - label: 'Belief Description'
@@ -63,9 +57,9 @@ collections:
           - {label: 'Title', name: 'title', widget: 'string'}
           - {label: 'Text', name: 'text', widget: 'string'}
           - {label: 'Icon Image', name: 'icon', widget: 'image'}
-        - {label: 'Belief Background Image', name: 'belief_background_image', widget: 'string'}
+        - {label: 'Belief Background Image', name: 'belief_background_image', widget: 'image'}
         - {label: 'Belief Color Overlay', name: 'belief_color_overlay', widget: 'string'}
-        - {label: 'Belief Text Color', name: 'belief_text_color', widget: 'select', option: ['light_text', 'dark_text']}
+        - {label: 'Belief Text Color', name: 'belief_text_color', widget: 'select', options: ['light_text', 'dark_text']}
 
         - {label: 'Jobs Title', name: 'jobs_title', widget: 'string'}
         - label: 'Jobs Description'
@@ -75,9 +69,9 @@ collections:
           - {label: 'Title', name: 'title', widget: 'string'}
           - {label: 'Text', name: 'text', widget: 'string'}
           - {label: 'Icon Image', name: 'icon', widget: 'image'}
-        - {label: 'Jobs Background Image', name: 'jobs_background_image', widget: 'string'}
+        - {label: 'Jobs Background Image', name: 'jobs_background_image', widget: 'image'}
         - {label: 'Jobs Color Overlay', name: 'jobs_color_overlay', widget: 'string'}
-        - {label: 'Jobs Text Color', name: 'jobs_text_color', widget: 'select', option: ['light_text', 'dark_text']}
+        - {label: 'Jobs Text Color', name: 'jobs_text_color', widget: 'select', options: ['light_text', 'dark_text']}
 
         - {label: 'Team Title', name: 'team_title', widget: 'string'}
         - label: 'Team Description'
@@ -87,7 +81,7 @@ collections:
           - {label: 'Title', name: 'title', widget: 'string'}
           - {label: 'Text', name: 'text', widget: 'string'}
           - {label: 'Icon Image', name: 'icon', widget: 'image'}
-        - {label: 'Team Background Image', name: 'team_background_image', widget: 'string'}
+        - {label: 'Team Background Image', name: 'team_background_image', widget: 'image'}
         - {label: 'Team Color Overlay', name: 'team_color_overlay', widget: 'string'}
-        - {label: 'Team Text Color', name: 'team_text_color', widget: 'select', option: ['light_text', 'dark_text']}
+        - {label: 'Team Text Color', name: 'team_text_color', widget: 'select', options: ['light_text', 'dark_text']}
         
