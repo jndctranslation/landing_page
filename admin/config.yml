@@ -14,7 +14,20 @@ collections:
         name: "information"
         file: "_data/information.yml"
         fields:
-          - label: 'Telephone'
-            name: 'tel'
-            widget: 'string'
-
+        - {label: 'Telephone', name: 'tel', widget: 'string'}
+        - {label: 'Address', name: 'address', widget: 'string'}
+        - {label: 'Email Address', name: 'email_address', widget: 'string'}
+        - label: 'Social Network'
+          name: 'social'
+          widget: 'list'
+          fields:
+          - {label: 'Icon Image', name: 'icon', widget: 'image'}
+          - {label: 'Link', name: 'link', widget: 'string'}
+  - name: 'pages'
+    label: 'Website pages'
+    files:
+      - label: 'Home'
+        name: 'home'
+        file: '_data/pages/home.yml'
+        fields:
+        - {label: 'Introduce Quote', name: 'introduce_quote', widget: 'string'}
