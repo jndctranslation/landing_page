@@ -33,31 +33,31 @@ collections:
         - {label: 'Introduce Quote', name: 'introduce_quote', widget: 'string'}
         - {label: 'Introduce Button', name: 'introduce_button', widget: 'string'}
         - {label: 'Link Introduce Button', name: 'link_introduce_button', widget: 'string'}
-        - {label: 'Introduce Background Image', name: 'introduce_background_image', widget: 'string'}
+        - {label: 'Introduce Background Image', name: 'introduce_background_image', widget: 'image'}
         - {label: 'Introduce Color Overlay', name: 'introduce_color_overlay', widget: 'string'}
-        - {label: 'Introduce Text Color', name: 'introduce_text_color', widget: 'select', option: ['light_text', dark_text]}
+        - {label: 'Introduce Text Color', name: 'introduce_text_color', widget: 'select', option: ['light_text', 'dark_text']}
 
         - {label: 'Overview Title', name: 'overview_title', widget: 'string'}
         - {label: 'Overview Text', name: 'overview_text', widget: 'string'}
         - {label: 'Overview Background Image', name: 'overview_background_image', widget: 'string'}
         - {label: 'Overview Color Overlay', name: 'overview_color_overlay', widget: 'string'}
-        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', option: ['light_text', dark_text]}
+        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', option: ['light_text', 'dark_text']}
 
         - {label: 'Overview Title', name: 'overview_title', widget: 'string'}
         - {label: 'Overview Text', name: 'overview_text', widget: 'string'}
         - {label: 'Overview Background Image', name: 'overview_background_image', widget: 'string'}
         - {label: 'Overview Color Overlay', name: 'overview_color_overlay', widget: 'string'}
-        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', option: ['light_text', dark_text]}
+        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', option: ['light_text', 'dark_text']}
 
         - {label: 'Overview Title', name: 'overview_title', widget: 'string'}
         - {label: 'Overview Text', name: 'overview_text', widget: 'string'}
         - {label: 'Overview Background Image', name: 'overview_background_image', widget: 'string'}
         - {label: 'Overview Color Overlay', name: 'overview_color_overlay', widget: 'string'}
-        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', option: ['light_text', dark_text]}
+        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', option: ['light_text', 'dark_text']}
 
         - {label: 'Belief Title', name: 'belief_title', widget: 'string'}
-        - label: 'Belief Text'
-          name: 'belief_text'
+        - label: 'Belief Description'
+          name: 'belief_description'
           widget: 'list'
           fields:
           - {label: 'Title', name: 'title', widget: 'string'}
@@ -65,5 +65,29 @@ collections:
           - {label: 'Icon Image', name: 'icon', widget: 'image'}
         - {label: 'Belief Background Image', name: 'belief_background_image', widget: 'string'}
         - {label: 'Belief Color Overlay', name: 'belief_color_overlay', widget: 'string'}
-        - {label: 'Belief Text Color', name: 'belief_text_color', widget: 'select', option: ['light_text', dark_text]}
+        - {label: 'Belief Text Color', name: 'belief_text_color', widget: 'select', option: ['light_text', 'dark_text']}
+
+        - {label: 'Jobs Title', name: 'jobs_title', widget: 'string'}
+        - label: 'Jobs Description'
+          name: 'jobs_description'
+          widget: 'list'
+          fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'Text', name: 'text', widget: 'string'}
+          - {label: 'Icon Image', name: 'icon', widget: 'image'}
+        - {label: 'Jobs Background Image', name: 'jobs_background_image', widget: 'string'}
+        - {label: 'Jobs Color Overlay', name: 'jobs_color_overlay', widget: 'string'}
+        - {label: 'Jobs Text Color', name: 'jobs_text_color', widget: 'select', option: ['light_text', 'dark_text']}
+
+        - {label: 'Team Title', name: 'team_title', widget: 'string'}
+        - label: 'Team Description'
+          name: 'team_description'
+          widget: 'list'
+          fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'Text', name: 'text', widget: 'string'}
+          - {label: 'Icon Image', name: 'icon', widget: 'image'}
+        - {label: 'Team Background Image', name: 'team_background_image', widget: 'string'}
+        - {label: 'Team Color Overlay', name: 'team_color_overlay', widget: 'string'}
+        - {label: 'Team Text Color', name: 'team_text_color', widget: 'select', option: ['light_text', 'dark_text']}
         
