@@ -34,7 +34,7 @@ collections:
         - {label: 'Introduce Button', name: 'introduce_button', widget: 'string', required: false}
         - {label: 'Link Introduce Button', name: 'link_introduce_button', widget: 'string', required: false}
         - {label: 'Introduce Background Image', name: 'introduce_background_image', widget: 'image', required: false}
-        - {label: 'Introduce Color Overlay', name: 'introduce_color_overlay', widget: 'color', required: false}
+        - {label: 'Introduce Color Overlay', name: 'introduce_color_overlay', widget: 'color', format: 'hsl', required: false}
         - {label: 'Introduce Text Color', name: 'introduce_text_color', widget: 'select', options: ['light_text', 'dark_text'], required: false}
 
         - {label: 'Overview Title', name: 'overview_title', widget: 'string', required: false}
