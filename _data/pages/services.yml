@@ -32,9 +32,9 @@ why:
     - title: 'Multilingual Support'
       text: 'We offer translation services for a plethora of language pairs from around the globe for a multilingual support system.'
       icon: '/img/recommended.png'
-  background_image: '/img/introduce.jpg'
-  color_overlay: ''
-  text_color: 'light_text'
+  background_image: ''
+  color_overlay: 'rgba(0, 0, 0, 0)'
+  text_color: 'dark_text'
 
 
 language:
@@ -50,16 +50,16 @@ language:
     - icon: ''
       text: 'Korean into Vietnamese'
   background_image: '/img/introduce.jpg'
-  color_overlay: ''
-  text_color: 'light_text'
+  color_overlay: 'rgba(0, 0, 0, 0)'
+  text_color: 'dark_text'
 
 
 advantage:
   title: 'Fast, Reliable and Affordable Proofreading'
   text: 'Your digital assets including your websites, blogs, official documents, professional emails and marketing material reflect your standard, quality and professional efficiency. Therefore, it is critical to ensure that your text is free from all the major and minor errors, and that’s what we are here for. We offer proficient proofreading by certified professionals. If you want immaculate proofreading services for any type of content, Mars Translation has got you covered.'
   background_image: '/img/introduce.jpg'
-  color_overlay: ''
-  text_color: 'light_text'
+  color_overlay: 'rgba(0, 0, 0, 0)'
+  text_color: 'dark_text'
 
 
 top:
@@ -75,8 +75,8 @@ top:
     - title: 'Many Vietnamese Translation Pair'
       text: 'Our linguistic experts cover over almost all Vietnamese Translation Pair. We have highly trained and skilled professionals to deliver flawless content in time.'
   background_image: '/img/introduce.jpg'
-  color_overlay: ''
-  text_color: 'light_text'
+  color_overlay: 'rgba(0, 0, 0, 0)'
+  text_color: 'dark_text'
 
 
 quality:
@@ -90,5 +90,5 @@ quality:
     - title: 'Economic Affordability'
       text: 'We offer matchless quality at an unbeatable price to exceed your expectations.'
   background_image: '/img/introduce.jpg'
-  color_overlay: ''
-  text_color: 'light_text'
+  color_overlay: 'rgba(0, 0, 0, 0)'
+  text_color: 'dark_text'
