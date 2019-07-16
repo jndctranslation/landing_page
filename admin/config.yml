@@ -40,7 +40,7 @@ collections:
         - {label: 'Overview Title', name: 'overview_title', widget: 'string', required: false}
         - {label: 'Overview Text', name: 'overview_text', widget: 'string', required: false}
         - {label: 'Overview Background Image', name: 'overview_background_image', widget: 'image', required: false}
-        - {label: 'Overview Color Overlay', name: 'overview_color_overlay', widget: color, required: false}
+        - {label: 'Overview Color Overlay', name: 'overview_color_overlay', widget: 'netlify-cms-widget-color', required: false}
         - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', options: ['light_text', 'dark_text'], required: false}
 
         - {label: 'Vision Title', name: 'vision_title', widget: 'string', required: false}
