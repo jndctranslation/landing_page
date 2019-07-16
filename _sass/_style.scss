@@ -131,53 +131,44 @@ html {
   background-size: cover;
 }
 
+
 #introduce {
-  .jumbotron {
-    background: none;
-    min-height: 700px;
-    padding: 30px 0;
-    border-radius: 0;
-    margin-bottom: 0;
+  .banner_text {
+    position: relative;
+    margin: 0;
+    padding: 150px 80px;
+    max-width: 900px;
+  }
 
-    .banner_text {
-      position: relative;
-      margin: 0;
-      padding: 150px 80px;
-      max-width: 900px;
-    }
+  .banner_text:before {
+    content: url("/img/inverted-commas-image.png");
+    position: absolute;
+    left: 0px;
+  }
 
-    .banner_text:before {
-      content: url("/img/inverted-commas-image.png");
+  .btn_custom {
+    background-color: $red;
+    border: 0;
+    border-radius: 3;
+  }
+
+  .banner_bottom_panel {
+    position: relative;
+    bottom: 50px;
+    .panel_list {
       position: absolute;
-      left: 0px;
-    }
-
-    .btn_custom {
+      right: 0;
+      display: flex;
       background-color: $red;
-      border: 0;
-      border-radius: 3;
-      padding: 10px 20px;
-      margin: 30px 0;
-    }
-
-    .banner_bottom_panel {
-      position: relative;
-      bottom: 20px;
-      .panel_list {
-        position: absolute;
-        right: 0;
-        display: flex;
-        background-color: $red;
-        li {
-          margin: 20px 35px 20px 0px;
-          list-style-type: none;
-          // a {
-          //   color: #fff;
-          // }
-          a:hover {
-            text-decoration: none;
-            font-weight: 600;
-          }
+      li {
+        margin: 20px 35px 20px 0px;
+        list-style-type: none;
+        // a {
+        //   color: #fff;
+        // }
+        a:hover {
+          text-decoration: none;
+          font-weight: 600;
         }
       }
     }
@@ -186,20 +177,17 @@ html {
 
 @media (max-width: $md) {
   #introduce {
-    .jumbotron {
-      min-height: 100px;
-      .banner_text {
-        padding: 120px 0px;
-        h1 {
-          font-size: 1.5rem;
-        }
-        h4 {
-          font-size: 1rem;
-        }
+    .banner_text {
+      padding: 120px 0px;
+      h1 {
+        font-size: 1.5rem;
       }
-      .banner_text:before {
-        display: none;
+      h4 {
+        font-size: 1rem;
       }
+    }
+    .banner_text:before {
+      display: none;
     }
   }
 }
@@ -262,4 +250,51 @@ html {
 
 .image_underlay{
   display: flex;
+}
+
+
+#services_introduce {
+  .banner_text {
+    position: relative;
+    margin: 0;
+    padding: 150px 0px;
+    max-width: 900px;
+  }
+
+  .btn_custom {
+    background-color: $red;
+    border: 0;
+    border-radius: 3;
+  }
+
+  .btn_custom_2 {
+    background-color: #f0f0f0;
+    h5{
+      color: #000;
+    }
+    border: 0;
+    border-radius: 3;
+  }
+
+  .banner_bottom_panel {
+    position: relative;
+    bottom: 50px;
+    .panel_list {
+      position: absolute;
+      right: 0;
+      display: flex;
+      background-color: $red;
+      li {
+        margin: 20px 35px 20px 0px;
+        list-style-type: none;
+        // a {
+        //   color: #fff;
+        // }
+        a:hover {
+          text-decoration: none;
+          font-weight: 600;
+        }
+      }
+    }
+  }
 }

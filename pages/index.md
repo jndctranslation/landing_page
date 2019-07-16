@@ -6,24 +6,21 @@ permalink: /
 
 <!-- Banner -->
 <section id="introduce" class="{{site.data.pages.home.introduce_text_color}} background" style="background-image: url({{site.data.pages.home.introduce_background_image}}); box-shadow:inset 0 0 0 10000px {{site.data.pages.home.introduce_color_overlay}};">
-    <div class="jumbotron">
-        <div class="color_overlay" style="background-color: #a8a8a88f"></div> -->
-        <div class="container">
-            <div class="banner_text">
-                <h1 class="font-weight-bold">
-                    {{site.data.pages.home.introduce_quote}}
-                </h1>
-                <a href="{{site.data.pages.home.link_introduce_button}}" class="btn btn_custom" role="button"><h4>{{site.data.pages.home.introduce_button}}</h4></a>
-            </div>
-            <div class="banner_bottom_panel d-none d-lg-block d-xl-block">
-                <ul class="panel_list">
-                    {% for item in site.data.pages.home.introduce_menu %}
-                        <li>
-                            <a class="smooth_scroll" href="{{item.link}}"><h4>{{item.title}}</h4></a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
+    <div class="container">
+        <div class="banner_text">
+            <h1 class="font-weight-bold">
+                {{site.data.pages.home.introduce_quote}}
+            </h1>
+            <a href="{{site.data.pages.home.link_introduce_button}}" class="btn btn_custom my-5 px-4 py-2" role="button"><h5>{{site.data.pages.home.introduce_button}}</h5></a>
+        </div>
+        <div class="banner_bottom_panel d-none d-lg-block d-xl-block">
+            <ul class="panel_list">
+                {% for item in site.data.pages.home.introduce_menu %}
+                    <li>
+                        <a class="smooth_scroll" href="{{item.link}}"><h4>{{item.title}}</h4></a>
+                    </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
 </section>

@@ -1,0 +1,94 @@
+introduce:
+  title: 'Expert Vietnamese Translation Services'
+  text: 'Get access to international markets with fast and accurate translation services at the most affordable rates'
+  button_1_name: 'Get Instant Quote'
+  button_1_link: ''
+  button_2_name: 'Place Order'
+  button_2_link: ''
+  background_image: '/img/introduce.jpg'
+  color_overlay: 'rgba(33, 34, 88, 0.5)'
+  text_color: 'light_text'
+
+
+why:
+  title: 'Why Choose JNDC - Translation'
+  text: 'Enable globalization for your business with our excellent quality of translation services at cost-effective rates.'
+  description:
+    - title: 'Certified Linguists'
+      text: 'Not only are our experts adept at handling lengthy translations, they also execute them in due time and fast turnarounds'
+      icon: '/img/recommended.png'
+    - title: 'Excellent Quality'
+      text: 'Our translation platform features quality re-assessments and checks to ensure consistent and top-quality of services'
+      icon: '/img/recommended.png'
+    - title: 'Affordable Rates'
+      text: 'Our transparent and affordable translation rates are the lowest among competitors with no extra or hidden charges'
+      icon: '/img/recommended.png'
+    - title: 'Fast Turnaround'
+      text: 'Our translation platform is equipped to process translation projects of high volume and technical nature, ensuring quick turnaround'
+      icon: '/img/recommended.png'
+    - title: 'Translation Memory'
+      text: 'Our translation memory matches segments which have previously been translated, so you are spared the hassle of paying twice.'
+      icon: '/img/recommended.png'
+    - title: 'Multilingual Support'
+      text: 'We offer translation services for a plethora of language pairs from around the globe for a multilingual support system.'
+      icon: '/img/recommended.png'
+  background_image: '/img/introduce.jpg'
+  color_overlay: ''
+  text_color: 'light_text'
+
+
+language:
+  title: 'Language Pair We Support'
+  text: 'We cover translation for over 10 Vietnamese Language Pair'
+  description:
+    - icon: ''
+      text: 'English into Vietnamese'
+    - icon: ''
+      text: 'Chinese into Vietnamese'
+    - icon: ''
+      text: 'Korean into Vietnamese'
+    - icon: ''
+      text: 'Korean into Vietnamese'
+  background_image: '/img/introduce.jpg'
+  color_overlay: ''
+  text_color: 'light_text'
+
+
+advantage:
+  title: 'Fast, Reliable and Affordable Proofreading'
+  text: 'Your digital assets including your websites, blogs, official documents, professional emails and marketing material reflect your standard, quality and professional efficiency. Therefore, it is critical to ensure that your text is free from all the major and minor errors, and that’s what we are here for. We offer proficient proofreading by certified professionals. If you want immaculate proofreading services for any type of content, Mars Translation has got you covered.'
+  background_image: '/img/introduce.jpg'
+  color_overlay: ''
+  text_color: 'light_text'
+
+
+top:
+  title: 'Top Notch Proofreading at competitive rates'
+  text: 'JNDC - Translation signifies quality, style and affordability. We cover all the major industries and our top professionals deliver impeccable results. We are an all-in-one solution for improving your content quality.'
+  description:
+    - title: 'One-stop solution'
+      text: 'Our proofreading services encompass multiple industries including Medical, Education, Life Sciences, Travel, Financial, Automotive and many more.'
+    - title: 'Impeccable Results'
+      text: 'We have Vietnamese certified native experts most live in Vietnam who deliver excellent translations as if they were written in your local language.'
+    - title: 'Extensive Experience'
+      text: 'We have been offering proofreading services for more than 5 years. Our experienced professionals remove each and every mistake from your copy.'
+    - title: 'Many Vietnamese Translation Pair'
+      text: 'Our linguistic experts cover over almost all Vietnamese Translation Pair. We have highly trained and skilled professionals to deliver flawless content in time.'
+  background_image: '/img/introduce.jpg'
+  color_overlay: ''
+  text_color: 'light_text'
+
+
+quality:
+  title: 'Our Core Qualities'
+  text: 'High precision and delivery of exceptional results make us stand ahead of the competitors.'
+  description:
+    - title: 'High Accuracy'
+      text: 'We provide accurate human proofreading services and guarantee satisfaction.'
+    - title: 'Fast Turnaround'
+      text: 'Our proofreaders work skillfully to deliver your content in the promised time.'
+    - title: 'Economic Affordability'
+      text: 'We offer matchless quality at an unbeatable price to exceed your expectations.'
+  background_image: '/img/introduce.jpg'
+  color_overlay: ''
+  text_color: 'light_text'
