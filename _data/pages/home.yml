@@ -2,7 +2,7 @@ introduce_quote: 'Our journey started from 2018 as translation team and develope
 introduce_button: 'Contact Us'
 link_introduce_button: ''
 introduce_background_image: '/img/introduce.jpg'
-introduce_color_overlay: 'rgba(33, 34, 88, 0.5)'
+introduce_color_overlay: ''
 introduce_text_color: 'light_text'
 
 
