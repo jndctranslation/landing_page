@@ -7,23 +7,44 @@ backend:
 media_folder: 'img'
 
 collections:
-  - name: "website_common_information"
-    label: "Website  Common Information"
+  - name: 'website_common_information'
+    label: 'Website  Common Information'
     files:
-      - name: "header_information"
-        label: "Header Information"
-        file: "_data/header.yml"
+      - name: 'header_information'
+        label: 'Header Information'
+        file: '_data/header.yml'
         fields:
         - name: 'extra_nav'
           label: 'Extra Navigation Bar'
           widget: 'object'
           fields:
           - name: 'left'
-            label: 'Left Side of Extra Navigation Bar'
+            label: 'Left Side'
             widget: 'object'
             fields:
             - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - name: 'extra_nav.left.link'
-          label: 'haha'
-          widget: 'string'
-          required: 'false'
+            - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - name: 'right'
+            label: 'Right Side'
+            widget: 'list'
+            fields:
+            - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+            - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+        - name: 'primary_nav'
+          label: 'Primary Navigation Bar'
+          widget: 'object'
+          fields:
+          - {name: 'logo', label: 'Logo', widget: 'string', required: 'false'}
+          - name: 'items'
+            label: 'Items'
+            widget: 'list'
+            fields:
+            - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+            - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+            - name: 'sub_nav'
+              label: 'Sub Naviation'
+              widget: 'list'
+              required: 'false'
+              fields:
+              - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+              - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
