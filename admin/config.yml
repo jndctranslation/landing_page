@@ -23,3 +23,7 @@ collections:
             widget: 'object'
             fields:
             - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - name: 'extra_nav.left.link'
+          label: 'haha'
+          widget: 'string'
+          required: 'false'
