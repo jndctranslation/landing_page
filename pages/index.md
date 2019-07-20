@@ -1,103 +1,322 @@
 ---
-layout: default
-overview: true
-permalink: /
+permalink: '/'
+layout: 'home'
+title: 'Professional Translation Services | Mars Translation'
+description: 'This is the description of the page'
 ---
 
-<!-- Banner -->
-<section id="introduce" class="{{site.data.pages.home.introduce_text_color}} background" style="background-image: url({{site.data.pages.home.introduce_background_image}}); box-shadow:inset 0 0 0 10000px {{site.data.pages.home.introduce_color_overlay}};">
+<!-- CONTENT START -->
+
+
+<div class="full_width_banner home_banner clearfix" id="home-banner-instant">
+  <div class="carousel-inner">
+    <div id="particles-js" class="item active" 
+    style="background-image: url({{ site.data.pages.home.block_1.background_image }});
+    box-shadow:inset 0 0 0 10000px {{ site.data.pages.home.block_1.color_overlay }}; 
+    background-position: center bottom; 
+    background-repeat: no-repeat; 
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-size: cover;"
+    >
+      <div class="two text-center">
+        <div class="container">
+          <div class="text_wrap">
+            <h1 class="heading">{{site.data.pages.home.block_1.title }}</h1>
+            <p>{{site.data.pages.home.block_1.text | markdownify }}</p>
+            <div class="btn_wrap">
+              <a class="btn btn-md btn_maroon" href="/instant-quote" id="home-banner-instant">{{site.data.pages.home.block_1.button_1.name}}</a>
+              <a class="btn btn-md btn_white_fill" href="/place-order" id="home-banner-order">{{site.data.pages.home.block_1.button_2.name}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTENT START -->
+<div class="content_web">
+  <section class="section_grey_bg pd_lg clearfix" 
+  style="background-image: url({{ site.data.pages.home.block_2.background_image }});
+  box-shadow:inset 0 0 0 10000px {{ site.data.pages.home.block_2.color_overlay }}; 
+  background-position: center bottom; 
+  background-repeat: no-repeat; 
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-size: cover;"
+  >
     <div class="container">
-        <div class="banner_text">
-            <h1 class="font-weight-bold">
-                {{site.data.pages.home.introduce_quote}}
-            </h1>
-            <a href="{{site.data.pages.home.link_introduce_button}}" class="btn btn_custom my-5 px-4 py-2 slide" role="button"><h5>{{site.data.pages.home.introduce_button}}</h5></a>
+
+      <div class="text_row text-center">
+        <h2 class="heading">{{site.data.pages.home.block_2.title }}</h2>
+        <p class="p-md">{{site.data.pages.home.block_2.text | markdownify }}</p>
+      </div>
+      <ul class="thumbnail_list_3 list-inline text-center">
+      {% for item in site.data.pages.home.block_2.items %}
+        <li>
+          <span class="icon doc">
+            <img style="width: 100%" src="{{item.icon}}">
+          </span>
+          <a href="/services/document-translation-services" class="title">{{item.title }}</a>
+          <p class="desc">{{item.text | markdownify }}</p>
+        </li>
+      {% endfor %}
+      </ul>
+
+    </div>
+  </section>
+
+  <section class="section_white_bg qualities_block pd_lg clearfix"
+  style="background-image: url({{ site.data.pages.home.block_3.background_image }});
+  box-shadow:inset 0 0 0 10000px {{ site.data.pages.home.block_3.color_overlay }}; 
+  background-position: center bottom; 
+  background-repeat: no-repeat; 
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-size: cover;"
+  >
+    <div class="container less_width">
+      <div class="text_row text-center">
+        <h2 class="heading">{{site.data.pages.home.block_3.title }}</h2>
+
+        <p class="p-md text-center">{{site.data.pages.home.block_3.text | markdownify }}</p>
+      </div>
+      {% for item in site.data.pages.home.block_3.items %}
+      <div class="content_box row">
+        <div class="col-sm-6 col-xs-12 
+        {% if item.position == 'left' %} pull-right {% endif %}
+        text-center">
+          <i class="content_thumb rates">
+            <img src="{{item.icon}}" style="width: 100%">
+          </i>
         </div>
-        <div class="banner_bottom_panel d-none d-lg-block d-xl-block">
-            <ul class="panel_list">
-                {% for item in site.data.pages.home.introduce_menu %}
-                    <li>
-                        <a class="smooth_scroll" href="{{item.link}}"><h4 class="slide">{{item.title}}</h4></a>
-                    </li>
-                {% endfor %}
-            </ul>
+
+        <div class="col-sm-6 col-xs-12">
+          <h3 class="h4 box_title">{{item.title }}</h3>
+
+          <p>{{item.text | markdownify }}</p>
         </div>
+      </div>
+      {% endfor %}
     </div>
-</section>
+  </section>
 
-<!-- Overview -->
-<section id="overview" class="{{site.data.pages.home.overview_text_color}} background" style="background-image: url({{site.data.pages.home.overview_background_image}}); box-shadow:inset 0 0 0 10000px {{site.data.pages.home.overview_color_overlay}};">
-    <div class="container text-center pd_lg">
-        <h2 class="font-weight-bold mb-4 slide">{{site.data.pages.home.overview_title}}</h2>
-        <h5 class="slide">{{site.data.pages.home.overview_text}}</h5>
+  <section class="section_green_bg success_block clearfix"
+  style="background-image: url({{ site.data.pages.home.block_4.background_image }});
+  box-shadow:inset 0 0 0 10000px {{ site.data.pages.home.block_4.color_overlay }}; 
+  background-position: center bottom; 
+  background-repeat: no-repeat; 
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-size: cover;"
+  >
+    <div class="container">
+      <div class="text_row text-center">
+        <h2 class="heading">{{site.data.pages.home.block_4.title }}</h2>
+
+        <p class="p-md">{{site.data.pages.home.block_4.text | markdownify }}</p>
+
+        <div class="btn_wrap"><a class="btn btn_white_fill" href="{{site.data.pages.home.block_4.button.link}}">{{site.data.pages.home.block_4.button.name}}</a>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
-<!-- Vision -->
-<section id="vision" class="{{site.data.pages.home.vision_text_color}} background" style="background-image: url({{site.data.pages.home.vision_background_image}}); box-shadow:inset 0 0 0 10000px {{site.data.pages.home.vision_color_overlay}};">
-    <div class="container text-center pd_lg">
-        <h2 class="font-weight-bold mb-4 slideanim">{{site.data.pages.home.vision_title}}</h2>
-        <h5 class="slideanim">{{site.data.pages.home.vision_text}}</h5>       
+  <section class="section_grey_bg how_we_work_block pd_lg text-center clearfix"
+  style="background-image: url({{ site.data.pages.home.block_5.background_image }});
+  box-shadow:inset 0 0 0 10000px {{ site.data.pages.home.block_5.color_overlay }}; 
+  background-position: center bottom; 
+  background-repeat: no-repeat; 
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-size: cover;"
+  >
+    <div class="container">
+      <div class="text_row text-center">
+        <h2 class="heading">{{site.data.pages.home.block_5.title }}</h2>
+
+        <p class="p-md">{{site.data.pages.home.block_5.text | markdownify }}</p>
+      </div>
+
+      <ul class="services_list list-unstyled">
+        {% for item in site.data.pages.home.block_5.items %}
+        <li><span class="counter">{{item.index}}</span>
+
+          <h3 class="h4 step_name">{{item.title }}</h3>
+
+          <p class="short_detail">{{item.text | markdownify }}</p>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
-</section>
+  </section>
 
-<!-- Belief -->
-<section id="belief" class="{{site.data.pages.home.belief_text_color}} background" style="background-image: url({{site.data.pages.home.belief_background_image}}); box-shadow:inset 0 0 0 10000px {{site.data.pages.home.belief_color_overlay}};">
-    <div class="container pd_lg">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="side_img slideanim" style="background-image: url({{site.data.pages.home.belief_side_image}});">
-                </div>
+  <section class="section_white_bg languages_intro_block pd_lg clearfix"
+  style="background-image: url({{ site.data.pages.home.block_6.background_image }});
+  box-shadow:inset 0 0 0 10000px {{ site.data.pages.home.block_6.color_overlay }}; 
+  background-position: center bottom; 
+  background-repeat: no-repeat; 
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-size: cover;"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-xs-12">
+          <div class="text_row">
+            <h2 class="heading">{{site.data.pages.home.block_6.title }}</h2>
+
+            <p class="p-md">{{site.data.pages.home.block_6.text | markdownify  | newline_to_br }}</p>
+          </div>
+
+          <div class="btn_wrap"><a class="btn btn_maroon2" href="{{site.data.pages.home.block_6.button.link}}">{{site.data.pages.home.block_6.button.name}}</a></div>
+        </div>
+
+        <div class="col-sm-4 col-xs-12"><img alt="supported-languages" class="img-responsive lazy"
+            src="{{site.data.pages.home.block_6.image}}" /></div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section_grey_bg api-integration-block clearfix"
+  style="background-image: url({{ site.data.pages.home.block_7.background_image }});
+  box-shadow:inset 0 0 0 10000px {{ site.data.pages.home.block_7.color_overlay }}; 
+  background-position: center bottom; 
+  background-repeat: no-repeat; 
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-size: cover;"
+  >
+    <div class="container">
+      <div class="col-sm-6 col-xs-12 pull-right">
+        <div class="text_row less_space">
+          <h2 class="heading">{{site.data.pages.home.block_7.title }}</h2>
+          <p class="p-md">{{site.data.pages.home.block_7.text | markdownify }}</p>
+        </div>
+        <a class="btn btn_maroon2" href="{{site.data.pages.home.block_7.button.link}}">{{site.data.pages.home.block_7.button.name}}</a>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <img class="img-responsive"
+          src="{{site.data.pages.home.block_7.image}}"
+          alt="api integration">
+      </div>
+    </div>
+  </section>
+
+  <section class="section_white_bg customer_feedback_with_multiple_slides clearfix"
+  style="background-image: url({{ site.data.pages.home.block_8.background_image }});
+  box-shadow:inset 0 0 0 10000px {{ site.data.pages.home.block_8.color_overlay }}; 
+  background-position: center bottom; 
+  background-repeat: no-repeat; 
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-size: cover;"
+  >
+    <div class="container">
+      <div class="text_row text-center">
+        <h2 class="heading">{{ site.data.pages.home.block_8.title  }}</h2>
+        <p class="font_15">{{ site.data.pages.home.block_8.text | markdownify  }}</p>
+      </div>
+      <div class="carousel-wrap">
+        <ul class="testimonial_carousel">
+          {% for customer in site.data.pages.home.block_8.customers %}
+          <li class="items main-pos" id="{% increment index %}">
+            <div class="review-card review-card--option-4 text-center">
+              <div class="review-card-img">
+                <img
+                  src="{{customer.avatar}}"
+                  class="img-responsive img-circle" onerror="imgError(this)" alt="client" />
+              </div>
+              <div class="review-author">
+                <span class="ra-author">- by <strong>{{ customer.name }}</strong></span>
+                <span class="client_web">{{ customer.company }}</span>
+              </div>
+              <div class="review-content">
+                <p>
+                  {{ customer.review }}
+                </p>
+              </div>
+              <a class="more_testmonial" href="{{ site.data.pages.home.block_8.button.link}}">{{ site.data.pages.home.block_8.button.name}}</a>
             </div>
-            <div class="col-md-12 col-lg-6 p-5">
-                    <h2  class="font-weight-bold mb-5 slideanim">{{site.data.pages.home.belief_title}}</h2>
-                    {% for item in site.data.pages.home.belief_description %}
-                    <div class="side_item slideanim">
-                        <div class="side_icon"><img src="{{item.icon}}" role="presentation"></div>
-                        <h5 class="font-weight-bold side_title mb-1">{{item.title}}</h5>
-                        <p class="side_text">{{item.text}}</p>
-                    </div>
-                    {% endfor %}
-            </div>
-        </div>
-    </div>
-</section>
+          </li>
+          {% endfor %}
 
-<!-- Jobs -->
-<section id="jobs" class="{{site.data.pages.home.jobs_text_color}} background" style="background-image: url({{site.data.pages.home.jobs_background_image}}); box-shadow:inset 0 0 0 10000px {{site.data.pages.home.jobs_color_overlay}};">
-    <div class="container pd_lg">
-        <div class="row">
-            <div class="col-md-12 col-lg-6 p-5">
-                    <h2 class="font-weight-bold mb-5 slideanim">{{site.data.pages.home.jobs_title}}</h2>
-                    {% for item in site.data.pages.home.jobs_description %}
-                    <div class="side_item slideanim">
-                        <div class="side_icon"><img src="{{item.icon}}" role="presentation">
-                        </div>
-                        <h5 class="font-weight-bold side_title mb-1">{{item.title}}</h5>
-                        <p class="side_text">{{item.text}}</p>
-                    </div>
-                    {% endfor %}
-            </div>
-            <div class="col-lg-6 slideanim">
-                <div class="side_img" style="background-image: url({{site.data.pages.home.jobs_side_image}});">
-                </div>
-            </div>
-        </div>
+        </ul>
+      </div>
+      <span class="controls">
+        <a href="javascript:void(0);" id="prev"><i class="fa fa-angle-left"></i></a>
+        <a href="javascript:void(0);" id="next"><i class="fa fa-angle-right"></i></a>
+      </span>
     </div>
-</section>
+  </section>
 
-<!-- Team -->
-<section id="team" class="{{site.data.pages.home.team_text_color}} background" style="background-image: url({{site.data.pages.home.team_background_image}}); box-shadow:inset 0 0 0 10000px {{site.data.pages.home.team_color_overlay}};">
-    <div class="container pd_lg text-center">
-        <h2 class="font-weight-bold mb-5 slideanim">{{site.data.pages.home.team_title}}</h2>
-        <div class="row slideanim">
-                {% for item in site.data.pages.home.team_description %}
-                <div class="col-md-4 sub_item">
-                    <div class="sub_icon mb-3"><img src="{{item.icon}}" role="presentation"></div>
-                    <h5 class="font-weight-bold sub_title mb-2">{{item.title}}</h5>
-                    <p class="sub_text">{{item.text}}</p>
-                </div>
-                {% endfor %}
+  <section class="section_grey_bg translator_intro_block pd_lg clearfix"
+  style="background-image: url({{ site.data.pages.home.block_9.background_image }});
+  box-shadow:inset 0 0 0 10000px {{ site.data.pages.home.block_9.color_overlay }}; 
+  background-position: center bottom; 
+  background-repeat: no-repeat; 
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-size: cover;"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-xs-12">
+          <div class="text_row">
+            <h2 class="heading">{{site.data.pages.home.block_9.title }}</h2>
+
+            <p class="p-lg">{{site.data.pages.home.block_9.text | markdownify }}</p>
+          </div>
+
+          <div class="btn_wrap"><a class="btn btn_maroon2" href="{{site.data.pages.home.block_9.button.link}}">{{site.data.pages.home.block_9.button.name}}</a></div>
         </div>
+
+        <div class="col-sm-4 col-xs-12"><img alt="map" class="img-responsive"
+            src="{{site.data.pages.home.block_9.image}}" style="display:block"/></div>
+      </div>
     </div>
-</section>
+  </section>
+  
+  <section class="section_white_bg info_panels_block pd_lg clearfix"
+  style="background-image: url({{ site.data.pages.home.block_10.background_image }});
+  box-shadow:inset 0 0 0 10000px {{ site.data.pages.home.block_10.color_overlay }}; 
+  background-position: center bottom; 
+  background-repeat: no-repeat; 
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  -webkit-background-size: cover; 
+  background-size: cover;"
+  >
+    <div class="container">
+      <div class="panel-group" id="accordion">
+        {% for item in site.data.pages.home.block_10.items %}
+        <div class="panel panel-default">
+          <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion"
+            data-target="#collapse{{x}}">
+            <h4 class="panel-title accordion-toggle">{{item.title }}</h4>
+          </div>
+          <div id="collapse{{x}}" class="panel-collapse collapse ">
+            <div class="panel-body text-justify">
+                {{ item.text | markdownify }}
+            </div>
+          </div>
+        </div>
+        {% capture _ %}{% increment x %}{% endcapture %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+</div>
+<!-- CONTENT END -->
+

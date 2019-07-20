@@ -1,83 +1,195 @@
-introduce_quote: 'Our journey started from 2018 as translation team and developed into business that we love and strive to grow every single day'
-introduce_button: 'Contact Us'
-link_introduce_button: ''
-introduce_background_image: '/img/introduce.jpg'
-introduce_color_overlay: 'rgba(33, 34, 88, 0.5)'
-introduce_text_color: 'light_text'
+block_1:
+  background_image: '/assets/images/upload/hand_punch.jpg'
+  color_overlay: 'rgba(50, 50, 50, 0.5)'
+  title: 'ROBUST SOLUTIONS FOR YOUR LOCALIZATION NEEDS'
+  text: 'Get your translation by top-rated native translators'
+  button_1:
+    name: 'Get Instant Quote'
+    link: '#'
+  button_2: 
+    name: 'Place Order'
+    link: '#'
 
+block_2:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: Our Services
+  text: Being a leader in translation and software localization, our portfolio includes a wide range of services in translation and localization
+  items:
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Document Translation'
+      text: 'Swift and technical translation by expert translators for your legal, retail, medical, manufacturing, financial and promotional documents.'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'E-Commerce Translation'
+      text: 'Easy-to-scale and efficient translation for your e-commerce business with robust translation APIs guaranteed to attract customers.'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Website Translation'
+      text: 'Quality website localization to provide careful review and adaptation of linguistic, cultural and technical aspects of target websites.'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Video Translation'
+      text: 'Robust and quick video translation and transcription services by expert translators who are skilled at voice-overs, subtitling and captioning.'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'E-Learning Translation'
+      text: 'Flexible and swift e-learning translation that will help you in choosing a best-fit service for your e-learning projects.'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'DTP & File Conversion'
+      text: 'Professional and optimized services for desktop publishing managed by highly skilled DTP specialists and graphic designers to adapt your content.'
 
-introduce_menu:
-  - title: 'Overview'
-    link: '#overview'
-  - title: 'Vision'
-    link: '#vision'
-  - title: 'Belief'
-    link: '#belief'
-  - title: 'Jobs'
-    link: '#jobs'
-  - title: 'Team'
-    link: '#team'
+block_3:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Our Ace Qualities'
+  text: ''
+  items:
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Rates'
+      text: 'We have specially designed packages to address the translation needs of all our customers. Our affordable and competitive prices start from $0.05/word so that all the businesses can pursue their dream of going global.'
+      position: 'left'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Quality'
+      text: 'We know what your business means to you, so we want to deliver the best to you. Our robust quality assurance system is specially designed to engage only top rated translators for projects of our clients.'
+      position: 'right'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Speed'
+      text: 'We believe in facilitating our customers to the maximum. So, we are marked by the fastest turnaround of 2000words/day and our translators strictly follow deadlines. We also go extra miles in case of emergency project delivery.'
+      position: 'left'
 
+block_4:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'We have written 3000+ Success Stories'
+  text: 'Contact us to become part of our group of successful people'
+  button:
+    name: 'Contact Us'
+    link: '#'
 
-overview_title: 'Who We Are'
-overview_text: 'John and David Company or JNDC is a Vietnamese Languages Company We is a leader in providing translation services in the translation marketplace that offers a transparent, intuitive and cost-effective online portal to customers who need documents, web content and video content translated guaranteeing high-quality and high speed. John and David Company connects its customers with highly rated, certified, Vietnamese native translators who can deliver quality translation and follow our company strict standards.'
-overview_background_image: '/img/introduce.jpg'
-overview_color_overlay: 'rgba(250,250,250,1)'
-overview_text_color: 'dark_text'
+block_5:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'How we work'
+  text: 'We have devised the simplest and seamless mechanism for you to place translation order. Getting your global success is just a matter of 1, 2 and 3 – simple!'
+  items:
+    - index: '1'
+      title: 'Rates'
+      text: 'Place order with our simple web order form, or API.'
+    - index: '2'
+      title: 'Quality'
+      text: 'Track different stages of the translation process and communicate with the translator.'
+    - index: '3'
+      title: 'Speed'
+      text: 'Rate our translation services to get even better quality next time.'
 
+block_6:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Languages'
+  text: 'Our language translation services span to over 90+ languages. We have over 3000+ native translators who hold a great command of their area of expertise and specialist in their language, so what we deliver is sheer brilliance and excellence.'
+  image: '/assets/images/upload/hand_punch.jpg'
+  button:
+    name: 'More Languages'
+    link: '#'
 
-vision_title: 'Our Vision'
-vision_text: 'Our vision is to affirm the position of Vietnamese People in the world and to help people around the world come close together by breaking their languages barriers. With that such great ambition, John and David Company starts at providing our high-qualified Vietnamese Translation Services which we are most confident.'
-vision_background_image: '/img/introduce.jpg'
-vision_color_overlay: 'rgba(33,34,88,1)'
-vision_text_color: 'light_text'
+block_7:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Integrate with your Systems'
+  text: 'We provide API integration for your Websites, Desktop Apps, Mobile Apps and software that enable you to get your content seamlessly translated without handling any files. Whether you are developing a mobile application, desktop software or websites, our state of the art API integration system will save you an incredible amount of time and resources. We support all languages including Java, PHP, Node and Rails.'
+  image: '/assets/images/upload/hand_punch.jpg'
+  button:
+    name: 'Learn More'
+    link: '#'
 
+block_8:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Customers Feedback'
+  text: 'Since our startup, two decades back, we have been getting better and better only!'
+  customers:
+    - avatar: '/assets/images/upload/avatar.jpg'
+      name: 'Peter'
+      company: 'New York University'
+      review: 'Since our startup, two decades back, we have been getting better and better only!'
+    - avatar: '/assets/images/upload/avatar.jpg'
+      name: 'Peter'
+      company: 'New York University'
+      review: 'Hello World!'
+    - avatar: '/assets/images/upload/avatar.jpg'
+      name: 'Peter'
+      company: 'New York University'
+      review: 'Bye bye World!'
+    - avatar: '/assets/images/upload/avatar.jpg'
+      name: 'Peter'
+      company: 'New York University'
+      review: 'Goodbye World !!'
+  button:
+    name: 'Learn More'
+    link: '#'
+    
+block_9:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Translators on MARS'
+  text: 'Great Work requires Great Talent. Join the Mar’s community and work with our cutting edge platform on a wide range of projects according to your expertise.'
+  image: '/assets/images/upload/hand_punch.jpg'
+  button:
+    name: 'Become a Translator'
+    link: '#'
 
-belief_title: 'What do we believe'
-belief_description: 
-  - title: 'Something here'
-    text: 'We believe what we do challenge existing limitation. Please write more.'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'We believe what we think and what we action is making a difference. Please write more.'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'We believe that we together can create a better world. Please write more.'
-    icon: '/img/recommended.png'
-belief_side_image: '/img/introduce.jpg'
-belief_background_image: ''
-belief_color_overlay: 'rgba(0,0,0,0)'
-belief_text_color: 'dark_text'
+block_10:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  items:
+  - title: 'Why Choose Mars'
+    text: '### Professional and Reliable
 
+Every client and project has distinct requirements when it comes to handling them. Mainly due to the fact that all projects differ on the basis of their size, industry, and language. Hence, we make sure that every order is treated with a personalized protocol. Our translators hold experience in many different industries from Education to Medicine and everything in-between. This means that the translator assigned to your project will be heavily vetted to make sure that they have the necessary skills for the job. At Mars, you will get Professional translation services at the fastest turnout.
 
-jobs_title: 'How Do We Do Our Jobs'
-jobs_description: 
-  - title: 'Something here'
-    text: 'We put our heart in every word, every sentence, every page, every project that we do.'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'We strive to provide the best services which are dedicated by our rich experience translation experts to our customers.'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'We make the best effort to complete your project as fast as possible with the excellent quality.'
-    icon: '/img/recommended.png'
-jobs_side_image: '/img/introduce.jpg'
-jobs_background_image: ''
-jobs_color_overlay: 'rgba(250,250,250,1)'
-jobs_text_color: 'dark_text'
+Professionalism is a Major pillar for the foundation of Mars Translations. We understand that time is of the essence to all of our clients. Hence, we ensure the deployment of ample resources to ensure that all of our deadlines are met. We ensure that our projects are assigned to Translator’s perfect to provide an accurate solution.
 
+### A Leading Translation Agency around the World
 
-team_title: 'Our Team'
-team_description:
-  - title: 'Something here'
-    text: 'Our team have at least 5 year of experience. They are confident in them translation skills and they can take care all translation projects from English into Vietnamese and vice versa.'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'Our translator are all native speaker'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'All members in our team are recruited strictly and they have a deep knowledge in the projects that they undertake.'
-    icon: '/img/recommended.png'
-team_background_image: '/img/introduce.jpg'
-team_color_overlay: 'rgba(255,255,255,0.9)'
-team_text_color: 'dark_text'
+Mars Translation is a sister company of CCJK, which has worked in the translation and localization industry for almost two decades. Our Clients include some of the leading corporations in the world. Among them are General Electric, Bosch, Nuance, and many more. Mars Translation has worked with companies from many different fields in the market from all around the world.
+
+Compared to other industries in the market, we have an extensive network of experts who make sure that our clients from all across the world can rely on us for all there translation needs. Customer outreach is very important to us. And whether you are in Afghanistan or whether you are in Toronto, we will make sure our platform provides all the translation services required.
+
+### Social and Linguistic Integration
+
+We consider your orders to be more than just documents to translate. During the rendering period, we ensure that all socio-cultural aspects are taken into account. We take into regard all regional connotations that are attached to the project to avoid cultural appropriation.
+
+We make sure that our translators pay high regard to the cultural implications of the words they use. Operating in an international market, we ensure that cultural sensitivity is not compromised in the translation. We believe that these factors play a major role in creating a positive for our clients.'
+  - title: 'Quality and Speed'
+    text: '### Professional and Reliable
+
+Every client and project has distinct requirements when it comes to handling them. Mainly due to the fact that all projects differ on the basis of their size, industry, and language. Hence, we make sure that every order is treated with a personalized protocol. Our translators hold experience in many different industries from Education to Medicine and everything in-between. This means that the translator assigned to your project will be heavily vetted to make sure that they have the necessary skills for the job. At Mars, you will get Professional translation services at the fastest turnout.
+
+Professionalism is a Major pillar for the foundation of Mars Translations. We understand that time is of the essence to all of our clients. Hence, we ensure the deployment of ample resources to ensure that all of our deadlines are met. We ensure that our projects are assigned to Translator’s perfect to provide an accurate solution.
+
+### A Leading Translation Agency around the World
+
+Mars Translation is a sister company of CCJK, which has worked in the translation and localization industry for almost two decades. Our Clients include some of the leading corporations in the world. Among them are General Electric, Bosch, Nuance, and many more. Mars Translation has worked with companies from many different fields in the market from all around the world.
+
+Compared to other industries in the market, we have an extensive network of experts who make sure that our clients from all across the world can rely on us for all there translation needs. Customer outreach is very important to us. And whether you are in Afghanistan or whether you are in Toronto, we will make sure our platform provides all the translation services required.
+
+### Social and Linguistic Integration
+
+We consider your orders to be more than just documents to translate. During the rendering period, we ensure that all socio-cultural aspects are taken into account. We take into regard all regional connotations that are attached to the project to avoid cultural appropriation.
+
+We make sure that our translators pay high regard to the cultural implications of the words they use. Operating in an international market, we ensure that cultural sensitivity is not compromised in the translation. We believe that these factors play a major role in creating a positive for our clients.'
+  - title: 'Services: Building Bridges on the Road to Globalization'
+    text: '### Professional and Reliable
+
+Every client and project has distinct requirements when it comes to handling them. Mainly due to the fact that all projects differ on the basis of their size, industry, and language. Hence, we make sure that every order is treated with a personalized protocol. Our translators hold experience in many different industries from Education to Medicine and everything in-between. This means that the translator assigned to your project will be heavily vetted to make sure that they have the necessary skills for the job. At Mars, you will get Professional translation services at the fastest turnout.
+
+Professionalism is a Major pillar for the foundation of Mars Translations. We understand that time is of the essence to all of our clients. Hence, we ensure the deployment of ample resources to ensure that all of our deadlines are met. We ensure that our projects are assigned to Translator’s perfect to provide an accurate solution.
+
+### A Leading Translation Agency around the World
+
+Mars Translation is a sister company of CCJK, which has worked in the translation and localization industry for almost two decades. Our Clients include some of the leading corporations in the world. Among them are General Electric, Bosch, Nuance, and many more. Mars Translation has worked with companies from many different fields in the market from all around the world.
+
+Compared to other industries in the market, we have an extensive network of experts who make sure that our clients from all across the world can rely on us for all there translation needs. Customer outreach is very important to us. And whether you are in Afghanistan or whether you are in Toronto, we will make sure our platform provides all the translation services required.
+
+### Social and Linguistic Integration
+
+We consider your orders to be more than just documents to translate. During the rendering period, we ensure that all socio-cultural aspects are taken into account. We take into regard all regional connotations that are attached to the project to avoid cultural appropriation.
+
+We make sure that our translators pay high regard to the cultural implications of the words they use. Operating in an international market, we ensure that cultural sensitivity is not compromised in the translation. We believe that these factors play a major role in creating a positive for our clients.'

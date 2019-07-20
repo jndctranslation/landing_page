@@ -7,81 +7,19 @@ backend:
 media_folder: 'img'
 
 collections:
-  - name: "setting"
-    label: "Website setting"
+  - name: "website_common_information"
+    label: "Website  Common Information"
     files:
-      - label: "Web Information"
-        name: "information"
-        file: "_data/information.yml"
+      - name: "header_information"
+        label: "Header Information"
+        file: "_data/header.yml"
         fields:
-        - {label: 'Telephone', name: 'tel', widget: 'string', required: false}
-        - {label: 'Address', name: 'address', widget: 'string', required: false}
-        - {label: 'Email Address', name: 'email_address', widget: 'string', required: false}
-        - label: 'Social Network'
-          name: 'social'
-          widget: 'list'
+        - name: 'extra_nav'
+          label: 'Extra Navigation Bar'
+          widget: 'object'
           fields:
-          - {label: 'Icon Image', name: 'icon', widget: 'image', required: false}
-          - {label: 'Link', name: 'link', widget: 'string', required: false}
-  - name: 'pages'
-    label: 'Website pages'
-    files:
-      - label: 'Home'
-        name: 'home'
-        file: '_data/pages/home.yml'
-        fields:
-        - {label: 'Introduce Quote', name: 'introduce_quote', widget: 'string', required: false}
-        - {label: 'Introduce Button', name: 'introduce_button', widget: 'string', required: false}
-        - {label: 'Link Introduce Button', name: 'link_introduce_button', widget: 'string', required: false}
-        - {label: 'Introduce Background Image', name: 'introduce_background_image', widget: 'image', required: false}
-        - {label: 'Introduce Color Overlay', name: 'introduce_color_overlay', widget: 'string', default: "#ff0", required: false}
-        - {label: 'Introduce Text Color', name: 'introduce_text_color', widget: 'select', options: ['light_text', 'dark_text'], required: false}
-
-        - {label: 'Overview Title', name: 'overview_title', widget: 'string', required: false}
-        - {label: 'Overview Text', name: 'overview_text', widget: 'string', required: false}
-        - {label: 'Overview Background Image', name: 'overview_background_image', widget: 'image', required: false}
-        - {label: 'Overview Color Overlay', name: 'overview_color_overlay', widget: 'string', required: false}
-        - {label: 'Overview Text Color', name: 'overview_text_color', widget: 'select', options: ['light_text', 'dark_text'], required: false}
-
-        - {label: 'Vision Title', name: 'vision_title', widget: 'string', required: false}
-        - {label: 'Vision Text', name: 'vision_text', widget: 'string', required: false}
-        - {label: 'Vision Background Image', name: 'vision_background_image', widget: 'image', required: false}
-        - {label: 'Vision Color Overlay', name: 'vision_color_overlay', widget: 'string', required: false}
-        - {label: 'Vision Text Color', name: 'vision_text_color', widget: 'select', options: ['light_text', 'dark_text'], required: false}
-
-        - {label: 'Belief Title', name: 'belief_title', widget: 'string', required: false}
-        - label: 'Belief Description'
-          name: 'belief_description'
-          widget: 'list'
-          fields:
-          - {label: 'Title', name: 'title', widget: 'string', required: false}
-          - {label: 'Text', name: 'text', widget: 'string', required: false}
-          - {label: 'Icon Image', name: 'icon', widget: 'image', required: false}
-        - {label: 'Belief Background Image', name: 'belief_background_image', widget: 'image', required: false}
-        - {label: 'Belief Color Overlay', name: 'belief_color_overlay', widget: 'string', required: false}
-        - {label: 'Belief Text Color', name: 'belief_text_color', widget: 'select', options: ['light_text', 'dark_text'], required: false}
-
-        - {label: 'Jobs Title', name: 'jobs_title', widget: 'string', required: false}
-        - label: 'Jobs Description'
-          name: 'jobs_description'
-          widget: 'list'
-          fields:
-          - {label: 'Title', name: 'title', widget: 'string', required: false}
-          - {label: 'Text', name: 'text', widget: 'string', required: false}
-          - {label: 'Icon Image', name: 'icon', widget: 'image', required: false}
-        - {label: 'Jobs Background Image', name: 'jobs_background_image', widget: 'image', required: false}
-        - {label: 'Jobs Color Overlay', name: 'jobs_color_overlay', widget: 'string', required: false}
-        - {label: 'Jobs Text Color', name: 'jobs_text_color', widget: 'select', options: ['light_text', 'dark_text'], required: false}
-
-        - {label: 'Team Title', name: 'team_title', widget: 'string', required: false}
-        - label: 'Team Description'
-          name: 'team_description'
-          widget: 'list'
-          fields:
-          - {label: 'Title', name: 'title', widget: 'string', required: false}
-          - {label: 'Text', name: 'text', widget: 'string', required: false}
-          - {label: 'Icon Image', name: 'icon', widget: 'image', required: false}
-        - {label: 'Team Background Image', name: 'team_background_image', widget: 'image', required: false}
-        - {label: 'Team Color Overlay', name: 'team_color_overlay', widget: 'string', required: false}
-        - {label: 'Team Text Color', name: 'team_text_color', widget: 'select', options: ['light_text', 'dark_text'], required: false}
-        
+          - name: 'left'
+            label: 'Left Side of Extra Navigation Bar'
+            widget: 'object'
+            fields:
+            - {name: 'title', label: 'Title', widget: 'string', required: 'false'}

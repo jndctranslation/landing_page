@@ -19,14 +19,15 @@ plugins:
 - jekyll-sitemap
 - jemoji
 
-sass:
-  style: compressed
-
 exclude:
 - .gitignore
 - .jekyll-cache
 - CNAME
 - readme.md
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

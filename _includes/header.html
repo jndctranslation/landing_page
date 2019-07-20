@@ -1,23 +1,109 @@
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="{{site.url}}">
-                <img src="/img/transparent_logo.png" class="logo" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_header"
-                aria-controls="navbar_header" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<div class="header_wrap">
+  <header class="header_web" id="header">
 
-            <div class="collapse navbar-collapse" id="navbar_header">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    {% for item in site.data.primary_nav %}
-                    <li><a class="nav-link 
-                    {% if page.url == item.link %}active{% endif %}
-                    mx-2" href="{{item.link}}">{{item.title}}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
+    <!-- NAV BAR START -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="pull-left left_col">
+          <a style="border-left:0px !important;" href="{{site.data.header.extra_nav.left.link}}" class="free_consultation_link font_12"
+            id="free-consultation-top-bar">{{site.data.header.extra_nav.left.title}}</a>
         </div>
+
+
+        <div class="pull-right right_col">
+          <ul class="link_list list-inline pull-right">
+            {% for item in site.data.header.extra_nav.right %}
+            <li><a href="{{item.link}}">{{item.title}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <nav class="web_nav navbar">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar">&nbsp;</span>
+            <span class="icon-bar">&nbsp;</span>
+            <span class="icon-bar">&nbsp;</span>
+          </button>
+          <a class="navbar-brand" id="mars-main-logo" href="/">
+            <span class="main_logo">
+              <img style="height: 100%" src="{{site.data.header.primary_nav.logo}}">
+            </span>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="main-navigation">
+          <ul class='nav navbar-nav main_navigation'>
+          {% for item in site.data.header.primary_nav.items %}
+            {% if item.link %}
+              <li class='dropdown'>
+                <a href='{{ item.link }}' data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">{{ item.title }}
+                </a>
+              </li>
+            {% else %}
+              <li class='dropdown'>
+                <a href='/services' data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">{{item.title}}<span class="fa fa-chevron-down">&nbsp;</span>
+                </a>
+                <ul class='dropdown-menu'>
+                  {% for sub_item in item.sub_nav %}
+                  <li class='dropdown-submenu'>
+                    <a href='{{sub_item.link}}'>{{sub_item.title}} </a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endif %}
+          {% endfor %}
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right ">
+            <li>
+              <a class="btn btn_maroon text-uppercase" href="{{site.data.header.primary_nav.button_1.link}}" id="menu-instant-quote">{{site.data.header.primary_nav.button_1.name}}</a>
+            </li>
+            <li>
+              <a class="btn btn_grey text-uppercase" id="menu-place-order" href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- class="navbar-collapse" END -->
+      </div>
+      <div class="navbar_right_mobile ">
+        <div class="container">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="btn btn_maroon text-uppercase" href="{{site.data.header.primary_nav.button_1.link}}" id="menu-instant-quote">{{site.data.header.primary_nav.button_1.name}}</a>
+            </li>
+            <li><a class="btn btn_grey text-uppercase" id="menu-place-order" href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-</header>
+  </header>
+</div>
+<script type="text/javascript">
+
+  $(document).ready(function () {
+
+    if ($(window).width() < 800) {
+      $('body').on("click", ".dropdown-menu", function (e) {
+        e.stopPropagation();
+      });
+      $('.main_navigation .dropdown .dropdown-submenu').click(function (e) {
+        e.stopPropagation();
+        $(this).toggleClass('open');
+      });
+    };
+
+  });
+</script>
