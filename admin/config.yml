@@ -49,18 +49,18 @@ collections:
             fields:
             - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
             - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
-          - name: 'button_1'
-            label: 'Button 1'
-            widget: 'object'
-            fields:
-            - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-            - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
-          - name: 'button_2'
-            label: 'Button_2'
-            widget: 'object'
-            fields:
-            - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-            - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+        - name: 'button_1'
+          label: 'Button 1'
+          widget: 'object'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+        - name: 'button_2'
+          label: 'Button_2'
+          widget: 'object'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
     
     # - name: 'footer_information'
     #   label: 'Footer Information'
