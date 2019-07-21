@@ -18,7 +18,12 @@ description: 'This is the description of the page'
     -moz-background-size: cover;
     -o-background-size: cover; 
     -webkit-background-size: cover; 
-    background-size: cover;"
+    background-size: cover;
+    {% if site.data.pages.home.block_1.visible == true %}
+    display: block; 
+    {% else %}
+    display: none;
+    {% endif %}"
     >
       <div class="two text-center">
         <div class="container">
@@ -46,7 +51,12 @@ description: 'This is the description of the page'
   -moz-background-size: cover;
   -o-background-size: cover; 
   -webkit-background-size: cover; 
-  background-size: cover;"
+  background-size: cover;
+  {% if site.data.pages.home.block_2.visible == true %}
+  display: block; 
+  {% else %}
+  display: none;
+  {% endif %}"
   >
     <div class="container">
 
@@ -77,7 +87,12 @@ description: 'This is the description of the page'
   -moz-background-size: cover;
   -o-background-size: cover; 
   -webkit-background-size: cover; 
-  background-size: cover;"
+  background-size: cover;
+  {% if site.data.pages.home.block_3.visible == true %}
+  display: block; 
+  {% else %}
+  display: none;
+  {% endif %}"
   >
     <div class="container less_width">
       <div class="text_row text-center">
@@ -113,7 +128,12 @@ description: 'This is the description of the page'
   -moz-background-size: cover;
   -o-background-size: cover; 
   -webkit-background-size: cover; 
-  background-size: cover;"
+  background-size: cover;
+  {% if site.data.pages.home.block_4.visible == true %}
+  display: block; 
+  {% else %}
+  display: none;
+  {% endif %}"
   >
     <div class="container">
       <div class="text_row text-center">
@@ -135,7 +155,12 @@ description: 'This is the description of the page'
   -moz-background-size: cover;
   -o-background-size: cover; 
   -webkit-background-size: cover; 
-  background-size: cover;"
+  background-size: cover;
+  {% if site.data.pages.home.block_5.visible == true %}
+  display: block; 
+  {% else %}
+  display: none;
+  {% endif %}"
   >
     <div class="container">
       <div class="text_row text-center">
@@ -165,7 +190,12 @@ description: 'This is the description of the page'
   -moz-background-size: cover;
   -o-background-size: cover; 
   -webkit-background-size: cover; 
-  background-size: cover;"
+  background-size: cover;
+  {% if site.data.pages.home.block_6.visible == true %}
+  display: block; 
+  {% else %}
+  display: none;
+  {% endif %}"
   >
     <div class="container">
       <div class="row">
@@ -193,7 +223,12 @@ description: 'This is the description of the page'
   -moz-background-size: cover;
   -o-background-size: cover; 
   -webkit-background-size: cover; 
-  background-size: cover;"
+  background-size: cover;
+  {% if site.data.pages.home.block_7.visible == true %}
+  display: block; 
+  {% else %}
+  display: none;
+  {% endif %}"
   >
     <div class="container">
       <div class="col-sm-6 col-xs-12 pull-right">
@@ -219,7 +254,12 @@ description: 'This is the description of the page'
   -moz-background-size: cover;
   -o-background-size: cover; 
   -webkit-background-size: cover; 
-  background-size: cover;"
+  background-size: cover;
+  {% if site.data.pages.home.block_8.visible == true %}
+  display: block; 
+  {% else %}
+  display: none;
+  {% endif %}"
   >
     <div class="container">
       <div class="text_row text-center">
@@ -228,7 +268,7 @@ description: 'This is the description of the page'
       </div>
       <div class="carousel-wrap">
         <ul class="testimonial_carousel">
-          {% for customer in site.data.pages.home.block_8.customers %}
+          {% for customer in site.data.customer_reviews.customers %}
           <li class="items main-pos" id="{% increment index %}">
             <div class="review-card review-card--option-4 text-center">
               <div class="review-card-img">
@@ -267,7 +307,12 @@ description: 'This is the description of the page'
   -moz-background-size: cover;
   -o-background-size: cover; 
   -webkit-background-size: cover; 
-  background-size: cover;"
+  background-size: cover;
+  {% if site.data.pages.home.block_9.visible == true %}
+  display: block; 
+  {% else %}
+  display: none;
+  {% endif %}"
   >
     <div class="container">
       <div class="row">
@@ -295,7 +340,12 @@ description: 'This is the description of the page'
   -moz-background-size: cover;
   -o-background-size: cover; 
   -webkit-background-size: cover; 
-  background-size: cover;"
+  background-size: cover;
+  {% if site.data.pages.home.block_10.visible == true %}
+  display: block; 
+  {% else %}
+  display: none;
+  {% endif %}"
   >
     <div class="container">
       <div class="panel-group" id="accordion">

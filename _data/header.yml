@@ -14,7 +14,7 @@ primary_nav:
   logo: /img/transparent_logo.png
   items:
   - title: 'About'
-    link: '/about'
+    link: '/pages/about'
 
   - title: 'Services'
     sub_nav:

@@ -1,4 +1,5 @@
 block_1:
+  visible: true
   background_image: '/assets/images/upload/hand_punch.jpg'
   color_overlay: 'rgba(50, 50, 50, 0.5)'
   title: 'ROBUST SOLUTIONS FOR YOUR LOCALIZATION NEEDS'
@@ -11,10 +12,11 @@ block_1:
     link: '#'
 
 block_2:
+  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  title: Our Services
-  text: Being a leader in translation and software localization, our portfolio includes a wide range of services in translation and localization
+  title: 'Our Services'
+  text: 'Being a leader in translation and software localization, our portfolio includes a wide range of services in translation and localization'
   items:
     - icon: '/assets/images/upload/recommended.png'
       title: 'Document Translation'
@@ -36,6 +38,7 @@ block_2:
       text: 'Professional and optimized services for desktop publishing managed by highly skilled DTP specialists and graphic designers to adapt your content.'
 
 block_3:
+  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   title: 'Our Ace Qualities'
@@ -55,6 +58,7 @@ block_3:
       position: 'left'
 
 block_4:
+  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   title: 'We have written 3000+ Success Stories'
@@ -64,6 +68,7 @@ block_4:
     link: '#'
 
 block_5:
+  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   title: 'How we work'
@@ -80,6 +85,7 @@ block_5:
       text: 'Rate our translation services to get even better quality next time.'
 
 block_6:
+  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   title: 'Languages'
@@ -90,6 +96,7 @@ block_6:
     link: '#'
 
 block_7:
+  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   title: 'Integrate with your Systems'
@@ -100,32 +107,17 @@ block_7:
     link: '#'
 
 block_8:
+  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   title: 'Customers Feedback'
   text: 'Since our startup, two decades back, we have been getting better and better only!'
-  customers:
-    - avatar: '/assets/images/upload/avatar.jpg'
-      name: 'Peter'
-      company: 'New York University'
-      review: 'Since our startup, two decades back, we have been getting better and better only!'
-    - avatar: '/assets/images/upload/avatar.jpg'
-      name: 'Peter'
-      company: 'New York University'
-      review: 'Hello World!'
-    - avatar: '/assets/images/upload/avatar.jpg'
-      name: 'Peter'
-      company: 'New York University'
-      review: 'Bye bye World!'
-    - avatar: '/assets/images/upload/avatar.jpg'
-      name: 'Peter'
-      company: 'New York University'
-      review: 'Goodbye World !!'
   button:
     name: 'Learn More'
     link: '#'
     
 block_9:
+  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   title: 'Translators on MARS'
@@ -136,6 +128,7 @@ block_9:
     link: '#'
 
 block_10:
+  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:

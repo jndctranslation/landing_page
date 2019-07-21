@@ -44,8 +44,7 @@
           {% for item in site.data.header.primary_nav.items %}
             {% if item.link %}
               <li class='dropdown'>
-                <a href='{{ item.link }}' data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">{{ item.title }}
+                <a href='{{ item.link }}'>{{ item.title }}
                 </a>
               </li>
             {% else %}

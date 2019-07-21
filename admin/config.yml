@@ -10,41 +10,250 @@ collections:
   - name: 'website_common_information'
     label: 'Website  Common Information'
     files:
-      - name: 'header_information'
-        label: 'Header Information'
-        file: '_data/header.yml'
+    
+    - name: 'header_information'
+      label: 'Header Information'
+      file: '_data/header.yml'
+      fields:
+      - name: 'extra_nav'
+        label: 'Extra Navigation Bar'
+        widget: 'object'
         fields:
-        - name: 'extra_nav'
-          label: 'Extra Navigation Bar'
+        - name: 'left'
+          label: 'Left Side'
           widget: 'object'
           fields:
-          - name: 'left'
-            label: 'Left Side'
+          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+        - name: 'right'
+          label: 'Right Side'
+          widget: 'list'
+          fields:
+          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+      - name: 'primary_nav'
+        label: 'Primary Navigation Bar'
+        widget: 'object'
+        fields:
+        - {name: 'logo', label: 'Logo', widget: 'string', required: 'false'}
+        - name: 'items'
+          label: 'Items'
+          widget: 'list'
+          fields:
+          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - name: 'sub_nav'
+            label: 'Sub Naviation'
+            widget: 'list'
+            required: 'false'
+            fields:
+            - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+            - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - name: 'button_1'
+            label: 'Button 1'
             widget: 'object'
             fields:
-            - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+            - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
             - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
-          - name: 'right'
-            label: 'Right Side'
-            widget: 'list'
+          - name: 'button_2'
+            label: 'Button_2'
+            widget: 'object'
             fields:
-            - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+            - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
             - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
-        - name: 'primary_nav'
-          label: 'Primary Navigation Bar'
+    
+    - name: 'footer_information'
+      label: 'Footer Information'
+      file: '_data/footer.yml'
+    
+    - name: 'customer_reviews'
+      label: 'Customer Reviews'
+      file: '_data/customer_reviews.yml'
+      fields:
+      - name: 'customers'
+        label: 'Customers'
+        widget: 'list'
+        fields:
+        - {name: 'avatar', label: 'Avatar', widget: 'image', required: 'false'}
+        - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+        - {name: 'company', label: 'Company', widget: 'string', required: 'false'}
+        - {name: 'review', label: 'Review', widget: 'string', required: 'false'}
+
+  - name: 'website_pages'
+    label: 'Website Pages'
+    files:
+    
+    - name: 'home_page_information'
+      label: 'Home Page Information'
+      file: '_data/pages/home.yml'
+      fields:
+      - name: 'block_1'
+        label: 'Block 1'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
+        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - name: 'button_1'
+          label: 'Button 1'
           widget: 'object'
           fields:
-          - {name: 'logo', label: 'Logo', widget: 'string', required: 'false'}
-          - name: 'items'
-            label: 'Items'
-            widget: 'list'
-            fields:
-            - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-            - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
-            - name: 'sub_nav'
-              label: 'Sub Naviation'
-              widget: 'list'
-              required: 'false'
-              fields:
-              - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-              - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+        - name: 'button_2'
+          label: 'Button_2'
+          widget: 'object'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+      - name: 'block_2'
+        label: 'Block 2'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
+        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - name: 'items'
+          label: 'Items'
+          widget: 'list'
+          fields:
+          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
+          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+      - name: 'block_3'
+        label: 'Block 3'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
+        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - name: 'items'
+          label: 'Items'
+          widget: 'list'
+          fields:
+          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
+          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+      - name: 'block_4'
+        label: 'Block 4'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
+        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - name: 'button'
+          label: 'Button'
+          widget: 'object'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+      - name: 'block_5'
+        label: 'Block 5'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
+        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - name: 'items'
+          label: 'Items'
+          widget: 'list'
+          fields:
+          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
+          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+      - name: 'block_6'
+        label: 'Block 6'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
+        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'image', label: 'Image', widget: 'image', required: 'false'}
+        - name: 'button'
+          label: 'Button'
+          widget: 'object'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+      - name: 'block_7'
+        label: 'Block 7'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
+        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'image', label: 'Image', widget: 'image', required: 'false'}
+        - name: 'button'
+          label: 'Button'
+          widget: 'object'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+      - name: 'block_8'
+        label: 'Block 8'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
+        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - name: 'button'
+          label: 'Button'
+          widget: 'object'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+      - name: 'block_9'
+        label: 'Block 9'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
+        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'image', label: 'Image', widget: 'image', required: 'false'}
+        - name: 'button'
+          label: 'Button'
+          widget: 'object'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+      - name: 'block_10'
+        label: 'Block 10'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
+        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - name: 'items'
+          label: 'Items'
+          widget: 'list'
+          fields:
+          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        
+    - name: 'services_page_information'
+      label: 'Services Page Information'
+      file: '_data/pages/services.yml'
+    
+    - name: 'about_page_information'
+      label: 'About Page Information'
+      file: '_data/pages/about.yml'
