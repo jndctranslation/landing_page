@@ -4,7 +4,7 @@ backend:
   name: github
   repo: jndctranslation/landing_page
   branch: master # Branch to update (optionsal; defaults to master)
-media_folder: 'img'
+media_folder: '/assets/images'
 
 collections:
   - name: 'website_common_information'
@@ -62,9 +62,9 @@ collections:
             - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
             - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
     
-    - name: 'footer_information'
-      label: 'Footer Information'
-      file: '_data/footer.yml'
+    # - name: 'footer_information'
+    #   label: 'Footer Information'
+    #   file: '_data/footer.yml'
     
     - name: 'customer_reviews'
       label: 'Customer Reviews'
@@ -250,10 +250,10 @@ collections:
           - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
           - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
         
-    - name: 'services_page_information'
-      label: 'Services Page Information'
-      file: '_data/pages/services.yml'
+    # - name: 'services_page_information'
+    #   label: 'Services Page Information'
+    #   file: '_data/pages/services.yml'
     
-    - name: 'about_page_information'
-      label: 'About Page Information'
-      file: '_data/pages/about.yml'
+    # - name: 'about_page_information'
+    #   label: 'About Page Information'
+    #   file: '_data/pages/about.yml'
