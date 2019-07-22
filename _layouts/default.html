@@ -7,12 +7,13 @@
 
     {% feed_meta %}
 
-    <link rel="icon" type="image/x-icon" href="/img/logo.ico"/>
+    <link rel="icon" type="image/x-icon" href="/img/logo.ico" />
     <link href="/assets/css/app.css" type="text/css" rel="stylesheet" />
-
+    
     <script src="/assets/js/app_header.js"></script>
-
+    
     {% seo %}
+    <script src="/assets/v3/js/jquery.matchHeight.js" type="text/javascript"></script>
 
 </head>
 
@@ -23,34 +24,35 @@
             {% include header.html %}
 
             {{ content }}
-            
+
             {% include footer.html %}
         </div>
     </div><!-- class="container" END -->
 
-    <script type="text/javascript">
-            $(document).ready(function () {
-                // testimonial-carousel slides
-                var totalSlides = $('#testimonial-carousel .carousel-inner .item').length;
-                $('#total-slide').text(totalSlides);
-        
-                // testimonial-carousel  current slide
-                var currentIndex = $('#testimonial-carousel .carousel-inner .item.active').index() + 1;
-                $('#current-slide').text(currentIndex);
-        
-                $('#testimonial-carousel').on('slid.bs.carousel', function () {
-                    currentIndex = $('#testimonial-carousel .carousel-inner .item.active').index() + 1;
-                    $('#current-slide').text(currentIndex);
-                });
-                $('#mainCarousel').carousel({
-                    interval: 6000
-                });
-                $('.blog_list li .caption').matchHeight();
-                // console.log('after match height')
-            });
-        </script>
-
     <script src="/assets/js/app_footer.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // testimonial-carousel slides
+            var totalSlides = $('#testimonial-carousel .carousel-inner .item').length;
+            $('#total-slide').text(totalSlides);
+
+            // testimonial-carousel  current slide
+            var currentIndex = $('#testimonial-carousel .carousel-inner .item.active').index() + 1;
+            $('#current-slide').text(currentIndex);
+
+            $('#testimonial-carousel').on('slid.bs.carousel', function () {
+                currentIndex = $('#testimonial-carousel .carousel-inner .item.active').index() + 1;
+                $('#current-slide').text(currentIndex);
+            });
+            $('#mainCarousel').carousel({
+                interval: 6000
+            });
+            $('.blog_list li .caption').matchHeight();
+            // console.log('after match height')
+        });
+    </script>
+
 
 </body>
 

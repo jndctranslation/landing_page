@@ -737,10 +737,7 @@ layout: 'default'
 </div>
 <!-- CONTENT END -->
 
-
-<script src="https://www.marstranslation.com/assets/v3/js/jquery.matchHeight.js?version=24 "
-    type="text/javascript"></script>
-<script src="https://www.marstranslation.com/assets/v3/js/wow.min.js?version=24 " type="text/javascript"></script>
+<script src="/assets/v3/js/wow.min.js" type="text/javascript"></script>
 
 <script>
     $('.media.single_item').matchHeight();
