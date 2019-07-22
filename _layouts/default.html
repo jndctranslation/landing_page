@@ -28,9 +28,31 @@
         </div>
     </div><!-- class="container" END -->
 
-    <script src="/assets/js/app_homepage.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function () {
+                // testimonial-carousel slides
+                var totalSlides = $('#testimonial-carousel .carousel-inner .item').length;
+                $('#total-slide').text(totalSlides);
+        
+                // testimonial-carousel  current slide
+                var currentIndex = $('#testimonial-carousel .carousel-inner .item.active').index() + 1;
+                $('#current-slide').text(currentIndex);
+        
+                $('#testimonial-carousel').on('slid.bs.carousel', function () {
+                    currentIndex = $('#testimonial-carousel .carousel-inner .item.active').index() + 1;
+                    $('#current-slide').text(currentIndex);
+                });
+                $('#mainCarousel').carousel({
+                    interval: 6000
+                });
+                $('.blog_list li .caption').matchHeight();
+                // console.log('after match height')
+            });
+        </script>
 
+    <script src="/assets/js/app_footer.js"></script>
 
 </body>
+
 
 </html>

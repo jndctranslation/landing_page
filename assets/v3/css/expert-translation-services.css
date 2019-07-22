@@ -46,7 +46,7 @@
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .carousel-inner .item .media .media-body .feedback_text {font: 22px/1.63 "ubuntu-regular";color: #454f66;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls {margin: 10px auto 0;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .carousel-control {position: unset;background-image: none;}
-.expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .carousel-control span.icon {display: inline-block;height: 27px;width: 16px;}
+.expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .carousel-control span.icon { background: url(/assets/images/ui/sprites_home.png) no-repeat;display: inline-block;height: 27px;width: 16px;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .carousel-control span.icon.left {background-position: -363px -379px;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .carousel-control span.icon.right {background-position: -396px -379px;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .slide_number {margin: 0 32px;}

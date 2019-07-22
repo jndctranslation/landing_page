@@ -196,9 +196,9 @@ description: 'This is the description of the page'
                                 <span class="sr-only">Previous</span>
                             </a>
                             <span class="slide_number">
-                                <span id="current-slide" class="slide_item_number">1</span>
+                                <span id="current-slide" class="slide_item_number"></span>
                                 <span class='slide_nmber_divider'>/</span>
-                                <span id="total-slide" class="slide_item_number">4</span>
+                                <span id="total-slide" class="slide_item_number"></span>
                             </span>
                             <a class="right carousel-control" href="#testimonial-carousel" data-slide="next">
                                 <span class="icon right"></span>

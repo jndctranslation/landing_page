@@ -15,3 +15,7 @@ customers:
   name: 'Peter'
   company: 'New York University'
   review: 'Goodbye World !!'
+- avatar: '/assets/images/upload/avatar.jpg'
+  name: 'Peter'
+  company: 'New York University'
+  review: 'Hell Yeahhhh !!'
