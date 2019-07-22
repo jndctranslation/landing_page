@@ -105,11 +105,12 @@ description: 'This is the description of the page'
         <div class="p-md text-center">{{site.data.pages.home.block_3.text | markdownify }}</div>
       </div>
       {% for item in site.data.pages.home.block_3.items %}
+      {% assign mod = forloop.index | modulo: 2 %}
       <div class="content_box row">
         <div class="col-sm-6 col-xs-12 
-        {% if item.position == 'left' %} pull-right {% endif %}
+        {% if mod == 0 %} pull-right {% endif %}
         text-center">
-          <i class="content_thumb rates">
+          <i class="content_thumb">
             <img src="{{item.icon}}" style="width: 100%">
           </i>
         </div>
@@ -175,7 +176,7 @@ description: 'This is the description of the page'
 
       <ul class="services_list list-unstyled">
         {% for item in site.data.pages.home.block_5.items %}
-        <li><span class="counter">{{item.index}}</span>
+        <li><span class="counter">{{ forloop.index }}</span>
 
           <h3 class="h4 step_name">{{item.title }}</h3>
 

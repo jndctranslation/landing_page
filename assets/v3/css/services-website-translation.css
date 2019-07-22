@@ -17,7 +17,7 @@
 .supported-languages-list li a:focus .flag-icon{background-position:left center; -webkit-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); -moz-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); -ms-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); -o-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);}
 .supported-languages-list li a .flag-icon,
 .supported-languages-list li a .flag-text{display:table-cell; vertical-align:middle;}
-.supported-languages-list li a .flag-icon{width:50px; height:44px; background:url("/assets/images/ui/supported_languages_bg.png") right center no-repeat; padding:0 7px 0 0; -webkit-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); -moz-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); -ms-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); -o-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);}
+.supported-languages-list li a .flag-icon{width:50px; height:44px; padding:0 7px 0 0; -webkit-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); -moz-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); -ms-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); -o-transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); transition:all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);}
 .supported-languages-list li a .flag-icon img{width:30px; height:20px;}
 .supported-languages-list li a .flag-text{width:212px; padding:3px 5px 3px 6px; text-align:left; line-height:normal;}
 .supported-languages-list li a .flag-text .flag-price{float:right; font-family:'ubuntu-light'; color:#404040;}
@@ -35,7 +35,7 @@
 /* features */
 .translation_features_block .features_list{padding:0;}
 .translation_features_block .features_list li{display:inline-block; padding:0 10px; vertical-align:top; margin:20px 0 0 0; width:22%;}
-.translation_features_block .features_list li .icons{width:74px; height:74px; display:inline-block; background:url("/assets/images/ui/sprites-2.png") no-repeat;}
+.translation_features_block .features_list li .icons{width:74px; height:74px; display:inline-block;}
 .translation_features_block .features_list li .icons.rates{background-position:-1px -1px;}
 .translation_features_block .features_list li .icons.languages{background-position:-91px -1px;}
 .translation_features_block .features_list li .icons.iso{background-position:-181px -1px;}
@@ -60,7 +60,7 @@
   background-color: #f9f9fa !important;
 }
 /* FLAGS SPRITES */
-.flags{width:30px; height:20px; background:url("/bundles/storeservices/images/ui/supported_languages_flags.png") no-repeat top left; display:inline-block; vertical-align:middle;}
+.flags{width:30px; height:20px; display:inline-block; vertical-align:middle;}
 .flag-af{background-position:0 0;}
 .flag-am{background-position:0 -25px;}
 .flag-ar{background-position:0 -50px;}
@@ -395,7 +395,6 @@
 .services_logo_block .services_logos_list .logo {
   width: 125px;
   height: 40px;
-  background: url("/assets/images/ui/sprites_services.png") center top no-repeat;
   margin: 0 30px 8px;
   display: inline-block;
   vertical-align: top;

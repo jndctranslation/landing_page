@@ -84,14 +84,14 @@ block_5:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - text: 'Place order with our simple web order form, or API.'
-      title: Rates
-    - text: >-
-        Track different stages of the translation process and communicate with
-        the translator.
-      title: Quality
-    - text: Rate our translation services to get even better quality next time.
-      title: Speed
+  - text: 'Place order with our simple web order form, or API.'
+    title: Rates
+  - text: >-
+      Track different stages of the translation process and communicate with
+      the translator.
+    title: Quality
+  - text: Rate our translation services to get even better quality next time.
+    title: Speed
   text: >-
     We have devised the simplest and seamless mechanism for you to place
     translation order. <br/>Getting your global success is just a matter of 1, 2

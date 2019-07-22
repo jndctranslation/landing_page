@@ -36,7 +36,7 @@
 .expert_transaltion_services_page .blog_slider_block .blog_carousel .carousel-indicators {bottom: -10px;}
 .expert_transaltion_services_page .blog_slider_block .blog_carousel .carousel-indicators li {background: #cbcbcb;border-color: #cbcbcb;}
 .expert_transaltion_services_page .blog_slider_block .blog_carousel .carousel-indicators li.active {background: #8d8d8d;border-color: #8d8d8d;}
-.expert_transaltion_services_page .arrow_icons {height: 10px;width: 15px; display: inline-block; background: url("/assets/images/ui/sprites_global.png") no-repeat;transition: all .3s}
+.expert_transaltion_services_page .arrow_icons {height: 10px;width: 15px; display: inline-block;transition: all .3s}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .carousel-inner .item {min-height: 235px;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .carousel-inner .item .media .media-left {width: 24.5%;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .carousel-inner .item .media .media-left img {height: 125px;width: 125px;margin: 0 auto;border-radius: 50%;}
@@ -46,7 +46,7 @@
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .carousel-inner .item .media .media-body .feedback_text {font: 22px/1.63 "ubuntu-regular";color: #454f66;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls {margin: 10px auto 0;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .carousel-control {position: unset;background-image: none;}
-.expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .carousel-control span.icon {background: url("/assets/images/ui/sprites_home.png") no-repeat;display: inline-block;height: 27px;width: 16px;}
+.expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .carousel-control span.icon {display: inline-block;height: 27px;width: 16px;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .carousel-control span.icon.left {background-position: -363px -379px;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .carousel-control span.icon.right {background-position: -396px -379px;}
 .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .feedback_carousel_controls .slide_number {margin: 0 32px;}

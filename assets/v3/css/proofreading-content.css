@@ -1,12 +1,12 @@
-.page_top_banner {background: url('/assets/images/ui/proofreading-content.jpg?version=1.7.40') no-repeat;min-height: 530px;position: relative;padding: 50px 0 200px;background-size: cover;}
-.page_top_banner.transcration_banner {background: url('/assets/images/ui/transcreation-page-banner.jpg?version=1.7.40') no-repeat center/cover;}
-.page_top_banner.transcription_banner {background: url('/assets/images/ui/transcription-page-banner.jpg?version=1.7.40') no-repeat center/cover;}
+.page_top_banner {min-height: 530px;position: relative;padding: 50px 0 200px;background-size: cover;}
+.page_top_banner.transcration_banner {}
+.page_top_banner.transcription_banner {}
 .page_top_banner .banner_text {margin-top: 27px;}
 .page_top_banner .banner_text .heading {font: 42px/1.2 "ubuntu-medium";color: #fff;margin-bottom: 18px;}
 .page_top_banner .banner_text .desc {font: 20px/1.5 "opensans-regular";color: #fff;}
 .page_top_banner .banner_text .btn_wrap {margin-top: 32px;}
 .page_top_banner .banner_text .btn_wrap .btn {min-width: 192px;padding: 9px 28px;}
-.business_pages_content {background: #fff url('/assets/images/ui/business_pages_content-background.png?version=1.7.40') no-repeat;background-size: cover;background-position: center 250px;}
+.business_pages_content {background-size: cover;background-position: center 250px;}
 .business_pages_content.transcreation_page .banner_bottom_section .content_block {padding: 53px 100px 67px;}
 .business_pages_content .text_row .heading {color: #484848;margin-bottom: 15px;}
 .business_pages_content .text_row .desc {font: 16px/1.5 "opensans-light";color: #393939;margin: 0 auto;}
