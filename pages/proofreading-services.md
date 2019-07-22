@@ -7,80 +7,6 @@ layout: 'default'
 <link rel="stylesheet" href="/assets/v3/css/animate.min.css">
 <link rel="stylesheet" href="/assets/v3/css/proofreading-content.css">
 
-<script src="https://www.marstranslation.com/assets/v3/js/jquery.matchHeight.js?version=24 "
-    type="text/javascript"></script>
-<script src="https://www.marstranslation.com/assets/v3/js/wow.min.js?version=24 " type="text/javascript"></script>
-<script src="https://www.marstranslation.com/assets/v3/js/waypoints.min.js?version=24 " type="text/javascript"></script>
-
-<script>
-    $('.media.single_item').matchHeight();
-    $('.transcription_services_list .content_list .col-md-3').matchHeight();
-    $(document).ready(function () {
-        // animation initialization
-        wow = new WOW(
-            {
-                animateClass: 'animated',
-                offset: 100,
-            }
-        ); wow.init();
-
-        // testimonial-carousel slides
-        var totalSlides = $('#testimonial-carousel .carousel-inner .item').length;
-        $('#total-slide').text(totalSlides);
-
-        // testimonial-carousel  current slide
-        var currentIndex = $('#testimonial-carousel .carousel-inner .item.active').index() + 1;
-        $('#current-slide').text(currentIndex);
-
-        $('#testimonial-carousel').on('slid.bs.carousel', function () {
-            currentIndex = $('#testimonial-carousel .carousel-inner .item.active').index() + 1;
-            $('#current-slide').text(currentIndex);
-        });
-
-        $('.blog_list li .caption').matchHeight();
-        // console.log('after match height')
-    });
-
-    // circle repel animation js
-    var mouse = { 'x': 0, 'y': 0 };
-    homex = 0;
-    homey = 0;
-    forcex = 0;
-    forcey = 0;
-    magnet = 500;
-    $(document).bind('mousemove', function (e) {
-        mouse = { 'x': e.pageX, 'y': e.pageY };
-    });
-    $('.repel_circle').each(function (index, el) {
-        $(el).attr("homex", parseInt($(el).position().left));
-        $(el).attr("homey", parseInt($(el).position().top));
-    });
-    $('.repel_circle').css({ 'display': 'none', 'position': 'absolute' });
-    $('.container-fluid').css({ 'overflow': 'hidden' });
-    setTimeout(() => {
-        $('.repel_circle').css('display', 'inline-block');
-    }, 1000);
-    setInterval(function () {
-        $('.repel_circle').each(function (index, el) {
-            el = $(el);
-            position = el.position();
-            x0 = el.offset().left;
-            y0 = el.offset().top;
-            x1 = mouse.x;
-            y1 = mouse.y;
-            distancex = x1 - x0;
-            distancey = y1 - y0;
-            distance = Math.sqrt((distancey * distancey) + (distancex * distancex));
-            powerx = x0 - (distancex / distance) * magnet / distance;
-            powery = y0 - (distancey / distance) * magnet / distance;
-            forcex = (forcex + (el.attr('homex') - x0) / 2) / 2.1;
-            forcey = (forcey + (el.attr('homey') - y0) / 2) / 2.1;
-            el.css('left', powerx + forcex);
-            el.css('top', powery + forcey);
-        });
-    }, 15);
-</script>
-
 <!-- BANNER START -->
 <div class="full_width_banner page_top_banner">
     <div class="container">
@@ -810,3 +736,77 @@ layout: 'default'
     </div>
 </div>
 <!-- CONTENT END -->
+
+
+<script src="https://www.marstranslation.com/assets/v3/js/jquery.matchHeight.js?version=24 "
+    type="text/javascript"></script>
+<script src="https://www.marstranslation.com/assets/v3/js/wow.min.js?version=24 " type="text/javascript"></script>
+
+<script>
+    $('.media.single_item').matchHeight();
+    $('.transcription_services_list .content_list .col-md-3').matchHeight();
+    $(document).ready(function () {
+        // animation initialization
+        wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 100,
+            }
+        ); wow.init();
+
+        // testimonial-carousel slides
+        var totalSlides = $('#testimonial-carousel .carousel-inner .item').length;
+        $('#total-slide').text(totalSlides);
+
+        // testimonial-carousel  current slide
+        var currentIndex = $('#testimonial-carousel .carousel-inner .item.active').index() + 1;
+        $('#current-slide').text(currentIndex);
+
+        $('#testimonial-carousel').on('slid.bs.carousel', function () {
+            currentIndex = $('#testimonial-carousel .carousel-inner .item.active').index() + 1;
+            $('#current-slide').text(currentIndex);
+        });
+
+        $('.blog_list li .caption').matchHeight();
+        // console.log('after match height')
+    });
+
+    // circle repel animation js
+    var mouse = { 'x': 0, 'y': 0 };
+    homex = 0;
+    homey = 0;
+    forcex = 0;
+    forcey = 0;
+    magnet = 500;
+    $(document).bind('mousemove', function (e) {
+        mouse = { 'x': e.pageX, 'y': e.pageY };
+    });
+    $('.repel_circle').each(function (index, el) {
+        $(el).attr("homex", parseInt($(el).position().left));
+        $(el).attr("homey", parseInt($(el).position().top));
+    });
+    $('.repel_circle').css({ 'display': 'none', 'position': 'absolute' });
+    $('.container-fluid').css({ 'overflow': 'hidden' });
+    setTimeout(() => {
+        $('.repel_circle').css('display', 'inline-block');
+    }, 1000);
+    setInterval(function () {
+        $('.repel_circle').each(function (index, el) {
+            el = $(el);
+            position = el.position();
+            x0 = el.offset().left;
+            y0 = el.offset().top;
+            x1 = mouse.x;
+            y1 = mouse.y;
+            distancex = x1 - x0;
+            distancey = y1 - y0;
+            distance = Math.sqrt((distancey * distancey) + (distancex * distancex));
+            powerx = x0 - (distancex / distance) * magnet / distance;
+            powery = y0 - (distancey / distance) * magnet / distance;
+            forcex = (forcex + (el.attr('homex') - x0) / 2) / 2.1;
+            forcey = (forcey + (el.attr('homey') - y0) / 2) / 2.1;
+            el.css('left', powerx + forcex);
+            el.css('top', powery + forcey);
+        });
+    }, 15);
+</script>
