@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Spanish Speaking Countries in Europe
+title: Spanish Speaking Countries in South America
 description: >-
   Being the second largest continent in the world, one might wonder if there are
   any English-speaking countries in Africa. And the answer would be yes, there
