@@ -1,0 +1,50 @@
+block_1:
+  visible: true
+  background_image: '/assets/images/upload/hand_punch.jpg'
+  color_overlay: 'rgba(50, 50, 50, 0.5)'
+  title: 'We Correct your Content'
+  text: 'Our top experts review your content twice and eliminate all the errors to assure excellence.'
+
+block_2:
+  visible: true
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Fast, Reliable and Affordable Proofreading'
+  text: 'Your digital assets including your websites, blogs, official documents, professional emails and marketing material reflect your standard, quality and professional efficiency. Therefore, it is critical to ensure that your text is free from all the major and minor errors, and that’s what we are here for. We offer proficient proofreading by certified professionals. If you want immaculate proofreading services for any type of content, Mars Translation has got you covered.'
+
+block_3:
+  visible: true
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Top Notch Proofreading at competitive rates'
+  text: 'Mars Translation signifies quality, style and affordability. We cover all the major industries and our top professionals deliver impeccable results. We are an all-in-one solution for improving your content quality.'
+  items:
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'One-stop solution'
+      text: 'Our proofreading services encompass multiple industries including Medical, Education, Life Sciences, Travel, Financial, Automotive and many more.'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Impeccable Results'
+      text: 'We have certified native experts from different geographical regions who deliver excellent translations as if they were written in your local language.'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Extensive Experience'
+      text: 'We have been offering proofreading services for more than 20 years. Our experienced professionals remove each and every mistake from your copy.'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Multiple Languages'
+      text: 'Our linguistic experts cover over 90+ languages and 2000 language pairs. We have highly trained and skilled professionals to deliver flawless content in time.'
+
+block_4:
+  visible: true
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Our Core Qualities'
+  text: 'High precision and delivery of exceptional results make us stand ahead of the competitors.'
+  items:
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'High Accuracy'
+      text: 'We provide accurate human proofreading services and guarantee satisfaction.'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Fast Turnaround'
+      text: 'Our proofreaders work skillfully to deliver your content in the promised time.'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Economic Affordability'
+      text: 'We offer matchless quality at an unbeatable price to exceed your expectations.'

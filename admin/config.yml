@@ -4,7 +4,7 @@ backend:
   name: github
   repo: jndctranslation/landing_page
   branch: master # Branch to update (optionsal; defaults to master)
-media_folder: '/assets/images'
+media_folder: '/assets/images/upload'
 
 collections:
   - name: 'website_common_information'
@@ -443,4 +443,14 @@ collections:
         - {name: 'title', label: 'Title', widget: 'string', required: false}
         - {name: 'text', label: 'Text', widget: 'markdown', required: false}
 
-    
+  - name: 'blog_posts'
+    label: 'Blog Posts'
+    folder: '_posts'
+    create: 'true'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+    - {name: 'layout', label: 'Layout', widget: 'hidden', default: 'blog'}
+    - {name: 'title', label: 'Title', widget: 'string'}
+    - {name: 'description', label: 'Description', widget: 'markdown'}
+    - {name: 'thumb_image', label: 'Thumb Image', widget: 'image'}
+    - {name: 'author', label: 'Author', widget: 'string'}

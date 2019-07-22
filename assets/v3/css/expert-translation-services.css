@@ -1,4 +1,4 @@
-.expert_translation_banner {min-height: 440px;padding: 77px 0 0;background: url("/assets/images/ui/expert-translation-services.jpg") no-repeat center center;background-size: cover;}
+.expert_translation_banner {min-height: 440px;padding: 77px 0 0;background: no-repeat center center;background-size: cover;}
 .expert_translation_banner .text_row {margin: 0 0 30px;}
 .expert_translation_banner .text_row .heading {font: 42px "ubuntu-medium";color: #fff;text-shadow: 0 0 90px rgba(0, 0, 0, 0.65);}
 .expert_translation_banner .text_row .desc {line-height: 30px;color: #fff;text-shadow: 0 0 49px rgba(0, 0, 0, 0.004);}

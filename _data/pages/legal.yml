@@ -56,23 +56,3 @@ block_3:
     - icon: '/assets/images/upload/recommended.png'
       title: 'Multilingual Support'
       text: 'We offer translation services for a plethora of language pairs from around the globe for a multilingual support system.'
-
-block_4:
-  visible: true
-  background_image: ''
-  color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'Kick-start your global journey with us today'
-
-block_5:
-  visible: true
-  background_image: ''
-  color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'Customers Feedback'
-  text: 'Since our startup, two decades back, we have been getting better and better only!'
-
-block_6:
-  visible: true
-  background_image: ''
-  color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'What’s New?'
-  text: 'Browse through the topics of interest in the global world of translation'

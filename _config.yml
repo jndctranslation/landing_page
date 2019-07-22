@@ -29,6 +29,14 @@ webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 
+collections:
+  # docs:
+  #   permalink: "/:collection/:path/"
+  #   output: true
+  posts:
+    permalink: "/blog/:title/"
+    output: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

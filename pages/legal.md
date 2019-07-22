@@ -13,8 +13,7 @@ description: 'This is the description of the page'
 
 <div class="container-fluid container-shadow">
     <div class="row">
-        <div class="expert_translation_banner clearfix"
-        style="background-image: url({{ site.data.pages.legal.block_1.background_image }});
+        <div class="expert_translation_banner clearfix" style="background-image: url({{ site.data.pages.legal.block_1.background_image }});
         box-shadow:inset 0 0 0 10000px {{ site.data.pages.legal.block_1.color_overlay }}; 
         background-position: center bottom; 
         background-repeat: no-repeat; 
@@ -26,8 +25,7 @@ description: 'This is the description of the page'
         display: block; 
         {% else %}
         display: none;
-        {% endif %}"
-        >
+        {% endif %}">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-xs-12">
@@ -36,12 +34,12 @@ description: 'This is the description of the page'
                             <div class="desc font_20">{{site.data.pages.legal.block_1.text | markdownify }}</div>
                         </div>
                         <div class="btn_wrap">
-                                {% if site.data.header.primary_nav.button_1.visible == true %}
-                                <a class="btn btn-md btn_maroon" href="{{site.data.header.primary_nav.button_1.link}}" id="legal-banner-instant">{{site.data.header.primary_nav.button_1.name}}</a>
-                                {% endif %}
-                                {% if site.data.header.primary_nav.button_2.visible == true %}
-                                <a class="btn btn_white_gradient" href="{{site.data.header.primary_nav.button_2.link}}" id="legal-banner-order">{{site.data.header.primary_nav.button_2.name}}</a>
-                                {% endif %}
+                            {% if site.data.header.primary_nav.button_1.visible == true %}
+                            <a class="btn btn-md btn_maroon" href="{{site.data.header.primary_nav.button_1.link}}">{{site.data.header.primary_nav.button_1.name}}</a>
+                            {% endif %}
+                            {% if site.data.header.primary_nav.button_2.visible == true %}
+                            <a class="btn btn_white_gradient" href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
@@ -51,8 +49,7 @@ description: 'This is the description of the page'
 
         <!-- CONTENT START -->
         <div class="content_web expert_transaltion_services_page">
-            <section class="why_mars_block clearfix"
-            style="background-image: url({{ site.data.pages.legal.block_2.background_image }});
+            <section class="why_mars_block clearfix" style="background-image: url({{ site.data.pages.legal.block_2.background_image }});
             box-shadow:inset 0 0 0 10000px {{ site.data.pages.legal.block_2.color_overlay }}; 
             background-position: center bottom; 
             background-repeat: no-repeat; 
@@ -64,14 +61,14 @@ description: 'This is the description of the page'
             display: block; 
             {% else %}
             display: none;
-            {% endif %}"
-            >
+            {% endif %}">
                 <div class="container">
                     <div class="text_row text-center">
                         <h3 class="heading">{{site.data.pages.legal.block_2.title }}</h3>
                         <div class="desc">{{site.data.pages.legal.block_2.text | markdownify }}</div>
                     </div>
-                    <ul class="spacifications_list flexbox_container three_columns space_between list-unstyled clearfix">
+                    <ul
+                        class="spacifications_list flexbox_container three_columns space_between list-unstyled clearfix">
                         {% for item in site.data.pages.legal.block_2.items %}
                         <li class="media spac_item">
                             <div class="media-left">
@@ -88,8 +85,7 @@ description: 'This is the description of the page'
                     </ul>
                 </div>
             </section>
-            <section class="why_mars_block clearfix"
-            style="background-image: url({{ site.data.pages.legal.block_3.background_image }});
+            <section class="why_mars_block clearfix" style="background-image: url({{ site.data.pages.legal.block_3.background_image }});
             box-shadow:inset 0 0 0 10000px {{ site.data.pages.legal.block_3.color_overlay }}; 
             background-position: center bottom; 
             background-repeat: no-repeat; 
@@ -101,14 +97,14 @@ description: 'This is the description of the page'
             display: block; 
             {% else %}
             display: none;
-            {% endif %}"
-            >
+            {% endif %}">
                 <div class="container">
                     <div class="text_row text-center">
                         <h3 class="heading">{{site.data.pages.legal.block_3.title }}</h3>
                         <div class="desc">{{site.data.pages.legal.block_3.text | markdownify }}</div>
                     </div>
-                    <ul class="spacifications_list flexbox_container three_columns space_between list-unstyled clearfix">
+                    <ul
+                        class="spacifications_list flexbox_container three_columns space_between list-unstyled clearfix">
                         {% for item in site.data.pages.legal.block_3.items %}
                         <li class="media spac_item">
                             <div class="media-left">
@@ -125,420 +121,7 @@ description: 'This is the description of the page'
                     </ul>
                 </div>
             </section>
-            <section class="quick_start_block clearfix"
-            style="background-image: url({{ site.data.pages.legal.block_4.background_image }});
-            box-shadow:inset 0 0 0 10000px {{ site.data.pages.legal.block_4.color_overlay }}; 
-            background-position: center bottom; 
-            background-repeat: no-repeat; 
-            -moz-background-size: cover;
-            -o-background-size: cover; 
-            -webkit-background-size: cover; 
-            background-size: cover;
-            {% if site.data.pages.legal.block_4.visible == true %}
-            display: block; 
-            {% else %}
-            display: none;
-            {% endif %}"
-            >
-                <div class="container text-center">
-                    <span class="desc">
-                        {{site.data.pages.legal.block_4.title}}
-                    </span>
-                    {% if site.data.header.primary_nav.button_1.visible == true %}
-                    <a class="btn btn_maroon" href="{{site.data.header.primary_nav.button_1.link}}" id="legal-banner-instant">{{site.data.header.primary_nav.button_1.name}}</a>
-                    {% endif %}
-                    {% if site.data.header.primary_nav.button_2.visible == true %}
-                    <a class="btn  btn_white_gradient" href="{{site.data.header.primary_nav.button_2.link}}" id="legal-banner-order">{{site.data.header.primary_nav.button_2.name}}</a>
-                    {% endif %}
-                </div>
-            </section>
-            <section class="white_bg pd_lg customer_feedback_with_multiple_slides clearfix"
-            style="background-image: url({{ site.data.pages.legal.block_5.background_image }});
-            box-shadow:inset 0 0 0 10000px {{ site.data.pages.legal.block_5.color_overlay }}; 
-            background-position: center bottom; 
-            background-repeat: no-repeat; 
-            -moz-background-size: cover;
-            -o-background-size: cover; 
-            -webkit-background-size: cover; 
-            background-size: cover;
-            {% if site.data.pages.legal.block_5.visible == true %}
-            display: block; 
-            {% else %}
-            display: none;
-            {% endif %}"
-            >
-                <div class="container">
-                    <div class="text_row less_space text-center">
-                        <h2 class="heading">{{site.data.pages.legal.block_5.title}}</h2>
-                        <div class="desc">{{site.data.pages.legal.block_5.text | markdownify}}</div>
-                    </div>
-                    <div id="testimonial-carousel" class="carousel slide testimonial-carousel" data-ride="carousel">
-                        <div class="carousel-inner">
-                            {% for customer in site.data.customer_reviews.customers %}
-                            <div class="item {% if forloop.first == true %} active {% endif %}">
-                                <div class="media">
-                                    <div class="media-left media-top text-center">
-                                        <img src="{{customer.avatar}}" class="media-object">
-                                        <h5 class="image_title text-uppercase">{{ customer.name }}</h5>
-                                        <p class="desc">{{ customer.company }}</p>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="feedback_text">{{ customer.review }}</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {% endfor %}
-                        </div>
-                        <!-- Left and right controls -->
-                        <div class="feedback_carousel_controls text-center">
-                            <a class="left carousel-control" href="#testimonial-carousel" data-slide="prev">
-                                <span class="icon left"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <span class="slide_number">
-                                <span id="current-slide" class="slide_item_number"></span>
-                                <span class='slide_nmber_divider'>/</span>
-                                <span id="total-slide" class="slide_item_number"></span>
-                            </span>
-                            <a class="right carousel-control" href="#testimonial-carousel" data-slide="next">
-                                <span class="icon right"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="blog_slider_block section_grey_bg pd_lg clearfix"
-            style="background-image: url({{ site.data.pages.legal.block_6.background_image }});
-            box-shadow:inset 0 0 0 10000px {{ site.data.pages.legal.block_6.color_overlay }}; 
-            background-position: center bottom; 
-            background-repeat: no-repeat; 
-            -moz-background-size: cover;
-            -o-background-size: cover; 
-            -webkit-background-size: cover; 
-            background-size: cover;
-            {% if site.data.pages.legal.block_6.visible == true %}
-            display: block; 
-            {% else %}
-            display: none;
-            {% endif %}"
-            >
-                <div class="container">
-                    <div class="text_row text-center">
-                        <h3 class="heading">{{ site.data.pages.legal.block_6.title}}</h3>
-                        <p class="desc">{{ site.data.pages.legal.block_6.text | markdownify }}</p>
-                    </div>
-                    <div id="blog_carousel" class="blog_carousel carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <ul class="blog_list list-unstyled clearfix">
-                                    <li class="col-md-3 col-xs-6">
-                                        <div class="blog_list_item">
-                                            <span class="blog_bg"
-                                                style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0004/13/770b124e95f7b81d9568741d596f47f448000bd6.jpeg) no-repeat;background-size: cover;">&nbsp;</span>
-                                            <div class="caption">
-                                                <h4 class="heading"> Spanish Speaking Countries in Europe
-                                                </h4>
-
-                                                <p class="desc"> Spanish
-                                                    is
-                                                    a
-                                                    powerful
-                                                    language
-                                                    with
-                                                    the
-                                                    second
-                                                    highest
-                                                    number
-                                                    of
-                                                    native
-                                                    speakers.
-                                                    There
-                                                    are
-                                                    Spanish-speaking
-                                                    countries
-                                                    in
-                                                    Europe,
-                                                    then
-                                                </p>
-
-                                                <a class="read_more"
-                                                    href="/blog/spanish-speaking-countries-in-europe">Read
-                                                    More <span class="arrow_icons">&nbsp;</span></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="col-md-3 col-xs-6">
-                                        <div class="blog_list_item">
-                                            <span class="blog_bg"
-                                                style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0004/08/1cd1f7a1da40449428fd36f665dff51daba84128.jpeg) no-repeat;background-size: cover;">&nbsp;</span>
-                                            <div class="caption">
-                                                <h4 class="heading"> Spanish Speaking Countries in South
-                                                    America
-                                                </h4>
-
-                                                <p class="desc"> It
-                                                    is
-                                                    easier
-                                                    to
-                                                    tell
-                                                    the
-                                                    countries
-                                                    that
-                                                    don’t
-                                                    speak
-                                                    Spanish
-                                                    than
-                                                    to
-                                                    name
-                                                    the
-                                                    Spanish-speaking
-                                                    countries
-                                                    in
-                                                    South
-                                                    America.
-                                                </p>
-
-                                                <a class="read_more"
-                                                    href="/blog/spanish-speaking-countries-in-south-america">Read
-                                                    More <span class="arrow_icons">&nbsp;</span></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="col-md-3 col-xs-6">
-                                        <div class="blog_list_item">
-                                            <span class="blog_bg"
-                                                style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0003/91/3f1ede279e09bc29b5f51ba02da44e19e3d30e44.png) no-repeat;background-size: cover;">&nbsp;</span>
-                                            <div class="caption">
-                                                <h4 class="heading"> Difference between Simplified Chinese
-                                                    and Traditional Chinese Language
-                                                </h4>
-
-                                                <p class="desc"> From
-                                                    the
-                                                    outside,
-                                                    Chinese
-                                                    seems
-                                                    like
-                                                    a
-                                                    vast
-                                                    singular
-                                                    language.
-                                                    At
-                                                    a
-                                                    closer
-                                                    look,
-                                                    however,
-                                                    it
-                                                    can
-                                                    be
-                                                    observed
-                                                    that
-                                                </p>
-
-                                                <a class="read_more"
-                                                    href="/blog/whats-the-difference-between-simplified-chinese-and-traditional-chinese-language">Read
-                                                    More <span class="arrow_icons">&nbsp;</span></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="col-md-3 col-xs-6">
-                                        <div class="blog_list_item">
-                                            <span class="blog_bg"
-                                                style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0003/75/e43c340ff20c3f66e47e955d23c0479315166de7.jpeg) no-repeat;background-size: cover;">&nbsp;</span>
-                                            <div class="caption">
-                                                <h4 class="heading"> Why You Need IOS App Localization?
-                                                </h4>
-
-                                                <p class="desc"> Did
-                                                    you
-                                                    know
-                                                    56.2%
-                                                    of
-                                                    consumers
-                                                    claim
-                                                    that
-                                                    acquiring
-                                                    information
-                                                    in
-                                                    their
-                                                    own
-                                                    language
-                                                    is
-                                                    more
-                                                    important
-                                                    than
-                                                    the
-                                                    price
-                                                </p>
-
-                                                <a class="read_more" href="/blog/why-you-need-ios-app-localization">Read
-                                                    More
-                                                    <span class="arrow_icons">&nbsp;</span></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="item">
-                                <ul class="blog_list list-unstyled clearfix">
-                                    <li class="col-md-3 col-xs-6">
-                                        <div class="blog_list_item">
-                                            <span class="blog_bg"
-                                                style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0003/72/0155159a33ec1e36b23de1a0bda8f35bdcfa26a6.jpeg) no-repeat;background-size:cover;">&nbsp;</span>
-                                            <div class="caption">
-                                                <h4 class="heading"> Steps To Choose Best Android App
-                                                    Localization Company
-                                                </h4>
-                                                <p class="desc">
-
-                                                    In
-                                                    a
-                                                    world
-                                                    that
-                                                    has
-                                                    turned
-                                                    to
-                                                    a
-                                                    global
-                                                    village,
-                                                    localization
-                                                    is
-                                                    no
-                                                    longer
-                                                    a
-                                                    choice
-                                                    but
-                                                    a
-                                                    necessity.
-                                                    In
-                                                </p>
-                                                <a class="read_more"
-                                                    href="/blog/steps-to-choose-best-android-app-localization-company">Read
-                                                    More <span class="arrow_icons">&nbsp;</span></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="col-md-3 col-xs-6">
-                                        <div class="blog_list_item">
-                                            <span class="blog_bg"
-                                                style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0003/67/625d9dba58cfdf6d40f24d487fc8333bbb381108.png) no-repeat;background-size:cover;">&nbsp;</span>
-                                            <div class="caption">
-                                                <h4 class="heading"> How Many Countries Speak French?
-                                                </h4>
-                                                <p class="desc">
-
-                                                    Curious
-                                                    aren’t
-                                                    we?
-                                                    Of
-                                                    course,
-                                                    you
-                                                    want
-                                                    to
-                                                    know
-                                                    how
-                                                    many
-                                                    countries
-                                                    speak
-                                                    French
-                                                    -
-                                                    the
-                                                    language
-                                                    of
-                                                    love.
-                                                    The
-                                                </p>
-                                                <a class="read_more" href="/blog/how-many-countries-speak-french">Read
-                                                    More
-                                                    <span class="arrow_icons">&nbsp;</span></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="col-md-3 col-xs-6">
-                                        <div class="blog_list_item">
-                                            <span class="blog_bg"
-                                                style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0004/05/aa08be4460f62b533200c8016ed3d1f529040d15.png) no-repeat;background-size:cover;">&nbsp;</span>
-                                            <div class="caption">
-                                                <h4 class="heading"> How Many Countries Speak Spanish?
-                                                </h4>
-                                                <p class="desc">
-
-                                                    Can
-                                                    you
-                                                    imagine
-                                                    how
-                                                    many
-                                                    countries
-                                                    speak
-                                                    Spanish?
-                                                    Exactly
-                                                    the
-                                                    same
-                                                    number
-                                                    of
-                                                    countries
-                                                    that
-                                                    you
-                                                    could
-                                                    have
-                                                    a
-                                                    good
-                                                </p>
-                                                <a class="read_more" href="/blog/how-many-countries-speak-spanish">Read
-                                                    More
-                                                    <span class="arrow_icons">&nbsp;</span></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="col-md-3 col-xs-6">
-                                        <div class="blog_list_item">
-                                            <span class="blog_bg"
-                                                style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0003/60/35d0d46e70618a0d02c57cf1ee4a8e1607cf251d.png) no-repeat;background-size:cover;">&nbsp;</span>
-                                            <div class="caption">
-                                                <h4 class="heading"> Top 10 Translation Companies in Pune
-                                                </h4>
-                                                <p class="desc">
-
-                                                    Pune
-                                                    is
-                                                    rightly
-                                                    termed
-                                                    as
-                                                    the
-                                                    industrial
-                                                    powerhouse
-                                                    on
-                                                    India. 
-                                                    Many
-                                                    local
-                                                    and
-                                                    international
-                                                    companies
-                                                    are
-                                                    located
-                                                    in
-                                                    Pune
-                                                    which
-                                                </p>
-                                                <a class="read_more"
-                                                    href="/blog/top-10-translation-companies-in-pune">Read
-                                                    More <span class="arrow_icons">&nbsp;</span></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <ol class="carousel-indicators">
-                            <li data-target="#blog_carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#blog_carousel" data-slide-to="1"></li>
-                        </ol>
-                    </div>
-                </div>
-
-            </section>
+            {% include kick_start.html %}
         </div>
         <!-- CONTENT END -->
 

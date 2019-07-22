@@ -1,4 +1,4 @@
-.website_translation_banner{min-height: 420px; padding: 70px 0; background:url("/assets/images/ui/website_translation_banner.jpg") center bottom no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover; background-size:cover; border-bottom: 1px solid #eee;}
+.website_translation_banner{min-height: 420px; padding: 70px 0; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover; background-size:cover; border-bottom: 1px solid #eee;}
 .website_translation_banner .heading{font: 36px "ubuntu-medium";}
 .website_translation_banner .heading small{font: 25px "opensans-light"; display: block; text-transform: none;}
 /* key points */
@@ -50,7 +50,7 @@
 .translation_features_block .features_list li p{color:#666666; margin-bottom:0; line-height:normal;}
 .translation_features_block .features_list li:hover .icons{-webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -ms-transform:rotate(360deg); -o-transform:rotate(360deg); transform:rotate(360deg); -webkit-transition:all .4s; -moz-transition:all .4s; -ms-transition:all .4s; -o-transition:all .4s; transition:all .4s;}
 .localization_block{
-  background: url('/assets/images/ui/solution-for-website-localization.jpg') no-repeat;
+  background: no-repeat;
   background-size: cover;
 }
 .localization_block p, .localization_block .angle_arrow_list li{
