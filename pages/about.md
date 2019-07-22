@@ -428,22 +428,34 @@ description: 'This is the description of the page'
 <!-- CONTENT START -->
 
 <div itemprop="articleBody">
-    <div class="full_width_banner company_profile_banner clearfix">
+    <div class="full_width_banner company_profile_banner clearfix" 
+    style="background-image: url({{ site.data.pages.about.block_1.background_image }});
+    box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_1.color_overlay }}; 
+    background-position: center bottom; 
+    background-repeat: no-repeat; 
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-size: cover;
+    {% if site.data.pages.about.block_1.visible == true %}
+    display: block; 
+    {% else %}
+    display: none;
+    {% endif %}"
+    >
         <div class="container">
             <div class="banner_text">
-                <h1 class="heading">Our story started in 2012 as a<br />
-                    translation project and developed<br />
-                    into a business that we love and<br />
-                    strive to grow each day.</h1>
+                <div class="heading">{{site.data.pages.about.block_1.text | markdownify}}</div>
 
-                <div class="btn_wrap"><a class="btn btn_maroon font_16" href="/contact">Contact Us</a></div>
+                <div class="btn_wrap"><a class="btn btn_maroon font_16"
+                        href="{{site.data.pages.about.block_1.button.link}}">{{site.data.pages.about.block_1.button.name}}</a>
+                </div>
             </div>
-
             <div class="banner_bottom_panel">
                 <ul class="panel_list">
-                    <li><a class="smooth_scroll" href="#overview_block">Overview</a></li>
-                    <li><a class="smooth_scroll" href="#mission_block">Mission & Vision</a></li>
-                    <li><a class="smooth_scroll" href="#values_block">Our Value</a></li>
+                    {% for item in site.data.pages.about.block_1.items %}
+                    <li><a class="smooth_scroll" href="#{{item.id}}">{{item.name}}</a></li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
@@ -451,210 +463,316 @@ description: 'This is the description of the page'
     <!-- CONTENT START -->
 
     <div class="content_web company_profile_page">
-        <section class="section_white_bg simple_content_section text-center pd_lg" id="overview_block">
+        <section class="section_white_bg simple_content_section text-center pd_lg" id="block_2" 
+        style="background-image: url({{ site.data.pages.about.block_2.background_image }});
+        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_2.color_overlay }}; 
+        background-position: center bottom; 
+        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-size: cover;
+        {% if site.data.pages.about.block_2.visible == true %}
+        display: block; 
+        {% else %}
+        display: none;
+        {% endif %}"
+        >
             <div class="container">
-                <div class="col-sm-1"> </div>
+                <div class="col-sm-1"> </div>
 
-                <p class="col-sm-10 font_21">Mars Translation is an international leader in the translation
-                    marketplace that offers a transparent, intuitive and cost-effective online portal to
-                    customers who need documents, web content, and video content translated guaranteeing
-                    high-quality and speed. Unlike other options currently available in the market
-                    (translation companies, online translation agencies, etc.), Marstranslation.com connects
-                    its customers with highly rated, certified, native translators from around the world who
-                    deliver quality translations according to company standards.</p>
+                <div class="col-sm-10 font_21">
+                    {{site.data.pages.about.block_2.text | markdownify}}
+                </div>
 
                 <div class="col-sm-1"> </div>
             </div>
         </section>
 
-        <section class="section_grey_bg pd_lg features_block clearfix">
+        <section class="section_grey_bg pd_lg features_block clearfix" 
+        style="background-image: url({{ site.data.pages.about.block_3.background_image }});
+        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_3.color_overlay }}; 
+        background-position: center bottom; 
+        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-size: cover;
+        {% if site.data.pages.about.block_3.visible == true %}
+        display: block; 
+        {% else %}
+        display: none;
+        {% endif %}"
+        >
             <div class="container">
                 <div class="text_row text-center">
-                    <h2 class="heading">Translations Are Better With Experts</h2>
+                    <h2 class="heading">{{site.data.pages.about.block_3.title}}</h2>
 
-                    <p class="font_16">This is where creme de la creme of world’s translation talent
-                        is.<br />
-                        We have industry experts who only get paid for the words they translate, nothing
-                        more, nothing less.</p>
+                    <div class="font_16">{{site.data.pages.about.block_3.text | markdownify }}</div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-6 col-offset-1">
-                    <div class="media text-center"><span class="media-left"><i class="media-object more"> </i>
-                        </span>
-
-                        <div class="media-body">
-                            <h4 class="media-heading">More</h4>
-
-                            <p>120+ languages</p>
-
-                            <p>5000+ translators, more solutions</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="media text-center"><span class="media-left"><i class="media-object rapid"> </i>
-                        </span>
-
-                        <div class="media-body">
-                            <h4 class="media-heading">Rapid</h4>
-
-                            <p>24/7 service</p>
-
-                            <p>200 words/hour/translator</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="media text-center"><span class="media-left"><i class="media-object accurate"> </i>
-                        </span>
-
-                        <div class="media-body">
-                            <h4 class="media-heading">Accurate</h4>
-
-                            <p>ISO 9001:2008 Certified</p>
-
-                            <p>Native translators only</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 col-xs-6 col-offset-left-1">
-                    <div class="media text-center"><span class="media-left"><i class="media-object saving"> </i>
-                        </span>
-
-                        <div class="media-body">
-                            <h4 class="media-heading">Saving</h4>
-
-                            <p>Transparent price</p>
-
-                            <p>No Minimum Charge, no rush fees, Save up to 16%</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section_white_bg video_section clearfix">
-            <div class="modal fade intro_video_modal text-center" id="video_modal" role="dialog">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body"><button class="close" data-dismiss="modal" id="close-video"
-                                type="button">×</button><input id="videoLink" type="hidden"
-                                value="https://www.youtube.com/embed/bwLdIT-rNVM?modestbranding=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;fs=0&amp;" />
-                            <div class="embed-responsive embed-responsive-16by9"><iframe allowfullscreen=""
-                                    class="video-iframe" frameborder="0" id="video"
-                                    src="https://www.youtube.com/embed/bwLdIT-rNVM?modestbranding=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;fs=0&amp;"></iframe>
+                {% for item in site.data.pages.about.block_3.items %}
+                <div class="col-md-3 col-sm-6 col-xs-6 
+                {% if forloop.first == true %}
+                col-offset-1
+                {% elsif forloop.last == true %}
+                col-offset-left-1
+                {% endif %}">
+                    <div class="media text-center">
+                        <span class="media-left">
+                            <div class="media-object">
+                                <image src="{{item.icon}}" style="width: 100%"></image>
                             </div>
+                        </span>
+
+                        <div class="media-body">
+                            <h4 class="media-heading">{{item.title}}</h4>
+
+                            <div>{{ item.text | markdownify }}</div>
                         </div>
                     </div>
                 </div>
-            </div>
+                {% endfor %}
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-xs-12 left-content">
-                        <div class="text_row">
-                            <h2 class="heading">What is Mars Translation?</h2>
-
-                            <p class="pd-md desc">Marstranslation.com is World’s No.1 Translation
-                                Marketplace that offers Most Transparent, Intuitive and Cost-effective
-                                Online Portal to customers who need their documents/web/video contents
-                                translated with high-quality and speed.<br />
-                                <br />
-                                Unlike other options available in the market (translation companies, online
-                                translation agencies, etc.) Marstranslation.com connects its customers with
-                                Top-rated, Certified, Native Translators from across the world who deliver
-                                high-quality translations as per company standards.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="video"><img alt="video section" class="img-responsive"
-                                src="/assets/images/ui/video-cover.jpg" /><a class="play_btn playVideo"
-                                data-target="#video_modal" data-toggle="modal" href="javascript:void(0)"
-                                title="Learn How Mars Translation Works"> </a></div>
-                    </div>
-                </div>
             </div>
         </section>
 
-        <section class="mission_block pd_lg text-center" id="mission_block">
-            <div class="container">
-                <div class="text_row less_space">
-                    <h2 class="heading">Mission</h2>
-                </div>
-
-                <p class="font_21">Our mission is to provide translation customers with a sophisticated yet
-                    streamlined online portal that is more than just another platform – offers innovative
-                    features to accomplish more – and which connects them with top-rated translators across
-                    the world so that both customers and translators enjoy a win-win situation, resulting
-                    from making every project a success.</p>
-            </div>
-        </section>
-
-        <section class="section_green_bg vision_block pd_lg text-center">
-            <div class="container">
-                <div class="text_row less_space">
-                    <h2 class="heading">Vision</h2>
-                </div>
-
-                <p class="font_21">Our vision is to be the No.1 choice of translation customers by offering
-                    enhanced real-time interactions and reporting to ensure a wonderful Translations Project
-                    Management Experience.</p>
-            </div>
-        </section>
-
-        <section class="section_white_bg pd_lg features_block values_block clearfix" id="values_block">
+        <section class="section_grey_bg pd_lg features_block clearfix" 
+        style="background-image: url({{ site.data.pages.about.block_3.background_image }});
+        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_3.color_overlay }}; 
+        background-position: center bottom; 
+        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-size: cover;
+        {% if site.data.pages.about.block_3.visible == true %}
+        display: block; 
+        {% else %}
+        display: none;
+        {% endif %}"
+        >
             <div class="container">
                 <div class="text_row text-center">
-                    <h2 class="heading">Values</h2>
+                    <h2 class="heading">{{site.data.pages.about.block_3.title}}</h2>
 
-                    <p class="font_16">Marstranslation.com practices following business values to ensure
-                        both customers and translators<br />
-                        enjoy a sustainable work-relationship.</p>
+                    <div class="font_16">{{site.data.pages.about.block_3.text | markdownify }}</div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-6 col-offset-1">
-                    <div class="media text-center"><span class="media-left"><i class="media-object focus"> </i>
+                {% for item in site.data.pages.about.block_3.items %}
+                <div class="col-md-3 col-sm-6 col-xs-6 
+                {% if forloop.first == true %}
+                col-offset-1
+                {% elsif forloop.last == true %}
+                col-offset-left-1
+                {% endif %}">
+                    <div class="media text-center">
+                        <span class="media-left">
+                            <div class="media-object">
+                                <image src="{{item.icon}}" style="width: 100%"></image>
+                            </div>
                         </span>
 
                         <div class="media-body">
-                            <h4 class="media-heading">Customer-focus</h4>
+                            <h4 class="media-heading">{{item.title}}</h4>
+
+                            <div>{{ item.text | markdownify }}</div>
                         </div>
                     </div>
                 </div>
+                {% endfor %}
 
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="media text-center"><span class="media-left"><i class="media-object transparency"> </i>
+            </div>
+        </section>
+
+        <section class="section_grey_bg pd_lg features_block clearfix" 
+        style="background-image: url({{ site.data.pages.about.block_4.background_image }});
+        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_4.color_overlay }}; 
+        background-position: center bottom; 
+        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-size: cover;
+        {% if site.data.pages.about.block_4.visible == true %}
+        display: block; 
+        {% else %}
+        display: none;
+        {% endif %}"
+        >
+            <div class="container">
+                <div class="text_row text-center">
+                    <h2 class="heading">{{site.data.pages.about.block_4.title}}</h2>
+
+                    <div class="font_16">{{site.data.pages.about.block_4.text | markdownify }}</div>
+                </div>
+
+                {% for item in site.data.pages.about.block_4.items %}
+                <div class="col-md-3 col-sm-6 col-xs-6 
+                {% if forloop.first == true %}
+                col-offset-1
+                {% elsif forloop.last == true %}
+                col-offset-left-1
+                {% endif %}">
+                    <div class="media text-center">
+                        <span class="media-left">
+                            <div class="media-object">
+                                <image src="{{item.icon}}" style="width: 100%"></image>
+                            </div>
                         </span>
 
                         <div class="media-body">
-                            <h4 class="media-heading">Transparency</h4>
+                            <h4 class="media-heading">{{item.title}}</h4>
+
+                            <div>{{ item.text | markdownify }}</div>
                         </div>
                     </div>
                 </div>
+                {% endfor %}
 
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="media text-center"><span class="media-left"><i class="media-object integrity"> </i>
+            </div>
+        </section>
+
+        <section class="section_grey_bg pd_lg features_block clearfix" 
+        style="background-image: url({{ site.data.pages.about.block_5.background_image }});
+        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_5.color_overlay }}; 
+        background-position: center bottom; 
+        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-size: cover;
+        {% if site.data.pages.about.block_5.visible == true %}
+        display: block; 
+        {% else %}
+        display: none;
+        {% endif %}"
+        >
+            <div class="container">
+                <div class="text_row text-center">
+                    <h2 class="heading">{{site.data.pages.about.block_5.title}}</h2>
+
+                    <div class="font_16">{{site.data.pages.about.block_5.text | markdownify }}</div>
+                </div>
+
+                {% for item in site.data.pages.about.block_5.items %}
+                <div class="col-md-3 col-sm-6 col-xs-6 
+                {% if forloop.first == true %}
+                col-offset-1
+                {% elsif forloop.last == true %}
+                col-offset-left-1
+                {% endif %}">
+                    <div class="media text-center">
+                        <span class="media-left">
+                            <div class="media-object">
+                                <image src="{{item.icon}}" style="width: 100%"></image>
+                            </div>
                         </span>
 
                         <div class="media-body">
-                            <h4 class="media-heading">Integrity</h4>
+                            <h4 class="media-heading">{{item.title}}</h4>
+
+                            <div>{{ item.text | markdownify }}</div>
                         </div>
                     </div>
                 </div>
+                {% endfor %}
 
-                <div class="col-md-3 col-sm-6 col-xs-6 col-offset-left-1">
-                    <div class="media text-center"><span class="media-left"><i class="media-object confident"> </i>
+            </div>
+        </section>
+
+        <section class="mission_block pd_lg text-center" id="block_7" 
+        style="background-image: url({{ site.data.pages.about.block_7.background_image }});
+        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_7.color_overlay }}; 
+        background-position: center bottom; 
+        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-size: cover;
+        {% if site.data.pages.about.block_7.visible == true %}
+        display: block; 
+        {% else %}
+        display: none;
+        {% endif %}"
+        >
+            <div class="container">
+                <div class="text_row less_space">
+                    <h2 class="heading">{{site.data.pages.about.block_7.title}}</h2>
+                </div>
+
+                <div class="font_21">{{site.data.pages.about.block_7.text}}</div>
+            </div>
+        </section>
+
+        <section class="section_green_bg vision_block pd_lg text-center" 
+        style="background-image: url({{ site.data.pages.about.block_8.background_image }});
+        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_8.color_overlay }}; 
+        background-position: center bottom; 
+        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-size: cover;
+        {% if site.data.pages.about.block_8.visible == true %}
+        display: block; 
+        {% else %}
+        display: none;
+        {% endif %}"
+        >
+            <div class="container">
+                <div class="text_row less_space">
+                    <h2 class="heading">{{site.data.pages.about.block_8.title}}</h2>
+                </div>
+
+                <div class="font_21">{{site.data.pages.about.block_8.text}}</div>
+            </div>
+        </section>
+
+        <section class="section_white_bg pd_lg features_block values_block clearfix" id="block_9" 
+        style="background-image: url({{ site.data.pages.about.block_9.background_image }});
+        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_9.color_overlay }}; 
+        background-position: center bottom; 
+        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-size: cover;
+        {% if site.data.pages.about.block_9.visible == true %}
+        display: block; 
+        {% else %}
+        display: none;
+        {% endif %}"
+        >
+            <div class="container">
+                <div class="text_row text-center">
+                    <h2 class="heading">{{site.data.pages.about.block_9.title}}</h2>
+
+                    <p class="font_16">{{site.data.pages.about.block_9.text}}</p>
+                </div>
+                
+                {% for item in site.data.pages.about.block_9.items %}
+                <div class="col-md-3 col-sm-6 col-xs-6 
+                {% if forloop.first == true %}
+                col-offset-1
+                {% elsif forloop.last == true %}
+                col-offset-left-1
+                {% endif %}">
+                    <div class="media text-center">
+                        <span class="media-left">
+                            <div class="media-object">
+                                <image src="{{item.icon}}" style="width: 100%"></image>
+                            </div>
                         </span>
 
                         <div class="media-body">
-                            <h4 class="media-heading">Confidentiality</h4>
+                            <h4 class="media-heading">{{item.title}}</h4>
+
+                            <div>{{ item.text | markdownify }}</div>
                         </div>
                     </div>
                 </div>
+                {% endfor %}
             </div>
         </section>
     </div>

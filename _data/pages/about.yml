@@ -1,83 +1,140 @@
-introduce_quote: 'Our journey started from 2018 as translation team and developed into business that we love and strive to grow every single day'
-introduce_button: 'Contact Us'
-link_introduce_button: ''
-introduce_background_image: '/img/introduce.jpg'
-introduce_color_overlay: 'rgba(33, 34, 88, 0.5)'
-introduce_text_color: 'light_text'
+block_1:
+  visible: true
+  background_image: '/assets/images/upload/hand_punch.jpg'
+  color_overlay: 'rgba(50, 50, 50, 0.5)'
+  text: 'Our story started in 2012 as a
+  <br/>translation project and developed
+  <br/>into a business that we love and
+  <br/>strive to grow each day.'
+  button:
+    name: 'Contact Us'
+    link: '#'
+  items:
+  - id: 'block_2'
+    name: 'Overview'
+  - id: 'block_7'
+    name: 'Mission & Vision'
+  - id: 'block_9'
+    name: 'Our Value'
+      
 
+block_2:
+  visible: true
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  text: 'Mars Translation is an international leader in the translation marketplace that offers a transparent, intuitive and cost-effective online portal to customers who need documents, web content, and video content translated guaranteeing high-quality and speed. Unlike other options currently available in the market (translation companies, online translation agencies, etc.), Marstranslation.com connects its customers with highly rated, certified, native translators from around the world who deliver quality translations according to company standards.'
 
-introduce_menu:
-  - title: 'Overview'
-    link: '#overview'
-  - title: 'Vision'
-    link: '#vision'
-  - title: 'Belief'
-    link: '#belief'
-  - title: 'Jobs'
-    link: '#jobs'
-  - title: 'Team'
-    link: '#team'
+block_3:
+  visible: true
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Translations Are Better With Experts'
+  text: 'This is where creme de la creme of world’s translation talent is. <br/>We have industry experts who only get paid for the words they translate, nothing more, nothing less.'
+  items:
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'More'
+      text: '120+ languages <br/>5000+ translators, more solutions'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Rapid'
+      text: '24/7 service <br/>200 words/hour/translator'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Accurate'
+      text: 'ISO 9001:2008 Certified <br/>Native translators only'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Saving'
+      text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
 
+block_4:
+  visible: true
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Translations Are Better With Experts'
+  text: 'This is where creme de la creme of world’s translation talent is. <br/>We have industry experts who only get paid for the words they translate, nothing more, nothing less.'
+  items:
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'More'
+      text: '120+ languages <br/>5000+ translators, more solutions'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Rapid'
+      text: '24/7 service <br/>200 words/hour/translator'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Accurate'
+      text: 'ISO 9001:2008 Certified <br/>Native translators only'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Saving'
+      text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
 
-overview_title: 'Who We Are'
-overview_text: 'John and David Company or JNDC is a Vietnamese Languages Company We is a leader in providing translation services in the translation marketplace that offers a transparent, intuitive and cost-effective online portal to customers who need documents, web content and video content translated guaranteeing high-quality and high speed. John and David Company connects its customers with highly rated, certified, Vietnamese native translators who can deliver quality translation and follow our company strict standards.'
-overview_background_image: '/img/introduce.jpg'
-overview_color_overlay: 'rgba(250,250,250,1)'
-overview_text_color: 'dark_text'
+block_5:
+  visible: true
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Translations Are Better With Experts'
+  text: 'This is where creme de la creme of world’s translation talent is. <br/>We have industry experts who only get paid for the words they translate, nothing more, nothing less.'
+  items:
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'More'
+      text: '120+ languages  <br/>5000+ translators, more solutions'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Rapid'
+      text: '24/7 service <br/>200 words/hour/translator'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Accurate'
+      text: 'ISO 9001:2008 Certified <br/>Native translators only'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Saving'
+      text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
 
+block_6:
+  visible: true
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Translations Are Better With Experts'
+  text: 'This is where creme de la creme of world’s translation talent is. <br/>We have industry experts who only get paid for the words they translate, nothing more, nothing less.'
+  items:
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'More'
+      text: '120+ languages  <br/>5000+ translators, more solutions'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Rapid'
+      text: '24/7 service <br/>200 words/hour/translator'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Accurate'
+      text: 'ISO 9001:2008 Certified <br/>Native translators only'
+    - icon: '/assets/images/upload/recommended.png'
+      title: 'Saving'
+      text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
 
-vision_title: 'Our Vision'
-vision_text: 'Our vision is to affirm the position of Vietnamese People in the world and to help people around the world come close together by breaking their languages barriers. With that such great ambition, John and David Company starts at providing our high-qualified Vietnamese Translation Services which we are most confident.'
-vision_background_image: '/img/introduce.jpg'
-vision_color_overlay: 'rgba(33,34,88,1)'
-vision_text_color: 'light_text'
+block_7:
+  visible: true
+  background_image: '/assets/images/upload/hand_punch.jpg'
+  color_overlay: 'rgba(50, 50, 60, 0.5)'
+  title: 'Mission'
+  text: 'Our mission is to provide translation customers with a sophisticated yet streamlined online portal that is more than just another platform – offers innovative features to accomplish more – and which connects them with top-rated translators across the world so that both customers and translators enjoy a win-win situation, resulting from making every project a success.'
 
+block_8:
+  visible: true
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Vision'
+  text: 'Our vision is to be the No.1 choice of translation customers by offering enhanced real-time interactions and reporting to ensure a wonderful Translations Project Management Experience.'
 
-belief_title: 'What do we believe'
-belief_description: 
-  - title: 'Something here'
-    text: 'We believe what we do challenge existing limitation. Please write more.'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'We believe what we think and what we action is making a difference. Please write more.'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'We believe that we together can create a better world. Please write more.'
-    icon: '/img/recommended.png'
-belief_side_image: '/img/introduce.jpg'
-belief_background_image: ''
-belief_color_overlay: 'rgba(0,0,0,0)'
-belief_text_color: 'dark_text'
+block_9:
+  visible: true
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Values'
+  text: 'Marstranslation.com practices following business values to ensure both customers and translators <br />enjoy a sustainable work-relationship.'
+  items:
+  - icon: '/assets/images/upload/recommended.png'
+    title: 'Customer-focus'
+    text: ''
+  - icon: '/assets/images/upload/recommended.png'
+    title: 'Transparency'
+    text: ''
+  - icon: '/assets/images/upload/recommended.png'
+    title: 'Integrity'
+    text: ''
+  - icon: '/assets/images/upload/recommended.png'
+    title: 'Confidentiality'
+    text: ''
 
-
-jobs_title: 'How Do We Do Our Jobs'
-jobs_description: 
-  - title: 'Something here'
-    text: 'We put our heart in every word, every sentence, every page, every project that we do.'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'We strive to provide the best services which are dedicated by our rich experience translation experts to our customers.'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'We make the best effort to complete your project as fast as possible with the excellent quality.'
-    icon: '/img/recommended.png'
-jobs_side_image: '/img/introduce.jpg'
-jobs_background_image: ''
-jobs_color_overlay: 'rgba(250,250,250,1)'
-jobs_text_color: 'dark_text'
-
-
-team_title: 'Our Team'
-team_description:
-  - title: 'Something here'
-    text: 'Our team have at least 5 year of experience. They are confident in them translation skills and they can take care all translation projects from English into Vietnamese and vice versa.'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'Our translator are all native speaker'
-    icon: '/img/recommended.png'
-  - title: 'Something here'
-    text: 'All members in our team are recruited strictly and they have a deep knowledge in the projects that they undertake.'
-    icon: '/img/recommended.png'
-team_background_image: '/img/introduce.jpg'
-team_color_overlay: 'rgba(255,255,255,0.9)'
-team_text_color: 'dark_text'

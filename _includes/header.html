@@ -65,12 +65,16 @@
           </ul>
 
           <ul class="nav navbar-nav navbar-right ">
+            {% if site.data.header.primary_nav.button_1.visible == true %}
             <li>
               <a class="btn btn_maroon text-uppercase" href="{{site.data.header.primary_nav.button_1.link}}" id="menu-instant-quote">{{site.data.header.primary_nav.button_1.name}}</a>
             </li>
+            {% endif %}
+            {% if site.data.header.primary_nav.button_2.visible == true %}
             <li>
               <a class="btn btn_grey text-uppercase" id="menu-place-order" href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
             </li>
+            {% endif %}
           </ul>
 
         </div>
@@ -79,11 +83,15 @@
       <div class="navbar_right_mobile ">
         <div class="container">
           <ul class="nav navbar-nav navbar-right">
+            {% if site.data.header.primary_nav.button_1.visible == true %}
             <li>
               <a class="btn btn_maroon text-uppercase" href="{{site.data.header.primary_nav.button_1.link}}" id="menu-instant-quote">{{site.data.header.primary_nav.button_1.name}}</a>
             </li>
+            {% endif %}
+            {% if site.data.header.primary_nav.button_2.visible == true %}
             <li><a class="btn btn_grey text-uppercase" id="menu-place-order" href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
             </li>
+            {% endif %}
           </ul>
         </div>
       </div>

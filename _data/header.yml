@@ -25,7 +25,7 @@ primary_nav:
     - title: 'Transcription Services'
       link: '/pages/transcription_services'
 
-  - title: 'Expertise'
+  - title: 'Industries'
     sub_nav:
     - title: 'Legal'
       link: '/pages/legal'
@@ -46,8 +46,10 @@ primary_nav:
     link: '/pages/languages'
   
   button_1:
+    visible: true
     name: 'Get Quote'
     link: '#'
   button_2:
+    visible: false
     name: 'Place Order'
     link: '#'

@@ -1,0 +1,154 @@
+.page_top_banner {background: url('/assets/images/ui/proofreading-content.jpg?version=1.7.40') no-repeat;min-height: 530px;position: relative;padding: 50px 0 200px;background-size: cover;}
+.page_top_banner.transcration_banner {background: url('/assets/images/ui/transcreation-page-banner.jpg?version=1.7.40') no-repeat center/cover;}
+.page_top_banner.transcription_banner {background: url('/assets/images/ui/transcription-page-banner.jpg?version=1.7.40') no-repeat center/cover;}
+.page_top_banner .banner_text {margin-top: 27px;}
+.page_top_banner .banner_text .heading {font: 42px/1.2 "ubuntu-medium";color: #fff;margin-bottom: 18px;}
+.page_top_banner .banner_text .desc {font: 20px/1.5 "opensans-regular";color: #fff;}
+.page_top_banner .banner_text .btn_wrap {margin-top: 32px;}
+.page_top_banner .banner_text .btn_wrap .btn {min-width: 192px;padding: 9px 28px;}
+.business_pages_content {background: #fff url('/assets/images/ui/business_pages_content-background.png?version=1.7.40') no-repeat;background-size: cover;background-position: center 250px;}
+.business_pages_content.transcreation_page .banner_bottom_section .content_block {padding: 53px 100px 67px;}
+.business_pages_content .text_row .heading {color: #484848;margin-bottom: 15px;}
+.business_pages_content .text_row .desc {font: 16px/1.5 "opensans-light";color: #393939;margin: 0 auto;}
+.business_pages_content .banner_bottom_section {position: relative;top: -107px;}
+.business_pages_content .banner_bottom_section .content_block {background-color: #fff;padding: 53px 70px 67px;border-radius: 5px;box-shadow: 0px 25px 43.24px 2.76px rgba(0, 0, 0, 0.08);}
+.business_pages_content .banner_bottom_section .content_block .title {font: 30px/1.2 "ubuntu-regular";color: #484848;margin-bottom: 13px;}
+.business_pages_content .banner_bottom_section .content_block .desc {font: 16px/1.5 "opensans-light";color: #393939;}
+.business_pages_content .features_list_section {padding-top: 20px;padding-bottom: 44px;}
+.business_pages_content .features_list_section .text_row {margin-bottom: 25px;}
+.business_pages_content .features_list_section .features_list .single_item {background: #fff;flex: 0 0 47.85%;margin-top: 40px;padding: 40px 37px 40px 52px;border-radius: 5px;box-shadow: 0px 26px 43px 0px rgba(16, 66, 97, 0.07);}
+.business_pages_content .features_list_section .features_list .single_item .icons {width: 44px;height: 44px;display: flex;align-items: center;justify-content: center;border-radius: 50%;}
+.business_pages_content .features_list_section .features_list .single_item .icons.purple {background-color: #b372fe;box-shadow: 0px 0px 0px 7px rgba(179, 114, 254, 0.15);}
+.business_pages_content .features_list_section .features_list .single_item .icons.green {background-color: #39f1a7;box-shadow: 0px 0px 0px 7px rgba(54, 241, 166, 0.15);}
+.business_pages_content .features_list_section .features_list .single_item .icons.orange {background-color: #ffc04e;box-shadow: 0px 0px 0px 7px rgba(255, 192, 78, 0.15);}
+.business_pages_content .features_list_section .features_list .single_item .icons.red {background-color: #f95f6d;box-shadow: 0px 0px 0px 7px rgba(249, 95, 109, 0.15);}
+.business_pages_content .features_list_section .features_list .single_item .media-left {padding: 13px 29px 0 0;}
+.business_pages_content .features_list_section .features_list .single_item .media-body .title {font: 16px/1.2 "opensans-semi-bold";color: #484848;margin-bottom: 13px;}
+.business_pages_content .features_list_section .features_list .single_item .media-body .desc {color: #788390;line-height: 1.75;}
+.business_pages_content .transcription_services_list .text_row {margin-bottom: 45px;}
+.business_pages_content .transcription_services_list .content_list li .single_item {background-color: white;padding: 20px 20px 25px;border-radius: 12px;box-shadow: 0px 14px 68px 0px rgba(16, 66, 97, 0.07);}
+.business_pages_content .transcription_services_list .content_list li .single_item .svg_icon {height: 35px;width: 29px;display: block;position: relative;z-index: 2;margin-left: 7px;}
+.business_pages_content .transcription_services_list .content_list li .single_item .svg_icon::before {content: "";display: inline-block;width: 27px;height: 30px;z-index: -1;border-radius: 5px;position: absolute;top: 10px;left: -5px;box-shadow: -5.516px 4.31px 13px 0 rgba(186, 189, 197, 0.28);}
+.business_pages_content .transcription_services_list .content_list li .single_item .title {font: 16px/1.2 "opensans-semi-bold";color: #484848;margin: 22px 0 14px;}
+.business_pages_content .transcription_services_list .content_list li .single_item .list-unstyled li {font: 14px/1.2 "opensans-semi-bold";color: #788390;}
+.business_pages_content .transcription_services_list .content_list li .single_item .list-unstyled li::before {content: ".";font: 23px/1 "opensans-semi-bold";display: inline-block;width: 10px;color: #788390;position: relative;top: -3px;}
+.business_pages_content .expert_transaltion_services_page .why_mars_block .spacifications_list li.spac_item .media-left {padding-right: 16px;}
+.business_pages_content .expert_transaltion_services_page .why_mars_block .spacifications_list li.spac_item .desc {color: #788390;}
+.business_pages_content .expert_transaltion_services_page .quick_start_block .btn_wrap {display: inline-block;}
+.business_pages_content .expert_transaltion_services_page .quick_start_block .btn_wrap .btn {font-size: 16px;min-width: 161px;padding: 10px 20px;}
+.business_pages_content .expert_transaltion_services_page .quick_start_block .btn_wrap .btn.btn_maroon {margin: 0 7px 0 26px;}
+.business_pages_content .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .carousel-inner .item .media .media-left img {width: 128px;height: 128px;border: 2px solid #f9f9f9;}
+.business_pages_content .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .carousel-inner .item .media .media-left .image_title {margin-top: 26px;margin-bottom: 0;}
+.business_pages_content .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .carousel-inner .item .media .media-body {padding-top: 23px;}
+.business_pages_content .expert_transaltion_services_page .customer_feedback_with_multiple_slides .testimonial-carousel .carousel-inner .item .media .media-body .feedback_text {color: #484848;}
+.business_pages_content .expert_transaltion_services_page .blog_slider_block {padding-top: 64px;}
+.business_pages_content .expert_transaltion_services_page .blog_slider_block .text_row {margin-bottom: 54px;}
+.business_pages_content .red_circle {background-color: #ffa3a4;display: inline-block;width: 26px;height: 26px;border-radius: 50%;}
+.business_pages_content .red_circle.first {position: relative;top: 135px;left: 1135px;}
+.business_pages_content .red_circle.second {position: relative;top: -55px;left: 1035px;}
+.business_pages_content .yellow_circle {background-color: #fed98b;display: inline-block;width: 10px;height: 10px;border-radius: 50%;}
+.business_pages_content .yellow_circle.first {position: relative;top: -70px;left: 1125px;}
+.business_pages_content .yellow_circle.second {position: relative;top: 515px;left: 100px;}
+.business_pages_content .cyan_circle {background-color: #8ef4e6;display: inline-block;width: 12px;height: 12px;border-radius: 50%;}
+.business_pages_content .cyan_circle.first {position: relative;top: -60px;left: 0px;}
+.business_pages_content .cyan_circle.second {position: relative;top: 520px;left: 1110px;}
+
+@media all and (min-width: 1160px) and (max-width: 1280px) {
+  .business_pages_content .cyan_circle.first {left: 50px;}
+  .business_pages_content .cyan_circle.second {top: 550px;left: 1000px;}
+  .business_pages_content .red_circle.first {top: 88px;left: 1000px;}
+  .business_pages_content .red_circle.second {left: 1000px;}
+  .business_pages_content .yellow_circle.first {left: 980px;}
+}
+@media all and (max-width : 1160px) {
+  .business_pages_content .red_circle, .business_pages_content .yellow_circle, .business_pages_content .cyan_circle {display: none;}
+}
+@media all and (min-width : 1160px) {
+  .business_pages_content .features_list_section .features_list {padding: 0 100px;}
+}
+@media all and (min-width: 960px) {
+  .business_pages_content .expert_transaltion_services_page .customer_feedback_with_multiple_slides .text_row .desc {font-size: 18px;}
+  .business_pages_content .expert_transaltion_services_page .blog_slider_block .blog_carousel .carousel-inner .blog_list li {padding-right: 0;}
+  .business_pages_content .expert_transaltion_services_page .blog_slider_block .blog_carousel .carousel-inner .blog_list li:last-child {padding-right: 15px;}
+}
+@media all and (min-width: 960px) and (max-width: 1024px), all and (min-width: 768px) and (max-width: 800px) {
+  .business_pages_content .transcription_services_list .content_list li {margin-bottom: 30px;}
+}
+@media all and (min-width: 960px) and (max-width: 1024px) {
+  .business_pages_content .transcription_services_list .content_list li {width: 50%;}
+  .business_pages_content .expert_transaltion_services_page .blog_slider_block .blog_carousel .carousel-inner .blog_list li {margin-bottom: 40px;}
+}
+@media all and (min-width: 768px) {
+  .page_top_banner {padding: 50px 0 200px;}
+}
+@media all and (min-width: 768px) and (max-width: 800px), all and (min-width: 640px) and (max-width: 667px), all and (min-width: 540px) and (max-width: 568px), all and (min-width: 320px) and (max-width: 375px) {
+  .page_top_banner {min-height: 410px;padding: 0 0 160px;}
+}
+@media all and (min-width: 768px) and (max-width: 800px), all and (min-width: 640px) and (max-width: 667px), all and (min-width: 540px) and (max-width: 568px), all and (min-width: 400px) and (max-width: 480px) {
+  .business_pages_content .features_list_section {padding-top: 0;margin-top: -50px;}
+}
+@media all and (min-width: 768px) {
+  .business_pages_content .text_row .desc {width: 75%;}
+}
+@media all and (min-width: 768px) and (max-width: 800px), all and (min-width: 640px) and (max-width: 667px) {
+  .business_pages_content .expert_transaltion_services_page .why_mars_block {padding: 30px 0;}
+}
+@media all and (min-width: 768px) and (max-width: 800px), all and (min-width: 540px) and (max-width: 568px) {
+  .business_pages_content .expert_transaltion_services_page .why_mars_block .spacifications_list li.spac_item {padding: 10px;}
+}
+@media all and (min-width: 768px) and (max-width: 800px) {
+  .business_pages_content .banner_bottom_section .content_block {padding: 30px 50px 40px;}
+  .business_pages_content .expert_transaltion_services_page .customer_feedback_with_multiple_slides.pd_lg {padding: 50px 0 20px;}
+  .business_pages_content .expert_transaltion_services_page .blog_slider_block {padding: 50px 0;}
+  .business_pages_content .features_list_section .features_list .single_item {padding: 30px 20px 30px 30px;}
+}
+@media all and (max-width: 667px) {
+  .business_pages_content .transcription_services_list .content_list li {margin-bottom: 15px;}
+}
+@media all and (min-width: 640px) and (max-width: 667px), all and (min-width: 540px) and (max-width: 568px), all and (min-width: 400px) and (max-width: 480px), all and (min-width: 320px) and (max-width: 375px) {
+  .business_pages_content .features_list_section .features_list .single_item {flex: 0 0 100%;margin-top: 30px;}
+}
+@media all and (min-width: 640px) and (max-width: 667px) {
+  .business_pages_content .banner_bottom_section .content_block {padding: 20px 30px 30px;}
+  .business_pages_content .banner_bottom_section .content_block .title {font-size: 27px;}
+  .business_pages_content .expert_transaltion_services_page .blog_slider_block {padding-top: 30px;}
+}
+@media all and (min-width: 640px) and (max-width: 667px), all and (min-width: 540px) and (max-width: 568px), all and (min-width: 400px) and (max-width: 480px) {
+  .business_pages_content .expert_transaltion_services_page .blog_slider_block .blog_carousel .carousel-inner .blog_list li {margin-bottom: 25px;}
+}
+@media all and (min-width: 540px) and (max-width: 568px), all and (min-width: 400px) and (max-width: 480px) {
+  .business_pages_content .banner_bottom_section .content_block .title {font-size: 24px;}
+}
+@media all and (min-width: 540px) and (max-width: 568px), all and (min-width: 400px) and (max-width: 480px), all and (min-width: 320px) and (max-width: 375px) {
+  .business_pages_content .features_list_section {padding-bottom: 20px;}
+}
+@media all and (min-width: 540px) and (max-width: 568px) {
+  .business_pages_content .banner_bottom_section .content_block {padding: 20px 25px;}
+  .business_pages_content .features_list_section .features_list .single_item {padding: 25px 30px 25px 40px;}
+  .business_pages_content .expert_transaltion_services_page .customer_feedback_with_multiple_slides.pd_lg {padding: 30px 0 0;}
+}
+@media all and (min-width: 540px) and (max-width: 568px), all and (min-width: 400px) and (max-width: 480px), all and (min-width: 320px) and (max-width: 375px) {
+  .business_pages_content .expert_transaltion_services_page .blog_slider_block {padding-top: 20px;}
+}
+@media all and (min-width: 400px) and (max-width: 480px), all and (min-width: 320px) and (max-width: 375px) {
+  .page_top_banner .banner_text {margin-top: 0;}
+  .page_top_banner {min-height: auto;padding: 0 0 130px;}
+  .business_pages_content .banner_bottom_section .content_block {padding: 10px 20px 20px;}
+  .business_pages_content .banner_bottom_section .content_block .desc {font-size: 14px;}
+  .business_pages_content .transcription_services_list .content_list li {width: 100%;}
+}
+@media all and (min-width: 400px) and (max-width: 480px) {
+  .page_top_banner .banner_text .heading {font-size: 30px;margin-bottom: 10px;}
+  .page_top_banner .banner_text .btn_wrap .btn {min-width: 170px;padding: 9px 15px;}
+  .business_pages_content .features_list_section .features_list .single_item {margin-top: 20px;padding: 25px 20px 25px 35px;}
+}
+@media all and (min-width: 320px) and (max-width: 375px) {
+  .page_top_banner .banner_text .heading {font-size: 27px;margin-bottom: 7px;}
+  .page_top_banner .banner_text .desc {font-size: 17px;}
+  .page_top_banner .banner_text .btn_wrap {margin-top: 15px;}
+  .business_pages_content .banner_bottom_section .content_block .title {font-size: 20px;}
+  .business_pages_content .features_list_section {padding-top: 0;margin-top: -70px;}
+  .business_pages_content .features_list_section .features_list .single_item {margin-top: 20px;padding: 25px 25px 20px;}
+  .business_pages_content .features_list_section .features_list .single_item .media-left {display: block;margin-bottom: 20px;}
+  .business_pages_content .expert_transaltion_services_page .blog_slider_block .blog_carousel .carousel-inner .blog_list li {margin-bottom: 20px;}
+}

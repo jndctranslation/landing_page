@@ -29,10 +29,14 @@ description: 'This is the description of the page'
         <div class="container">
           <div class="text_wrap">
             <h1 class="heading">{{site.data.pages.home.block_1.title }}</h1>
-            <p>{{site.data.pages.home.block_1.text | markdownify }}</p>
+            <div>{{site.data.pages.home.block_1.text | markdownify }}</div>
             <div class="btn_wrap">
-              <a class="btn btn-md btn_maroon" href="/instant-quote" id="home-banner-instant">{{site.data.pages.home.block_1.button_1.name}}</a>
-              <a class="btn btn-md btn_white_fill" href="/place-order" id="home-banner-order">{{site.data.pages.home.block_1.button_2.name}}</a>
+              {% if site.data.header.primary_nav.button_1.visible == true %}
+              <a class="btn btn-md btn_maroon" href="{{site.data.header.primary_nav.button_1.link}}" id="home-banner-instant">{{site.data.header.primary_nav.button_1.name}}</a>
+              {% endif %}
+              {% if site.data.header.primary_nav.button_2.visible == true %}
+              <a class="btn btn-md btn_white_fill" href="{{site.data.header.primary_nav.button_2.link}}" id="home-banner-order">{{site.data.header.primary_nav.button_2.name}}</a>
+              {% endif %}
             </div>
           </div>
         </div>
@@ -62,7 +66,7 @@ description: 'This is the description of the page'
 
       <div class="text_row text-center">
         <h2 class="heading">{{site.data.pages.home.block_2.title }}</h2>
-        <p class="p-md">{{site.data.pages.home.block_2.text | markdownify }}</p>
+        <div class="p-md">{{site.data.pages.home.block_2.text | markdownify }}</div>
       </div>
       <ul class="thumbnail_list_3 list-inline text-center">
       {% for item in site.data.pages.home.block_2.items %}
@@ -71,7 +75,7 @@ description: 'This is the description of the page'
             <img style="width: 100%" src="{{item.icon}}">
           </span>
           <a href="/services/document-translation-services" class="title">{{item.title }}</a>
-          <p class="desc">{{item.text | markdownify }}</p>
+          <div class="desc">{{item.text | markdownify }}</div>
         </li>
       {% endfor %}
       </ul>
@@ -98,7 +102,7 @@ description: 'This is the description of the page'
       <div class="text_row text-center">
         <h2 class="heading">{{site.data.pages.home.block_3.title }}</h2>
 
-        <p class="p-md text-center">{{site.data.pages.home.block_3.text | markdownify }}</p>
+        <div class="p-md text-center">{{site.data.pages.home.block_3.text | markdownify }}</div>
       </div>
       {% for item in site.data.pages.home.block_3.items %}
       <div class="content_box row">
@@ -113,7 +117,7 @@ description: 'This is the description of the page'
         <div class="col-sm-6 col-xs-12">
           <h3 class="h4 box_title">{{item.title }}</h3>
 
-          <p>{{item.text | markdownify }}</p>
+          <div>{{item.text | markdownify }}</div>
         </div>
       </div>
       {% endfor %}
@@ -139,7 +143,7 @@ description: 'This is the description of the page'
       <div class="text_row text-center">
         <h2 class="heading">{{site.data.pages.home.block_4.title }}</h2>
 
-        <p class="p-md">{{site.data.pages.home.block_4.text | markdownify }}</p>
+        <div class="p-md">{{site.data.pages.home.block_4.text | markdownify }}</div>
 
         <div class="btn_wrap"><a class="btn btn_white_fill" href="{{site.data.pages.home.block_4.button.link}}">{{site.data.pages.home.block_4.button.name}}</a>
         </div>
@@ -166,7 +170,7 @@ description: 'This is the description of the page'
       <div class="text_row text-center">
         <h2 class="heading">{{site.data.pages.home.block_5.title }}</h2>
 
-        <p class="p-md">{{site.data.pages.home.block_5.text | markdownify }}</p>
+        <div class="p-md">{{site.data.pages.home.block_5.text | markdownify }}</div>
       </div>
 
       <ul class="services_list list-unstyled">
@@ -175,7 +179,7 @@ description: 'This is the description of the page'
 
           <h3 class="h4 step_name">{{item.title }}</h3>
 
-          <p class="short_detail">{{item.text | markdownify }}</p>
+          <div class="short_detail">{{item.text | markdownify }}</div>
         </li>
         {% endfor %}
       </ul>
@@ -203,7 +207,7 @@ description: 'This is the description of the page'
           <div class="text_row">
             <h2 class="heading">{{site.data.pages.home.block_6.title }}</h2>
 
-            <p class="p-md">{{site.data.pages.home.block_6.text | markdownify  | newline_to_br }}</p>
+            <div class="p-md">{{site.data.pages.home.block_6.text | markdownify  | newline_to_br }}</div>
           </div>
 
           <div class="btn_wrap"><a class="btn btn_maroon2" href="{{site.data.pages.home.block_6.button.link}}">{{site.data.pages.home.block_6.button.name}}</a></div>
@@ -234,7 +238,7 @@ description: 'This is the description of the page'
       <div class="col-sm-6 col-xs-12 pull-right">
         <div class="text_row less_space">
           <h2 class="heading">{{site.data.pages.home.block_7.title }}</h2>
-          <p class="p-md">{{site.data.pages.home.block_7.text | markdownify }}</p>
+          <div class="p-md">{{site.data.pages.home.block_7.text | markdownify }}</div>
         </div>
         <a class="btn btn_maroon2" href="{{site.data.pages.home.block_7.button.link}}">{{site.data.pages.home.block_7.button.name}}</a>
       </div>
@@ -264,12 +268,12 @@ description: 'This is the description of the page'
     <div class="container">
       <div class="text_row text-center">
         <h2 class="heading">{{ site.data.pages.home.block_8.title  }}</h2>
-        <p class="font_15">{{ site.data.pages.home.block_8.text | markdownify  }}</p>
+        <div class="font_15">{{ site.data.pages.home.block_8.text | markdownify  }}</div>
       </div>
       <div class="carousel-wrap">
         <ul class="testimonial_carousel">
           {% for customer in site.data.customer_reviews.customers %}
-          <li class="items main-pos" id="{% increment index %}">
+          <li class="items main-pos" id="{{ forloop.index }}">
             <div class="review-card review-card--option-4 text-center">
               <div class="review-card-img">
                 <img
@@ -320,7 +324,7 @@ description: 'This is the description of the page'
           <div class="text_row">
             <h2 class="heading">{{site.data.pages.home.block_9.title }}</h2>
 
-            <p class="p-lg">{{site.data.pages.home.block_9.text | markdownify }}</p>
+            <div class="p-lg">{{site.data.pages.home.block_9.text | markdownify }}</div>
           </div>
 
           <div class="btn_wrap"><a class="btn btn_maroon2" href="{{site.data.pages.home.block_9.button.link}}">{{site.data.pages.home.block_9.button.name}}</a></div>
