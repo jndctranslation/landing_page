@@ -454,3 +454,4 @@ collections:
     - {name: 'description', label: 'Description', widget: 'markdown'}
     - {name: 'thumb_image', label: 'Thumb Image', widget: 'image'}
     - {name: 'author', label: 'Author', widget: 'string'}
+    - {name: 'body', label: 'Body', widget: 'markdown'}
