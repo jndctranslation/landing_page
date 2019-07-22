@@ -1,8 +1,11 @@
 ---
 layout: blog
-title: "English-Speaking Countries in Africa"
-description: "Being the second largest continent in the world, one might wonder if there are any English-speaking countries in Africa. And the answer would be yes, there are. English translation service? Again, a yes, **considering** that it ..."
-thumb_image: "/assets/images/upload/770b124e95f7b81d9568741d596f47f448000bd6.jpeg"
+title: Spanish Speaking Countries in Europe
+description: >-
+  Being the second largest continent in the world, one might wonder if there are
+  any English-speaking countries in Africa. And the answer would be yes, there
+  are. English translation service? Again, a yes, **considering** that it ...
+thumb_image: /assets/images/upload/770b124e95f7b81d9568741d596f47f448000bd6.jpeg
 author: Antonia
 ---
 
