@@ -23,46 +23,46 @@ collections:
           label: 'Left Side'
           widget: 'object'
           fields:
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
         - name: 'right'
           label: 'Right Side'
           widget: 'list'
           fields:
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
       - name: 'primary_nav'
         label: 'Primary Navigation Bar'
         widget: 'object'
         fields:
-        - {name: 'logo', label: 'Logo', widget: 'string', required: 'false'}
+        - {name: 'logo', label: 'Logo', widget: 'string', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
           - name: 'sub_nav'
             label: 'Sub Naviation'
             widget: 'list'
-            required: 'false'
+            required: false
             fields:
-            - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-            - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+            - {name: 'title', label: 'Title', widget: 'string', required: false}
+            - {name: 'link', label: 'Link', widget: 'string', required: false}
         - name: 'button_1'
           label: 'Button 1'
           widget: 'object'
           fields:
           - {name: 'visible', label: 'Visible', widget: 'boolean'}
-          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
         - name: 'button_2'
           label: 'Button_2'
           widget: 'object'
           fields:
           - {name: 'visible', label: 'Visible', widget: 'boolean'}
-          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
     
     # - name: 'footer_information'
     #   label: 'Footer Information'
@@ -76,10 +76,10 @@ collections:
         label: 'Customers'
         widget: 'list'
         fields:
-        - {name: 'avatar', label: 'Avatar', widget: 'image', required: 'false'}
-        - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-        - {name: 'company', label: 'Company', widget: 'string', required: 'false'}
-        - {name: 'review', label: 'Review', widget: 'string', required: 'false'}
+        - {name: 'avatar', label: 'Avatar', widget: 'image', required: false}
+        - {name: 'name', label: 'Name', widget: 'string', required: false}
+        - {name: 'company', label: 'Company', widget: 'string', required: false}
+        - {name: 'review', label: 'Review', widget: 'string', required: false}
 
   - name: 'website_pages'
     label: 'Website Pages'
@@ -94,151 +94,151 @@ collections:
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_2'
         label: 'Block 2'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_3'
         label: 'Block 3'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_4'
         label: 'Block 4'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'button'
           label: 'Button'
           widget: 'object'
           fields:
-          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
       - name: 'block_5'
         label: 'Block 5'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_6'
         label: 'Block 6'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
-        - {name: 'image', label: 'Image', widget: 'image', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
+        - {name: 'image', label: 'Image', widget: 'image', required: false}
         - name: 'button'
           label: 'Button'
           widget: 'object'
           fields:
-          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
       - name: 'block_7'
         label: 'Block 7'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
-        - {name: 'image', label: 'Image', widget: 'image', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
+        - {name: 'image', label: 'Image', widget: 'image', required: false}
         - name: 'button'
           label: 'Button'
           widget: 'object'
           fields:
-          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
       - name: 'block_8'
         label: 'Block 8'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'button'
           label: 'Button'
           widget: 'object'
           fields:
-          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
       - name: 'block_9'
         label: 'Block 9'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
-        - {name: 'image', label: 'Image', widget: 'image', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
+        - {name: 'image', label: 'Image', widget: 'image', required: false}
         - name: 'button'
           label: 'Button'
           widget: 'object'
           fields:
-          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
       - name: 'block_10'
         label: 'Block 10'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         
     - name: 'about_page_information'
       label: 'About Page Information'
@@ -249,127 +249,127 @@ collections:
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'button'
           label: 'Button'
           widget: 'object'
           fields:
-          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
-          - {name: 'link', label: 'Link', widget: 'string', required: 'false'}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'id', label: 'Id', widget: 'string', required: 'false'}
-          - {name: 'name', label: 'Name', widget: 'string', required: 'false'}
+          - {name: 'id', label: 'Id', widget: 'string', required: false}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
       - name: 'block_2'
         label: 'Block 2'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_3'
         label: 'Block 3'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_4'
         label: 'Block 4'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_5'
         label: 'Block 5'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_6'
         label: 'Block 6'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_7'
         label: 'Block 7'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_8'
         label: 'Block 8'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_9'
         label: 'Block 9'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
     
     - name: 'legal_page_information'
       label: 'Legal Page Information'
@@ -380,67 +380,67 @@ collections:
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_2'
         label: 'Block 2'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_3'
         label: 'Block 3'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: 'false'}
-          - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-          - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_4'
         label: 'Block 4'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
       - name: 'block_5'
         label: 'Block 5'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_6'
         label: 'Block 6'
         widget: 'object'
         fields:
         - {name: 'visible', label: 'Visible', widget: 'boolean'}
-        - {name: 'background_image', label: 'Background Image', widget: 'image', required: 'false'}
-        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: 'false'}
-        - {name: 'title', label: 'Title', widget: 'string', required: 'false'}
-        - {name: 'text', label: 'Text', widget: 'markdown', required: 'false'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
 
     
