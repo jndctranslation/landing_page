@@ -446,7 +446,7 @@ collections:
   - name: 'blog_posts'
     label: 'Blog Posts'
     folder: '_posts'
-    create: 'true'
+    create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
     - {name: 'layout', label: 'Layout', widget: 'hidden', default: 'blog'}
