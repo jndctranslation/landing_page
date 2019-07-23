@@ -1,0 +1,112 @@
+---
+layout: blogs
+---
+
+<section class="blog_list_view">
+    {% for post in paginator.posts %}
+    <article class="article">
+        <div class="title_box">
+            <h2>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <p class="post_info">
+                By:
+                <b class="blog_by"> {{post.author}} </b>
+                <time class="blog_time">Posted on {{ post.date | date: '%B %d, %Y' }}
+                </time>
+            </p>
+        </div>
+        <div class="thumb">
+            <a href="{{ post.url }}">
+                <img src="{{ post.thumb_image }}" class="img-responsive" />
+            </a>
+        </div>
+        <div class="article_content">
+            <p>
+                <div style="text-align: justify;">{{ post.description | markdownify }}</div>
+                <p class="clearfix"></p>
+                <a href="{{ post.url }}">Read more</a>
+        </div>
+    </article>
+    {% endfor %}
+
+</section>
+
+<div class="paginationRow">
+
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <span class="first">
+            <a href="{{ site.paginate_path | relative_url | replace: '/page:num', '' }}">
+                <i class="fa fa-angle-double-left"></i>
+            </a>
+        </span>
+        <span class="previous">
+            <a href="{{ paginator.previous_page_path | relative_url }}">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        </span>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+        <span class="current">{{ page }}</span>
+        {% elsif page == 1 %}
+        <span class="page">
+            <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+        </span>
+        {% else %}
+        <span class="page">
+            <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+        </span>
+        {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+        <span class="previous">
+            <a href="{{ paginator.next_page_path | relative_url }}">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </span>
+        <span class="last">
+            <a href="{{ site.paginate_path | relative_url | replace: ':num', paginator.total_pages }}">
+                <i class="fa fa-angle-double-right"></i>
+            </a>
+        </span>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- <span class="current">1</span>
+
+        <span class="page">
+            <a href="/blog?page=2">2</a>
+        </span>
+
+        <span class="page">
+            <a href="/blog?page=3">3</a>
+        </span>
+
+        <span class="page">
+            <a href="/blog?page=4">4</a>
+        </span>
+
+        <span class="page">
+            <a href="/blog?page=5">5</a>
+        </span>
+
+
+        <span class="next">
+            <a href="/blog?page=2">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </span>
+
+        <span class="last">
+            <a href="/blog?page=80">
+                <i class="fa fa-angle-double-right"></i>
+            </a>
+        </span> -->
+
+</div>

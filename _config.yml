@@ -34,8 +34,12 @@ collections:
   #   permalink: "/:collection/:path/"
   #   output: true
   posts:
-    permalink: "/blog/:title/"
+    permalink: "/blog/posts/:title/"
     output: true
+  
+paginate: 5
+paginate_path: "/blog/page:num/"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
