@@ -53,40 +53,19 @@ block_3:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/recommended.png
-      text: >-
-        Not only are our experts adept at handling lengthy translations, they
-        also execute them in due time and fast turnarounds
-      title: Certified Linguists
-    - icon: /assets/images/upload/recommended.png
-      text: >-
-        Our translation platform features quality re-assessments and checks to
-        ensure consistent and top-quality of services
-      title: Excellent Quality
-    - icon: /assets/images/upload/recommended.png
-      text: >-
-        Our transparent and affordable translation rates are the lowest among
-        competitors with no extra or hidden charges
-      title: Affordable Rates
-    - icon: /assets/images/upload/recommended.png
-      text: >-
-        Our translation platform is equipped to process translation projects of
-        high volume and technical nature, ensuring quick turnaround
+    - icon: /assets/images/upload/rapid-icon-9.png
+      text: "Our translation platform is equipped to process translation projects of high volume and technical nature, ensuring quick turnaround\r."
       title: Fast Turnaround
-    - icon: /assets/images/upload/recommended.png
-      text: >-
-        Our translation memory matches segments which have previously been
-        translated, so you are spared the hassle of paying twice.
-      title: Translation Memory
-    - icon: /assets/images/upload/recommended.png
-      text: >-
-        We offer translation services for a plethora of language pairs from
-        around the globe for a multilingual support system.
-      title: Multilingual Support
+    - icon: /assets/images/upload/product.png
+      text: "Our translation platform features quality re-assessments and checks to ensure consistent and top-quality of services\r."
+      title: Excellent Quality
+    - icon: /assets/images/upload/img_568492.png
+      text: "Our transparent and affordable translation rates are the lowest among competitors with no extra or hidden charges\r."
+      title: Affordable Rates
   text: >-
     Enable globalization for your business with our excellent quality of
     translation services at cost-effective rates.
-  title: Why Choose Mars?
+  title: Why Choose JNDC - Translation?
   visible: true
 block_4:
   visible: true
