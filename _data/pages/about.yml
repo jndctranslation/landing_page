@@ -31,7 +31,7 @@ block_3:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/img_180522.png
+    - icon: /assets/images/upload/d1107f60b3a61d8e361ee4741e0a4dfa.png
       text: We believe what we do is challenging existing limitation
       title: ''
     - icon: /assets/images/upload/directions-icon-png-5.png
@@ -47,23 +47,20 @@ block_4:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/recommended.png
-      text: '120+ languages <br/>5000+ translators, more solutions'
-      title: More
-    - icon: /assets/images/upload/recommended.png
-      text: 24/7 service <br/>200 words/hour/translator
-      title: Rapid
-    - icon: /assets/images/upload/recommended.png
-      text: 'ISO 9001:2008 Certified <br/>Native translators only'
-      title: Accurate
+    - icon: /assets/images/upload/heart_font_awesome.svg.png
+      text: We put our heart in every project that we do
+      title: ''
+    - icon: /assets/images/upload/987-200.png
+      text: We strict to provide the best translation services
+      title: ''
+    - icon: /assets/images/upload/7383-200.png
+      text: We strict to provide the fastest turnaround-time
+      title: ''
     - icon: /assets/images/upload/recommended.png
       text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
       title: Saving
-  text: >-
-    This is where creme de la creme of world’s translation talent is. <br/>We
-    have industry experts who only get paid for the words they translate,
-    nothing more, nothing less.
-  title: Translations Are Better With Experts
+  text: ''
+  title: WHAT DO WE DO?
   visible: true
 block_5:
   background_image: ''
@@ -134,20 +131,22 @@ block_9:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/recommended.png
+    - icon: /assets/images/upload/2021872-200.png
       text: ''
-      title: Customer-focus
-    - icon: /assets/images/upload/recommended.png
+      title: Customer Focus
+    - icon: /assets/images/upload/213124-200.png
       text: ''
       title: Transparency
-    - icon: /assets/images/upload/recommended.png
+    - icon: /assets/images/upload/1627713-200.png
+      text: ''
+      title: Customer Satisfiction
+    - icon: /assets/images/upload/989735-200.png
       text: ''
       title: Integrity
-    - icon: /assets/images/upload/recommended.png
-      text: ''
+    - icon: /assets/images/upload/169319-200.png
       title: Confidentiality
   text: >-
-    Marstranslation.com practices following business values to ensure both
+    JNDC - Translation practices following business values to ensure both
     customers and translators <br />enjoy a sustainable work-relationship.
   title: Values
   visible: true

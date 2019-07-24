@@ -74,19 +74,38 @@ block_5:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - text: 'Place order with our simple web order form, or API.'
-      title: Rates
-    - text: >-
-        Track different stages of the translation process and communicate with
-        the translator.
-      title: Quality
-    - text: Rate our translation services to get even better quality next time.
-      title: Speed
+    - icon: /assets/images/upload/law-512.png
+      text: ''
+      title: Legal
+    - icon: /assets/images/upload/img_462268.png
+      text: ''
+      title: Financial
+    - icon: /assets/images/upload/40105.png
+      text: ''
+      title: Engineering
+    - icon: /assets/images/upload/img_561215.png
+      title: Certificate
+    - icon: /assets/images/upload/icons8-windows-8-programming-software-box.ico
+      title: IT & Software
+    - icon: /assets/images/upload/1473237-200.png
+      title: Blockchain and Crypto
+    - icon: /assets/images/upload/65687.png
+      title: Mobile & Video Game
+    - icon: /assets/images/upload/img_146257.png
+      title: 'Retail '
+    - icon: /assets/images/upload/marketing-icon.png
+      title: Marketing
+    - icon: /assets/images/upload/57589.png
+      title: E - Commerce
+    - icon: /assets/images/upload/1534390-200.png
+      title: Manufacturing
+    - icon: /assets/images/upload/more-512.png
+      title: Much More
   text: >-
-    We have devised the simplest and seamless mechanism for you to place
-    translation order. <br/>Getting your global success is just a matter of 1, 2
-    and 3 – simple!
-  title: How we work
+    We have translators with specific domain expertise, skills, background, and
+    understanding so your <br/>projects are handled by the most relevant
+    linguists.
+  title: OUR TRANSLATION INDUSTRIES
   visible: true
 block_6:
   background_image: ''
@@ -193,7 +212,7 @@ block_10:
         market, we ensure that cultural sensitivity is not compromised in the
         translation. We believe that these factors play a major role in creating
         a positive for our clients.
-      title: Why Choose Mars
+      title: Why Choose JNDC - Translation?
     - text: >-
         ### Professional and Reliable
 
