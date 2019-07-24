@@ -16,10 +16,12 @@
             {{site.data.pages.kick_start.block_1.title}}
         </span>
         {% if site.data.header.primary_nav.button_1.visible == true %}
-        <a class="btn btn_maroon" href="{{site.data.header.primary_nav.button_1.link}}">{{site.data.header.primary_nav.button_1.name}}</a>
+        <a class="btn btn_maroon"
+            href="{{site.data.header.primary_nav.button_1.link}}">{{site.data.header.primary_nav.button_1.name}}</a>
         {% endif %}
         {% if site.data.header.primary_nav.button_2.visible == true %}
-        <a class="btn  btn_white_gradient" href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
+        <a class="btn  btn_white_gradient"
+            href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
         {% endif %}
     </div>
 </section>
@@ -99,299 +101,45 @@
             <div class="carousel-inner">
                 <div class="item active">
                     <ul class="blog_list list-unstyled clearfix">
+                        {% for post in site.posts offset:0 limit:4 %}
                         <li class="col-md-3 col-xs-6">
                             <div class="blog_list_item">
                                 <span class="blog_bg"
-                                    style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0004/13/770b124e95f7b81d9568741d596f47f448000bd6.jpeg) no-repeat;background-size: cover;">&nbsp;</span>
+                                    style="background: url({{ post.thumb_image }}) no-repeat;background-size: cover;">&nbsp;</span>
                                 <div class="caption">
-                                    <h4 class="heading"> Spanish Speaking Countries in Europe
+                                    <h4 class="heading"> {{ post.title }}
                                     </h4>
 
-                                    <p class="desc"> Spanish
-                                        is
-                                        a
-                                        powerful
-                                        language
-                                        with
-                                        the
-                                        second
-                                        highest
-                                        number
-                                        of
-                                        native
-                                        speakers.
-                                        There
-                                        are
-                                        Spanish-speaking
-                                        countries
-                                        in
-                                        Europe,
-                                        then
-                                    </p>
+                                    <p class="desc"> {{ post.description }} </p>
 
-                                    <a class="read_more" href="/blog/spanish-speaking-countries-in-europe">Read
-                                        More <span class="arrow_icons">&nbsp;</span></a>
+                                    <a class="read_more" href="{{ post.url }}">Read More <span
+                                            class="arrow_icons">&nbsp;</span></a>
                                 </div>
                             </div>
                         </li>
-                        <li class="col-md-3 col-xs-6">
-                            <div class="blog_list_item">
-                                <span class="blog_bg"
-                                    style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0004/08/1cd1f7a1da40449428fd36f665dff51daba84128.jpeg) no-repeat;background-size: cover;">&nbsp;</span>
-                                <div class="caption">
-                                    <h4 class="heading"> Spanish Speaking Countries in South
-                                        America
-                                    </h4>
-
-                                    <p class="desc"> It
-                                        is
-                                        easier
-                                        to
-                                        tell
-                                        the
-                                        countries
-                                        that
-                                        don’t
-                                        speak
-                                        Spanish
-                                        than
-                                        to
-                                        name
-                                        the
-                                        Spanish-speaking
-                                        countries
-                                        in
-                                        South
-                                        America.
-                                    </p>
-
-                                    <a class="read_more" href="/blog/spanish-speaking-countries-in-south-america">Read
-                                        More <span class="arrow_icons">&nbsp;</span></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 col-xs-6">
-                            <div class="blog_list_item">
-                                <span class="blog_bg"
-                                    style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0003/91/3f1ede279e09bc29b5f51ba02da44e19e3d30e44.png) no-repeat;background-size: cover;">&nbsp;</span>
-                                <div class="caption">
-                                    <h4 class="heading"> Difference between Simplified Chinese
-                                        and Traditional Chinese Language
-                                    </h4>
-
-                                    <p class="desc"> From
-                                        the
-                                        outside,
-                                        Chinese
-                                        seems
-                                        like
-                                        a
-                                        vast
-                                        singular
-                                        language.
-                                        At
-                                        a
-                                        closer
-                                        look,
-                                        however,
-                                        it
-                                        can
-                                        be
-                                        observed
-                                        that
-                                    </p>
-
-                                    <a class="read_more"
-                                        href="/blog/whats-the-difference-between-simplified-chinese-and-traditional-chinese-language">Read
-                                        More <span class="arrow_icons">&nbsp;</span></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 col-xs-6">
-                            <div class="blog_list_item">
-                                <span class="blog_bg"
-                                    style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0003/75/e43c340ff20c3f66e47e955d23c0479315166de7.jpeg) no-repeat;background-size: cover;">&nbsp;</span>
-                                <div class="caption">
-                                    <h4 class="heading"> Why You Need IOS App Localization?
-                                    </h4>
-
-                                    <p class="desc"> Did
-                                        you
-                                        know
-                                        56.2%
-                                        of
-                                        consumers
-                                        claim
-                                        that
-                                        acquiring
-                                        information
-                                        in
-                                        their
-                                        own
-                                        language
-                                        is
-                                        more
-                                        important
-                                        than
-                                        the
-                                        price
-                                    </p>
-
-                                    <a class="read_more" href="/blog/why-you-need-ios-app-localization">Read
-                                        More
-                                        <span class="arrow_icons">&nbsp;</span></a>
-                                </div>
-                            </div>
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
 
                 <div class="item">
                     <ul class="blog_list list-unstyled clearfix">
+                        {% for post in site.posts offset:4 limit:4 %}
                         <li class="col-md-3 col-xs-6">
                             <div class="blog_list_item">
                                 <span class="blog_bg"
-                                    style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0003/72/0155159a33ec1e36b23de1a0bda8f35bdcfa26a6.jpeg) no-repeat;background-size:cover;">&nbsp;</span>
+                                    style="background: url({{ post.thumb_image }}) no-repeat;background-size: cover;">&nbsp;</span>
                                 <div class="caption">
-                                    <h4 class="heading"> Steps To Choose Best Android App
-                                        Localization Company
+                                    <h4 class="heading"> {{ post.title }}
                                     </h4>
-                                    <p class="desc">
 
-                                        In
-                                        a
-                                        world
-                                        that
-                                        has
-                                        turned
-                                        to
-                                        a
-                                        global
-                                        village,
-                                        localization
-                                        is
-                                        no
-                                        longer
-                                        a
-                                        choice
-                                        but
-                                        a
-                                        necessity.
-                                        In
-                                    </p>
-                                    <a class="read_more"
-                                        href="/blog/steps-to-choose-best-android-app-localization-company">Read
-                                        More <span class="arrow_icons">&nbsp;</span></a>
+                                    <p class="desc"> {{ post.description }} </p>
+
+                                    <a class="read_more" href="{{ post.url }}">Read More <span
+                                            class="arrow_icons">&nbsp;</span></a>
                                 </div>
                             </div>
                         </li>
-                        <li class="col-md-3 col-xs-6">
-                            <div class="blog_list_item">
-                                <span class="blog_bg"
-                                    style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0003/67/625d9dba58cfdf6d40f24d487fc8333bbb381108.png) no-repeat;background-size:cover;">&nbsp;</span>
-                                <div class="caption">
-                                    <h4 class="heading"> How Many Countries Speak French?
-                                    </h4>
-                                    <p class="desc">
-
-                                        Curious
-                                        aren’t
-                                        we?
-                                        Of
-                                        course,
-                                        you
-                                        want
-                                        to
-                                        know
-                                        how
-                                        many
-                                        countries
-                                        speak
-                                        French
-                                        -
-                                        the
-                                        language
-                                        of
-                                        love.
-                                        The
-                                    </p>
-                                    <a class="read_more" href="/blog/how-many-countries-speak-french">Read
-                                        More
-                                        <span class="arrow_icons">&nbsp;</span></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 col-xs-6">
-                            <div class="blog_list_item">
-                                <span class="blog_bg"
-                                    style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0004/05/aa08be4460f62b533200c8016ed3d1f529040d15.png) no-repeat;background-size:cover;">&nbsp;</span>
-                                <div class="caption">
-                                    <h4 class="heading"> How Many Countries Speak Spanish?
-                                    </h4>
-                                    <p class="desc">
-
-                                        Can
-                                        you
-                                        imagine
-                                        how
-                                        many
-                                        countries
-                                        speak
-                                        Spanish?
-                                        Exactly
-                                        the
-                                        same
-                                        number
-                                        of
-                                        countries
-                                        that
-                                        you
-                                        could
-                                        have
-                                        a
-                                        good
-                                    </p>
-                                    <a class="read_more" href="/blog/how-many-countries-speak-spanish">Read
-                                        More
-                                        <span class="arrow_icons">&nbsp;</span></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-md-3 col-xs-6">
-                            <div class="blog_list_item">
-                                <span class="blog_bg"
-                                    style="background: url(https://s3.amazonaws.com/marstranslation.aws.bucket/default/0003/60/35d0d46e70618a0d02c57cf1ee4a8e1607cf251d.png) no-repeat;background-size:cover;">&nbsp;</span>
-                                <div class="caption">
-                                    <h4 class="heading"> Top 10 Translation Companies in Pune
-                                    </h4>
-                                    <p class="desc">
-
-                                        Pune
-                                        is
-                                        rightly
-                                        termed
-                                        as
-                                        the
-                                        industrial
-                                        powerhouse
-                                        on
-                                        India. 
-                                        Many
-                                        local
-                                        and
-                                        international
-                                        companies
-                                        are
-                                        located
-                                        in
-                                        Pune
-                                        which
-                                    </p>
-                                    <a class="read_more" href="/blog/top-10-translation-companies-in-pune">Read
-                                        More <span class="arrow_icons">&nbsp;</span></a>
-                                </div>
-                            </div>
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
