@@ -3,7 +3,7 @@ block_1:
   button:
     link: '#'
     name: Contact Us
-  color_overlay: 'rgba(50, 50, 50, 0.5)'
+  color_overlay: 'rgba(50, 50, 50, 0.6)'
   items:
     - id: block_2
       name: Overview
