@@ -5,8 +5,6 @@ title: 'Professional Translation Services | Mars Translation'
 description: 'This is the description of the page'
 ---
 
-<script src="/assets/v3/js/jquery.matchHeight.js" type="text/javascript"></script>
-
 <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
 <link rel="stylesheet" href="/assets/v3/css/animate.min.css">
 <link rel="stylesheet" href="/assets/v3/css/proofreading-content.css">

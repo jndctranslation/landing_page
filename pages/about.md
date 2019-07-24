@@ -5,6 +5,7 @@ title: 'Professional Translation Services | Mars Translation'
 description: 'This is the description of the page'
 ---
 
+
 <style>
     .company_profile_banner {
         background: url("/assets/images/ui/company-profile-bg2.jpg") no-repeat center;
@@ -101,7 +102,6 @@ description: 'This is the description of the page'
     .company_profile_page .features_block .media .media-left .media-object {
         width: 48px;
         height: 48px;
-        background: url("/assets/images/ui/sprites.png no-repeat");
     }
 
     .company_profile_page .features_block .media .media-left .media-object.more {

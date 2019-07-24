@@ -17,6 +17,29 @@
 
 </head>
 
+<style>
+    .search-box-sticky{
+        width: 300px;
+    }
+    #hits {
+        position: absolute;
+        z-index: 1000;
+        display: none;
+        width: 90%;
+    }
+    .ais-hits--item {
+        background-color: #fff;
+        padding: 10px 5px;
+        border-radius: 5px;
+    }
+    .ais-hits--item:hover{
+        background-color: #eeeeee;
+    }
+    .ais-hits--item a{
+        text-decoration: none;
+    }
+</style>
+
 <body>
     <div class="container-fluid container-shadow">
         <div class="row">
@@ -31,21 +54,10 @@
                             <div class="col-sm-6">
                                 <h1 class="h2">Translation Blog</h1>
                             </div>
-                            <div class="breadcrumb_and_search col-sm-6">
-                                <div id="search-box" class="search-box-sticky">
-                                    <form method="get" id="blog-search-form" action="/search/blog">
-                                        <div class="input-group">
-                                            <input type="text" placeholder="Blog Search" class="form-control"
-                                                name="searchQuery" id="searchQuery">
-                                            <input type="hidden" value="" id="queryString" name="queryString">
-                                            <input type="hidden" value="blog" id="catUrl" name="catUrl">
-                                            <div class="input-group-btn">
-                                                <div class="input-group-btn">
-                                                    <input class="btn btn-default" id="" type="submit" value="" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
+                            <div class="breadcrumb_and_search col-sm-6 search-box-sticky">
+                                <div id="search-box">
+                                </div>
+                                <div id="hits">
                                 </div>
                             </div>
                         </div>
@@ -75,6 +87,15 @@
 
     <script src="/assets/js/app_footer.js"></script>
 
+    <!-- algolia search -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch-theme-algolia.min.css">
+
+
+    <script src="/assets/js/search.js"></script>
 </body>
 
 </html>
