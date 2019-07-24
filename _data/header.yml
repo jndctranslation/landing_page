@@ -5,7 +5,7 @@ extra_nav:
   right:
     - link: /blog
       title: Blog
-    - link: '#'
+    - link: /contact
       title: Contact Us
     - link: '#'
       title: Support
