@@ -1,55 +1,50 @@
 extra_nav:
   left:
-    title: 'Get Free Consultation'
     link: '#'
+    title: Get Free Consultation
   right:
-  - title: 'Blog'
-    link: '#'
-  - title: 'Contact Us'
-    link: '#'
-  - title: 'Support'
-    link: '#' 
-
+    - link: /blog
+      title: Blog
+    - link: '#'
+      title: Contact Us
+    - link: '#'
+      title: Support
 primary_nav:
-  logo: /assets/images/ui/transparent_logo.png
-  items:
-  - title: 'About'
-    link: '/pages/about'
-
-  - title: 'Services'
-    sub_nav:
-    - title: 'Translation Services'
-      link: '/pages/translation_services'
-    - title: 'Proofreading and Editting Services'
-      link: '/pages/proofreading_edditing_services'
-    - title: 'Transcription Services'
-      link: '/pages/transcription_services'
-
-  - title: 'Industries'
-    sub_nav:
-    - title: 'Legal'
-      link: '/pages/legal'
-    - title: 'Financial'
-      link: '/pages/financial'
-    - title: 'Manuafacturing and Engineering'
-      link: '/pages/manuafacturing_enginnering'
-    - title: 'IT and Software'
-      link: '/pages/it_software'
-    - title: 'Blockchain and Crypto'
-      link: '/pages/blockchain_crypto'
-    - title: 'Mobile and Video Game'
-      link: '/pages/mobile_video_game'
-    - title: 'Retailand E-commerce'
-      link: '/pages/retail_e_commerce'
-
-  - title: 'Languages'
-    link: '/pages/languages'
-  
   button_1:
+    link: '#'
+    name: Get Quote
     visible: true
-    name: 'Get Quote'
-    link: '#'
   button_2:
-    visible: false
-    name: 'Place Order'
     link: '#'
+    name: Place Order
+    visible: false
+  items:
+    - link: /pages/about
+      title: About
+    - sub_nav:
+        - link: /pages/translation_services
+          title: Translation Services
+        - link: /pages/proofreading_edditing_services
+          title: Proofreading and Editting Services
+        - link: /pages/transcription_services
+          title: Transcription Services
+      title: Services
+    - sub_nav:
+        - link: /pages/legal
+          title: Legal
+        - link: /pages/financial
+          title: Financial
+        - link: /pages/manuafacturing_enginnering
+          title: Manuafacturing and Engineering
+        - link: /pages/it_software
+          title: IT and Software
+        - link: /pages/blockchain_crypto
+          title: Blockchain and Crypto
+        - link: /pages/mobile_video_game
+          title: Mobile and Video Game
+        - link: /pages/retail_e_commerce
+          title: Retailand E-commerce
+      title: Industries
+    - link: /pages/languages
+      title: Languages
+  logo: /assets/images/ui/transparent_logo.png
