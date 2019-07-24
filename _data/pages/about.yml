@@ -1,140 +1,160 @@
 block_1:
-  visible: true
-  background_image: '/assets/images/upload/hand_punch.jpg'
-  color_overlay: 'rgba(50, 50, 50, 0.5)'
-  text: 'Our story started in 2012 as a
-  <br/>translation project and developed
-  <br/>into a business that we love and
-  <br/>strive to grow each day.'
+  background_image: /assets/images/upload/landmark-81-banner-1920x800px.jpg
   button:
-    name: 'Contact Us'
     link: '#'
+    name: Contact Us
+  color_overlay: 'rgba(50, 50, 50, 0.5)'
   items:
-  - id: 'block_2'
-    name: 'Overview'
-  - id: 'block_7'
-    name: 'Mission & Vision'
-  - id: 'block_9'
-    name: 'Our Value'
-      
-
+    - id: block_2
+      name: Overview
+    - id: block_7
+      name: Mission & Vision
+    - id: block_9
+      name: Our Value
+  text: >-
+    Our story started from 2018 as a <br/>translation team and developed
+    <br/>into a business that we love and <br/>strive to grow every single day.
+  visible: true
 block_2:
-  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  text: 'Mars Translation is an international leader in the translation marketplace that offers a transparent, intuitive and cost-effective online portal to customers who need documents, web content, and video content translated guaranteeing high-quality and speed. Unlike other options currently available in the market (translation companies, online translation agencies, etc.), Marstranslation.com connects its customers with highly rated, certified, native translators from around the world who deliver quality translations according to company standards.'
-
+  text: >-
+    Mars Translation is an international leader in the translation marketplace
+    that offers a transparent, intuitive and cost-effective online portal to
+    customers who need documents, web content, and video content translated
+    guaranteeing high-quality and speed. Unlike other options currently
+    available in the market (translation companies, online translation agencies,
+    etc.), Marstranslation.com connects its customers with highly rated,
+    certified, native translators from around the world who deliver quality
+    translations according to company standards.
+  visible: true
 block_3:
-  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'Translations Are Better With Experts'
-  text: 'This is where creme de la creme of world’s translation talent is. <br/>We have industry experts who only get paid for the words they translate, nothing more, nothing less.'
   items:
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'More'
+    - icon: /assets/images/upload/recommended.png
       text: '120+ languages <br/>5000+ translators, more solutions'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Rapid'
-      text: '24/7 service <br/>200 words/hour/translator'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Accurate'
+      title: More
+    - icon: /assets/images/upload/recommended.png
+      text: 24/7 service <br/>200 words/hour/translator
+      title: Rapid
+    - icon: /assets/images/upload/recommended.png
       text: 'ISO 9001:2008 Certified <br/>Native translators only'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Saving'
+      title: Accurate
+    - icon: /assets/images/upload/recommended.png
       text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
-
+      title: Saving
+  text: >-
+    This is where creme de la creme of world’s translation talent is. <br/>We
+    have industry experts who only get paid for the words they translate,
+    nothing more, nothing less.
+  title: Translations Are Better With Experts
+  visible: true
 block_4:
-  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'Translations Are Better With Experts'
-  text: 'This is where creme de la creme of world’s translation talent is. <br/>We have industry experts who only get paid for the words they translate, nothing more, nothing less.'
   items:
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'More'
+    - icon: /assets/images/upload/recommended.png
       text: '120+ languages <br/>5000+ translators, more solutions'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Rapid'
-      text: '24/7 service <br/>200 words/hour/translator'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Accurate'
+      title: More
+    - icon: /assets/images/upload/recommended.png
+      text: 24/7 service <br/>200 words/hour/translator
+      title: Rapid
+    - icon: /assets/images/upload/recommended.png
       text: 'ISO 9001:2008 Certified <br/>Native translators only'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Saving'
+      title: Accurate
+    - icon: /assets/images/upload/recommended.png
       text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
-
+      title: Saving
+  text: >-
+    This is where creme de la creme of world’s translation talent is. <br/>We
+    have industry experts who only get paid for the words they translate,
+    nothing more, nothing less.
+  title: Translations Are Better With Experts
+  visible: true
 block_5:
-  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'Translations Are Better With Experts'
-  text: 'This is where creme de la creme of world’s translation talent is. <br/>We have industry experts who only get paid for the words they translate, nothing more, nothing less.'
   items:
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'More'
+    - icon: /assets/images/upload/recommended.png
       text: '120+ languages  <br/>5000+ translators, more solutions'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Rapid'
-      text: '24/7 service <br/>200 words/hour/translator'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Accurate'
+      title: More
+    - icon: /assets/images/upload/recommended.png
+      text: 24/7 service <br/>200 words/hour/translator
+      title: Rapid
+    - icon: /assets/images/upload/recommended.png
       text: 'ISO 9001:2008 Certified <br/>Native translators only'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Saving'
+      title: Accurate
+    - icon: /assets/images/upload/recommended.png
       text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
-
+      title: Saving
+  text: >-
+    This is where creme de la creme of world’s translation talent is. <br/>We
+    have industry experts who only get paid for the words they translate,
+    nothing more, nothing less.
+  title: Translations Are Better With Experts
+  visible: true
 block_6:
-  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'Translations Are Better With Experts'
-  text: 'This is where creme de la creme of world’s translation talent is. <br/>We have industry experts who only get paid for the words they translate, nothing more, nothing less.'
   items:
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'More'
+    - icon: /assets/images/upload/recommended.png
       text: '120+ languages  <br/>5000+ translators, more solutions'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Rapid'
-      text: '24/7 service <br/>200 words/hour/translator'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Accurate'
+      title: More
+    - icon: /assets/images/upload/recommended.png
+      text: 24/7 service <br/>200 words/hour/translator
+      title: Rapid
+    - icon: /assets/images/upload/recommended.png
       text: 'ISO 9001:2008 Certified <br/>Native translators only'
-    - icon: '/assets/images/upload/recommended.png'
-      title: 'Saving'
+      title: Accurate
+    - icon: /assets/images/upload/recommended.png
       text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
-
+      title: Saving
+  text: >-
+    This is where creme de la creme of world’s translation talent is. <br/>We
+    have industry experts who only get paid for the words they translate,
+    nothing more, nothing less.
+  title: Translations Are Better With Experts
+  visible: true
 block_7:
-  visible: true
-  background_image: '/assets/images/upload/hand_punch.jpg'
+  background_image: /assets/images/upload/hand_punch.jpg
   color_overlay: 'rgba(50, 50, 60, 0.5)'
-  title: 'Mission'
-  text: 'Our mission is to provide translation customers with a sophisticated yet streamlined online portal that is more than just another platform – offers innovative features to accomplish more – and which connects them with top-rated translators across the world so that both customers and translators enjoy a win-win situation, resulting from making every project a success.'
-
+  text: >-
+    Our mission is to provide translation customers with a sophisticated yet
+    streamlined online portal that is more than just another platform – offers
+    innovative features to accomplish more – and which connects them with
+    top-rated translators across the world so that both customers and
+    translators enjoy a win-win situation, resulting from making every project a
+    success.
+  title: Mission
+  visible: true
 block_8:
-  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'Vision'
-  text: 'Our vision is to be the No.1 choice of translation customers by offering enhanced real-time interactions and reporting to ensure a wonderful Translations Project Management Experience.'
-
+  text: >-
+    Our vision is to be the No.1 choice of translation customers by offering
+    enhanced real-time interactions and reporting to ensure a wonderful
+    Translations Project Management Experience.
+  title: Vision
+  visible: true
 block_9:
-  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'Values'
-  text: 'Marstranslation.com practices following business values to ensure both customers and translators <br />enjoy a sustainable work-relationship.'
   items:
-  - icon: '/assets/images/upload/recommended.png'
-    title: 'Customer-focus'
-    text: ''
-  - icon: '/assets/images/upload/recommended.png'
-    title: 'Transparency'
-    text: ''
-  - icon: '/assets/images/upload/recommended.png'
-    title: 'Integrity'
-    text: ''
-  - icon: '/assets/images/upload/recommended.png'
-    title: 'Confidentiality'
-    text: ''
-
+    - icon: /assets/images/upload/recommended.png
+      text: ''
+      title: Customer-focus
+    - icon: /assets/images/upload/recommended.png
+      text: ''
+      title: Transparency
+    - icon: /assets/images/upload/recommended.png
+      text: ''
+      title: Integrity
+    - icon: /assets/images/upload/recommended.png
+      text: ''
+      title: Confidentiality
+  text: >-
+    Marstranslation.com practices following business values to ensure both
+    customers and translators <br />enjoy a sustainable work-relationship.
+  title: Values
+  visible: true
