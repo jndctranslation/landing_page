@@ -83,7 +83,7 @@ collections:
 
     - name: 'kick_start'
       label: 'Kick Start'
-      file: '_data/kick_start.yml'
+      file: '_data/pages/kick_start.yml'
       fields:
       - name: 'block_1'
         label: 'Block 1'
