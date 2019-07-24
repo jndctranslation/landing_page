@@ -74,14 +74,15 @@ block_5:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - text: ''
+    - icon: /assets/images/upload/law-512.png
+      text: ''
       title: Legal
-    - text: >-
-        Track different stages of the translation process and communicate with
-        the translator.
-      title: Quality
-    - text: Rate our translation services to get even better quality next time.
-      title: Speed
+    - icon: /assets/images/upload/img_462268.png
+      text: ''
+      title: Financial
+    - icon: /assets/images/upload/40105.png
+      text: ''
+      title: Engineering
   text: >-
     We have translators with specific domain expertise, skills, background, and
     understanding so your <br/>projects are handled by the most relevant
