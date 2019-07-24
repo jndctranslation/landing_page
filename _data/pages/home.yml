@@ -33,7 +33,7 @@ block_2:
       title: Proofreading Services
   text: ''
   title: OUR COURCE SERVICES
-  visible: false
+  visible: true
 block_3:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
