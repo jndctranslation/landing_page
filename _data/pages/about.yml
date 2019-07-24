@@ -117,15 +117,19 @@ block_7:
     translators enjoy a win-win situation, resulting from making every project a
     success.
   title: Mission
-  visible: true
+  visible: false
 block_8:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   text: >-
-    Our vision is to be the No.1 choice of translation customers by offering
-    enhanced real-time interactions and reporting to ensure a wonderful
-    Translations Project Management Experience.
-  title: Vision
+    Our vision is to affirm the position of Vietnamese People in the world and
+    to help people around the world come close together by breaking their
+    languages barriers. 
+
+
+    With that such great ambition, JNDC - Translation starts at providing our
+    high-qualified Vietnamese Translation Services which we are most confident.
+  title: OUR VISION
   visible: true
 block_9:
   background_image: ''
