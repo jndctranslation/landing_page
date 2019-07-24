@@ -1,19 +1,19 @@
 block_1:
-  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'Kick-start your global journey with us today'
-
+  title: Start your global journey with us today and get 10% discount
+  visible: true
 block_2:
-  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'Customers Feedback'
-  text: 'Since our startup, two decades back, we have been getting better and better only!'
-
+  text: >-
+    Since our startup, two decades back, we have been getting better and better
+    only!
+  title: Customers Feedback
+  visible: true
 block_3:
-  visible: true
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  title: 'What’s New?'
-  text: 'Browse through the topics of interest in the global world of translation'
+  text: Browse through the topics of interest in the global world of translation
+  title: What’s New?
+  visible: true
