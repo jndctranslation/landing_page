@@ -19,36 +19,29 @@ block_2:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   text: >-
-    Mars Translation is an international leader in the translation marketplace
-    that offers a transparent, intuitive and cost-effective online portal to
-    customers who need documents, web content, and video content translated
-    guaranteeing high-quality and speed. Unlike other options currently
-    available in the market (translation companies, online translation agencies,
-    etc.), Marstranslation.com connects its customers with highly rated,
-    certified, native translators from around the world who deliver quality
-    translations according to company standards.
+    JNDC - Translation is a Vietnamese Languages Company. We is a leading in
+    providing translation services in the translation marketplace that offers a
+    transparent, intuitive and cost-effective online portal to customers who
+    need documents, web content and video content translated guaranteeing
+    high-quality and high speed. JNDC - Translation connects its customers with
+    highly rated, certified, Vietnamese native translators who can deliver
+    quality translation and follow our company strict standards.
   visible: true
 block_3:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/recommended.png
-      text: '120+ languages <br/>5000+ translators, more solutions'
-      title: More
-    - icon: /assets/images/upload/recommended.png
-      text: 24/7 service <br/>200 words/hour/translator
-      title: Rapid
-    - icon: /assets/images/upload/recommended.png
-      text: 'ISO 9001:2008 Certified <br/>Native translators only'
-      title: Accurate
-    - icon: /assets/images/upload/recommended.png
-      text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
-      title: Saving
-  text: >-
-    This is where creme de la creme of world’s translation talent is. <br/>We
-    have industry experts who only get paid for the words they translate,
-    nothing more, nothing less.
-  title: Translations Are Better With Experts
+    - icon: /assets/images/upload/img_180522.png
+      text: We believe what we do is challenging existing limitation
+      title: ''
+    - icon: /assets/images/upload/directions-icon-png-5.png
+      text: What we think and what we action is making a difference
+      title: ''
+    - icon: /assets/images/upload/44386.png
+      text: We believe that together we can create a better world
+      title: ''
+  text: ''
+  title: WHAT DO WE BELIEVE?
   visible: true
 block_4:
   background_image: ''
