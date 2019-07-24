@@ -74,8 +74,8 @@ block_5:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - text: 'Place order with our simple web order form, or API.'
-      title: Rates
+    - text: ''
+      title: Legal
     - text: >-
         Track different stages of the translation process and communicate with
         the translator.
