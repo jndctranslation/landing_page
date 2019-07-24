@@ -7,7 +7,7 @@ extra_nav:
       title: Blog
     - link: /contact
       title: Contact Us
-    - link: '#'
+    - link: /support
       title: Support
 primary_nav:
   button_1:

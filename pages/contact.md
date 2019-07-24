@@ -37,7 +37,7 @@ description: 'This is the description of the page'
                         </div>
                         <div class="col-sm-6 col-xs-12">
                             <div class="form-group clearfix">
-
+                                
                                 <label class="control-label">Phone<span class="red">*</span></label>
                                 <input type="text" id="phone" name="phone" required="required" tabindex="3"
                                     class="form-control country-code" />

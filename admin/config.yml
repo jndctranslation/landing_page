@@ -504,6 +504,39 @@ collections:
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
 
+    - name: 'customer_support'
+      label: 'Customer Support'
+      file: '_data/pages/support.yml'
+      fields:
+      - name: 'block_1'
+        label: 'Block 1'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
+      - name: 'block_2'
+        label: 'Block 2'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - name: 'items'
+          label: 'Items'
+          widget: 'list'
+          fields:
+          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - name: 'questions'
+            title: 'Question'
+            widget: 'list'
+            fields:
+            - {name: 'title', label: 'Title', widget: 'string', required: false}
+            - {name: 'link', label: 'Link', widget: 'string', required: false}
+
   - name: 'blog_posts'
     label: 'Blog Posts'
     folder: '_posts'
