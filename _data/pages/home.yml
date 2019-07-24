@@ -1,8 +1,8 @@
 block_1:
-  background_image: /assets/images/upload/hand_punch.jpg
+  background_image: /assets/images/upload/landmark-81-banner-1920x800px.jpg
   color_overlay: 'rgba(50, 50, 50, 0.6)'
-  text: Get your translation by top-rated native translators
-  title: ROBUST SOLUTIONS FOR YOUR LOCALIZATION NEEDS
+  text: Get your translation by the top-rated Vietnamese native speaker
+  title: DEVELOPING YOUT BUSINESS IN GLOBAL MARKET WITH JNDC TRANSLATION
   visible: true
 block_2:
   background_image: ''
@@ -10,19 +10,27 @@ block_2:
   items:
     - icon: /assets/images/upload/recommended.png
       text: >-
-        Swift and technical translation by expert translators for your legal,
-        retail, medical, manufacturing, financial and promotional documents.
-      title: Document Translation
+        We provide Human Vietnamese Translation Services for all industries,
+        delivered with the highest accuracy and fast-turnaround time! Our
+        professional translator and projects managers follow a strict quality
+        control process, ensuring the best results and the highest customer
+        satisfaction.
+      title: 'Translation Services '
     - icon: /assets/images/upload/recommended.png
       text: >-
-        Easy-to-scale and efficient translation for your e-commerce business
-        with robust translation APIs guaranteed to attract customers.
-      title: E-Commerce Translation
+        We provide the best Vietnamese Certified Translation with highest
+        quality, fast - turnaround time. Our translator are Vietnamese Expert in
+        different fields providing flawless and mirror-image certified
+        translations, affidavits.
+      title: Certified Translation Services
     - icon: /assets/images/upload/recommended.png
       text: >-
-        Quality website localization to provide careful review and adaptation of
-        linguistic, cultural and technical aspects of target websites.
-      title: Website Translation
+        JNDC - Translation is a leading Vietnamese proofreading services, we
+        provide professional proofreading services to academics to business of
+        all sizes. Our proofreader have at least 5 years of experiences in
+        providing proofreading services and ensuring the highest quality to our
+        customer
+      title: Proofreading Services
     - icon: /assets/images/upload/recommended.png
       text: >-
         Robust and quick video translation and transcription services by expert
@@ -39,10 +47,8 @@ block_2:
         highly skilled DTP specialists and graphic designers to adapt your
         content.
       title: DTP & File Conversion
-  text: >-
-    Being a leader in translation and software localization, our portfolio
-    includes a wide range of services in translation and localization
-  title: Our Services
+  text: ''
+  title: OUR COURCE SERVICES
   visible: true
 block_3:
   background_image: ''
@@ -84,14 +90,14 @@ block_5:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-  - text: 'Place order with our simple web order form, or API.'
-    title: Rates
-  - text: >-
-      Track different stages of the translation process and communicate with
-      the translator.
-    title: Quality
-  - text: Rate our translation services to get even better quality next time.
-    title: Speed
+    - text: 'Place order with our simple web order form, or API.'
+      title: Rates
+    - text: >-
+        Track different stages of the translation process and communicate with
+        the translator.
+      title: Quality
+    - text: Rate our translation services to get even better quality next time.
+      title: Speed
   text: >-
     We have devised the simplest and seamless mechanism for you to place
     translation order. <br/>Getting your global success is just a matter of 1, 2
