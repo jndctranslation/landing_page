@@ -1,0 +1,27 @@
+.contact_page {background: #f9f9fa url('/assets/images/ui/map.jpg?version=1.7.40') no-repeat top;background-attachment: fixed;min-height: 500px;}
+.contact_page .text_row {margin-top: 48px;}
+.contact_page .text_row h1 {margin-bottom: 50px;}
+.contact_page .text_row h1 .icon_envelope {width: 52px;height: 22px;background: url('/assets/images/ui/sprites.png?version=1.7.40') no-repeat -255px 0;display: inline-block;vertical-align: middle;}
+.contact_page .text_row .dropdown_holder .text {margin-right: 22px;font-size: 17px;vertical-align: middle;}
+.form_wrap {margin-bottom: 40px;}
+.form_wrap .col_left {background-color: white;padding: 60px 70px;float: none;display: table-cell;vertical-align: top;box-shadow: 0 4px 11px #ccc;}
+.form_wrap .col_left .form-group {margin-bottom: 25px;position: relative;}
+.form_wrap .col_left .form-group .textarea {height: 70px;padding: 15px;resize: none;border-radius: 34px;}
+.form_wrap .col_left .form-group .captcha_img {position: absolute;right: 15px;bottom: 6px;}
+.form_wrap .col_left .form-group.captcha {position: relative;}
+label#contact_description-error {bottom: -2px;}
+.control-label{padding-left: 0;}
+
+@media all and (min-width: 960px) {
+  .contact_page .less_width {width: 844px;}
+}
+@media all and (min-width: 768px) and (max-width: 800px) {
+  .form_wrap .col_left {padding: 39px 35px;}
+}
+@media all and (max-width: 667px) {
+  .form_wrap .col_left {display: block;}
+}
+@media all and (min-width: 400px) and (max-width: 480px), all and (min-width: 320px) and (max-width: 375px) {
+  .form_wrap .col_left {padding: 35px;}
+  .contact_page .text_row .dropdown_holder .toggler {margin-top: 15px;}
+}
