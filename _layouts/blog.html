@@ -15,6 +15,8 @@
     {% seo %}
     <link href="/assets/v3/css/blog.css" type="text/css" rel="stylesheet">
 
+    <link href="/assets/css/search.css" type="text/css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -31,18 +33,11 @@
                                 </li>
                                 <li class="active">{{ page.title }}</li>
                             </ol>
-                            <div id="search-box" class="search-box-sticky">
-                                <form method="get" id="blog-search-form" action="/search/blog">
-                                    <div class="input-group">
-                                        <input type="text" placeholder="Blog Search" class="form-control" name="searchQuery" id="searchQuery">
-                                        <input type="hidden" value="" id="queryString" name="queryString">
-                                        <input type="hidden" value="blog" id="catUrl" name="catUrl">
-                                        <div class="input-group-btn">
-                                            <input type="submit" class="btn btn-default searchButton" id="" value="">
-                                        </div>
-                                    </div>
-                                </form>
-                                <div class="clearfix"></div>
+                            <div class="breadcrumb_and_search col-sm-6 search-box-sticky">
+                                <div id="search-box">
+                                </div>
+                                <div id="hits">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -63,10 +58,9 @@
                                         </div>
                                         <div class="thumb">
 
-                                            <img alt="{{ page.thumb_image }}"
-                                                title="{{ page.thumb_image }}"
-                                                src="{{ page.thumb_image }}"
-                                                width="840" height="350" class="img-responsive" /> </div>
+                                            <img alt="{{ page.thumb_image }}" title="{{ page.thumb_image }}"
+                                                src="{{ page.thumb_image }}" width="840" height="350"
+                                                class="img-responsive" /> </div>
                                         <div class="article_content">
                                             {{ content }}
                                         </div>
@@ -86,6 +80,16 @@
     </div><!-- class="container" END -->
 
     <script src="/assets/js/app_footer.js"></script>
+
+    <!-- algolia search -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch-theme-algolia.min.css">
+
+
+    <script src="/assets/js/search.js"></script>
 
 </body>
 

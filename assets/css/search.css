@@ -1,0 +1,22 @@
+<style>
+    .search-box-sticky{
+        width: 300px;
+    }
+    #hits {
+        position: absolute;
+        z-index: 1000;
+        display: none;
+        width: 90%;
+    }
+    .ais-hits--item {
+        background-color: #fff;
+        padding: 10px 5px;
+        border-radius: 5px;
+    }
+    .ais-hits--item:hover{
+        background-color: #eeeeee;
+    }
+    .ais-hits--item a{
+        text-decoration: none;
+    }
+</style>
