@@ -131,20 +131,22 @@ block_9:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/recommended.png
+    - icon: /assets/images/upload/2021872-200.png
       text: ''
-      title: Customer-focus
-    - icon: /assets/images/upload/recommended.png
+      title: Customer Focus
+    - icon: /assets/images/upload/213124-200.png
       text: ''
       title: Transparency
-    - icon: /assets/images/upload/recommended.png
+    - icon: /assets/images/upload/1057458-200.png
+      text: ''
+      title: Customer Satisfiction
+    - icon: /assets/images/upload/r1684637-200.png
       text: ''
       title: Integrity
-    - icon: /assets/images/upload/recommended.png
-      text: ''
+    - icon: /assets/images/upload/169319-200.png
       title: Confidentiality
   text: >-
-    Marstranslation.com practices following business values to ensure both
+    JNDC - Translation practices following business values to ensure both
     customers and translators <br />enjoy a sustainable work-relationship.
   title: Values
   visible: true
