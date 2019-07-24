@@ -31,22 +31,6 @@ block_2:
         providing proofreading services and ensuring the highest quality to our
         customer
       title: Proofreading Services
-    - icon: /assets/images/upload/recommended.png
-      text: >-
-        Robust and quick video translation and transcription services by expert
-        translators who are skilled at voice-overs, subtitling and captioning.
-      title: Video Translation
-    - icon: /assets/images/upload/recommended.png
-      text: >-
-        Flexible and swift e-learning translation that will help you in choosing
-        a best-fit service for your e-learning projects.
-      title: E-Learning Translation
-    - icon: /assets/images/upload/recommended.png
-      text: >-
-        Professional and optimized services for desktop publishing managed by
-        highly skilled DTP specialists and graphic designers to adapt your
-        content.
-      title: DTP & File Conversion
   text: ''
   title: OUR COURCE SERVICES
   visible: true
@@ -54,28 +38,28 @@ block_3:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/recommended.png
+    - icon: /assets/images/upload/img_568492.png
       text: >-
         We have specially designed packages to address the translation needs of
         all our customers. Our affordable and competitive prices start from
         $0.05/word so that all the businesses can pursue their dream of going
         global.
       title: Rates
-    - icon: /assets/images/upload/recommended.png
+    - icon: /assets/images/upload/749128-200.png
       text: >-
         We know what your business means to you, so we want to deliver the best
         to you. Our robust quality assurance system is specially designed to
         engage only top rated translators for projects of our clients.
       title: Quality
-    - icon: /assets/images/upload/recommended.png
+    - icon: /assets/images/upload/rapid-icon-9.png
       text: >-
         We believe in facilitating our customers to the maximum. So, we are
-        marked by the fastest turnaround of 2000words/day and our translators
+        marked by the fastest turnaround of 2000 words/day and our translators
         strictly follow deadlines. We also go extra miles in case of emergency
         project delivery.
       title: Speed
   text: ''
-  title: Our Ace Qualities
+  title: OUR ACE QUALITIES
   visible: true
 block_4:
   background_image: ''
