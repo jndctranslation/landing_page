@@ -108,7 +108,7 @@ block_5:
   title: OUR TRANSLATION INDUSTRIES
   visible: true
 block_6:
-  background_image: /assets/images/upload/office-environment-.jpg
+  background_image: ''
   button:
     link: '#'
     name: Get Quote
