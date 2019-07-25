@@ -29,7 +29,7 @@ block_2:
   visible: true
 block_3:
   background_image: ''
-  color_overlay: 'rgba(50, 50, 50, 0)'
+  color_overlay: 'rgba(28, 0, 88, 0.05)'
   items:
     - icon: /assets/images/upload/d1107f60b3a61d8e361ee4741e0a4dfa.png
       text: We believe what we do is challenging existing limitation
