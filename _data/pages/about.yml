@@ -108,7 +108,7 @@ block_6:
     have industry experts who only get paid for the words they translate,
     nothing more, nothing less.
   title: Translations Are Better With Experts
-  visible: true
+  visible: false
 block_7:
   background_image: ''
   color_overlay: 'rgba(28, 0, 88, 0.5)'
