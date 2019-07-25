@@ -9,7 +9,7 @@ extra_nav:
       title: Support
 primary_nav:
   button_1:
-    link: '#'
+    link: '/quote'
     name: Get Quote
     visible: true
   button_2:
