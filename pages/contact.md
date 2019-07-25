@@ -40,7 +40,7 @@ description: 'This is the description of the page'
                         <div class="col-sm-6 col-xs-12">
                             <div class="form-group clearfix">
                                 <label class="control-label">Phone<span class="red">*</span></label>
-                                <input type="tel" id="phone" name="entry.1464149213" required="required" tabindex="3"
+                                <input type="tel" id="phone" name="entry.1464149213" tabindex="3"
                                     class="form-control country-code" />
                                 <div class="error_text text-danger"></div>
                             </div>
@@ -62,7 +62,7 @@ description: 'This is the description of the page'
                                 <label class="control-label" id="description">What can we do for you?<span
                                         class="red">*</span></label>
                                 <textarea id="contact_description" name="entry.1809341504" required="required"
-                                    class="form-control textarea" tabindex="5" required="required"
+                                    class="form-control textarea" tabindex="5"
                                     title="Description is required."></textarea>
                                 <div class="error_text text-danger"></div>
                             </div>
