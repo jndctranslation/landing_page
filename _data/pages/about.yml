@@ -1,6 +1,5 @@
 block_1:
-  background_image: >-
-    /assets/images/upload/ha-long-bay-cat-ba-island-vietnam-shutterstock_1056704582-1680x773.jpg
+  background_image: /assets/images/upload/du-lich-sai-gon-cam-nang-tu-a-den-z-ivivu.com-1.jpg
   button:
     link: '#'
     name: Contact Us
