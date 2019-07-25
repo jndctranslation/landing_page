@@ -115,11 +115,10 @@ block_6:
   color_overlay: 'rgba(50, 50, 50, 0)'
   image: /assets/images/upload/hand_punch.jpg
   text: >-
-    Our language translation services span to over 90+ languages. We have over
-    3000+ native translators who hold a great command of their area of expertise
-    and specialist in their language, so what we deliver is sheer brilliance and
-    excellence.
-  title: Languages
+    JNDC - Translation has a community of 100+ professional human translators in
+    Vietnamese languages. We provide human-only translation, click below to send
+    your translation request now.
+  title: Human Translation Expert
   visible: true
 block_7:
   background_image: ''
