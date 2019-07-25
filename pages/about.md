@@ -490,7 +490,7 @@ description: 'This is the description of the page'
         </section>
 
         <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
-        <div class="content_web expert_transaltion_services_page">
+        <div class="expert_transaltion_services_page">
           <section class="why_mars_block clearfix" style="background-image: url({{ site.data.pages.about.block_3.background_image }});
           box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_3.color_overlay }}; 
           background-position: center bottom; 
@@ -528,7 +528,7 @@ description: 'This is the description of the page'
           </section>
         </div>
         <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
-        <div class="content_web expert_transaltion_services_page">
+        <div class="expert_transaltion_services_page">
           <section class="why_mars_block clearfix" style="background-image: url({{ site.data.pages.about.block_4.background_image }});
           box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_4.color_overlay }}; 
           background-position: center bottom; 
