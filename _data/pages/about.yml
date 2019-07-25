@@ -69,12 +69,13 @@ block_5:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/recommended.png
-      text: '120+ languages  <br/>5000+ translators, more solutions'
-      title: More
-    - icon: /assets/images/upload/recommended.png
+    - icon: >-
+        /assets/images/upload/kissclipart-skills-icon-transparent-clipart-computer-icons-ski-2b534be31097f804.png
+      text: ''
+      title: Exellent in translation skills
+    - icon: /assets/images/upload/23111256untitled-3-512.png
       text: 24/7 service <br/>200 words/hour/translator
-      title: Rapid
+      title: Our translator are all native speaker
     - icon: /assets/images/upload/recommended.png
       text: 'ISO 9001:2008 Certified <br/>Native translators only'
       title: Accurate
@@ -82,10 +83,9 @@ block_5:
       text: 'Transparent price <br/>No Minimum Charge, no rush fees, Save up to 16%'
       title: Saving
   text: >-
-    This is where creme de la creme of world’s translation talent is. <br/>We
-    have industry experts who only get paid for the words they translate,
-    nothing more, nothing less.
-  title: Translations Are Better With Experts
+    JNDC - Translation has a community of 100+ professional human translators in
+    Vietnamese languages with at least 5 years of experience
+  title: OUR TRANSLATOR TEAM
   visible: true
 block_6:
   background_image: ''
