@@ -85,6 +85,28 @@ collections:
       label: 'Kick Start'
       file: '_data/pages/kick_start.yml'
       fields:
+      - name: 'block_0'
+        label: 'Block 0'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdownify', required: false}
+        - name: 'items'
+          label: 'Items'
+          widget: 'list'
+          fields:
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
+        - name: 'button'
+          label: 'Button'
+          widget: 'object'
+          fields:
+          - {name: 'title', label: 'Title', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
       - name: 'block_1'
         label: 'Block 1'
         widget: 'object'

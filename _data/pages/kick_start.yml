@@ -1,3 +1,25 @@
+block_0:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  title: 'Languages We Support'
+  text: We cover translations for 120 languages for a smooth global transition
+  visible: true
+  items:
+  - icon: '/assets/images/upload/987-200.png'
+    title: 'Chinese to Vietnamese'
+    link: '#'
+  - icon: '/assets/images/upload/987-200.png'
+    title: 'Korean to Vietnamese'
+    link: '#'
+  - icon: '/assets/images/upload/987-200.png'
+    title: 'Japanese to Vietnamese'
+    link: '#'
+  - icon: '/assets/images/upload/987-200.png'
+    title: 'English to Vietnamese'
+    link: '#'
+  button:
+    title: '75+ More Languages'
+    link: '#'
 block_1:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
