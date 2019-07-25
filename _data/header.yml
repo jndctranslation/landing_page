@@ -1,6 +1,6 @@
 extra_nav:
   left:
-    link: '/contact_us'
+    link: /contact_us
     title: Contact Us
   right:
     - link: /blog
@@ -45,7 +45,7 @@ primary_nav:
         - link: /pages/mobile_video_game
           title: Mobile and Video Game
         - link: /pages/retail_e_commerce
-          title: Retailand E-commerce
+          title: Retail and E-commerce
       title: Industries
     - link: /pages/pricing
       title: Pricing
