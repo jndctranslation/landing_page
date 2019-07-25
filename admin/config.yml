@@ -1053,7 +1053,7 @@ collections:
     files:
     - name: 'about_page'
       label: 'About Page'
-      file: 'about.md'
+      file: '/pages/about.md'
       fields:
       - { label: 'Title', name: 'title', widget: 'string'}
       - { label: 'Description', name: 'description', widget: 'string'}
