@@ -25,13 +25,13 @@ primary_nav:
         - link: /pages/translation_services
           title: Translation Services
         - link: /pages/proofreading_edditing_services
-          title: Proofreading and Editting Services
+          title: Proofreading Services
         - link: /pages/transcription_services
           title: Transcription Services
       title: Services
     - sub_nav:
         - link: /pages/general
-          title: General 
+          title: General
         - link: /pages/certificate
           title: Certificate
         - link: /pages/legal
