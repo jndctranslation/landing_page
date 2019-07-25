@@ -9,6 +9,9 @@ description: 'This is the description of the page'
 <link rel="stylesheet" href="/assets/v3/css/animate.min.css">
 <link rel="stylesheet" href="/assets/v3/css/proofreading-content.css">
 
+<link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
+<link rel="stylesheet" href="/assets/v3/css/supported-languages.css">
+
 <!-- BANNER START -->
 <div class="full_width_banner page_top_banner" style="background-image: url({{ site.data.pages.proofreading.block_1.background_image }});
 box-shadow:inset 0 0 0 10000px {{ site.data.pages.proofreading.block_1.color_overlay }}; 
