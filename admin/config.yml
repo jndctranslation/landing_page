@@ -523,6 +523,24 @@ collections:
           fields:
           - {name: 'button', label: 'Button', widget: 'string', required: false}
           - {name: 'link', label: 'Link', widget: 'string', required: false}
+        - name: 'sources'
+          label: 'Sources'
+          widget: 'list'
+          fields:
+          - {name: 'icon', label: 'Source Flag', widget: 'image', required: false}
+          - {name: 'title', label: 'Source Language', widget: 'string', required: false}
+        - name: 'targets'
+          label: 'Targets'
+          widget: 'list'
+          fields:
+          - {name: 'icon', label: 'Target Flag', widget: 'image', required: false}
+          - {name: 'title', label: 'Target Language', widget: 'string', required: false}
+        - name: 'industries'
+          label: 'Industries'
+          widget: 'list'
+          fields:
+          - {name: 'icon', label: 'Industry Icon', widget: 'image', required: false}
+          - {name: 'title', label: 'Industry name', widget: 'string', required: false}
         - {name: 'standard', label: 'Standard', widget: 'string', required: false}
         - {name: 'standard_plus', label: 'Standard Plus', widget: 'string', required: false}
         - {name: 'proffesional', label: 'Proffesional', widget: 'string', required: false}

@@ -9,6 +9,15 @@ block_1:
   button:
     name: 'Order Now'
     link: '#'
+  sources:
+  - icon: /assets/images/upload/heart_font_awesome.svg.png
+    title: Vietnamese
+  targets:
+  - icon: /assets/images/upload/heart_font_awesome.svg.png
+    title: Vietnamese
+  industries:
+  - icon: /assets/images/upload/heart_font_awesome.svg.png
+    title: General
   standard: 'Translator who passed our Standard level test.' 
   standard_plus: 'Standard level translator with one experienced proofreader'
   proffesional: 'Expert translator who passed our advanced level test'
