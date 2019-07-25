@@ -7,8 +7,8 @@ block_1:
   items:
     - id: block_2
       name: Overview
-    - id: block_7
-      name: Mission & Vision
+    - id: block_8
+      name: Vision
     - id: block_9
       name: Our Value
   text: >-
