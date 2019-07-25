@@ -1,5 +1,6 @@
 block_1:
-  background_image: /assets/images/upload/landmark-81-banner-1920x800px.jpg
+  background_image: >-
+    /assets/images/upload/ha-long-bay-cat-ba-island-vietnam-shutterstock_1056704582-1680x773.jpg
   button:
     link: '#'
     name: Contact Us
