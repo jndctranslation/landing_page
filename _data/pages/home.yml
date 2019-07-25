@@ -67,8 +67,8 @@ block_4:
     link: '#'
     name: Contact Us
   color_overlay: 'rgba(50, 50, 50, 0)'
-  text: Contact us to become part of our group of successful people
-  title: We have written 3000+ Success Stories
+  text: ''
+  title: 'Start your global journey with us today and get 10% discount '
   visible: true
 block_5:
   background_image: ''
