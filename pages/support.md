@@ -25,8 +25,8 @@ description: 'This is the description of the page'
         font-family: 'opensans-regular' !important;
     }
 
-    .why_mars_block{
-        padding-top: 30px!important;
+    .why_mars_block {
+        padding-top: 30px !important;
     }
 </style>
 

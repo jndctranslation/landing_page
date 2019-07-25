@@ -489,149 +489,82 @@ description: 'This is the description of the page'
             </div>
         </section>
 
-        <section class="section_grey_bg pd_lg features_block clearfix" 
-        style="background-image: url({{ site.data.pages.about.block_3.background_image }});
-        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_3.color_overlay }}; 
-        background-position: center bottom; 
-        background-repeat: no-repeat; 
-        -moz-background-size: cover;
-        -o-background-size: cover; 
-        -webkit-background-size: cover; 
-        background-size: cover;
-        {% if site.data.pages.about.block_3.visible == true %}
-        display: block; 
-        {% else %}
-        display: none;
-        {% endif %}"
-        >
+        <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
+        <div class="content_web expert_transaltion_services_page">
+          <section class="why_mars_block clearfix" style="background-image: url({{ site.data.pages.about.block_3.background_image }});
+          box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_3.color_overlay }}; 
+          background-position: center bottom; 
+          background-repeat: no-repeat; 
+          -moz-background-size: cover;
+          -o-background-size: cover; 
+          -webkit-background-size: cover; 
+          background-size: cover;
+          {% if site.data.pages.about.block_3.visible == true %}
+          display: block; 
+          {% else %}
+          display: none;
+          {% endif %}">
             <div class="container">
-                <div class="text_row text-center">
-                    <h2 class="heading">{{site.data.pages.about.block_3.title}}</h2>
-
-                    <div class="font_16">{{site.data.pages.about.block_3.text | markdownify }}</div>
-                </div>
-
+              <div class="text_row text-center">
+                <h3 class="heading">{{site.data.pages.about.block_3.title }}</h3>
+                <div class="desc">{{site.data.pages.about.block_3.text | markdownify }}</div>
+              </div>
+              <ul class="spacifications_list flexbox_container three_columns space_between list-unstyled clearfix">
                 {% for item in site.data.pages.about.block_3.items %}
-                <div class="col-md-3 col-sm-6 col-xs-6 
-                {% if forloop.first == true %}
-                col-offset-1
-                {% elsif forloop.last == true %}
-                col-offset-left-1
-                {% endif %}">
-                    <div class="media text-center">
-                        <span class="media-left">
-                            <div class="media-object">
-                                <image src="{{item.icon}}" style="width: 100%"></image>
-                            </div>
-                        </span>
-
-                        <div class="media-body">
-                            <h4 class="media-heading">{{item.title}}</h4>
-
-                            <div>{{ item.text | markdownify }}</div>
-                        </div>
-                    </div>
-                </div>
+                <li class="media spac_item">
+                  <div class="media-left">
+                    <p class="media-object svg_icon">
+                      <image src="{{item.icon}}" style="width: 100%"></image>
+                    </p>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">{{item.title}}</h4>
+                  </div>
+                  <div class="desc">{{item.text | markdownify }}</div>
+                </li>
                 {% endfor %}
-
+              </ul>
             </div>
-        </section>
-
-        <section class="section_grey_bg pd_lg features_block clearfix" 
-        style="background-image: url({{ site.data.pages.about.block_3.background_image }});
-        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_3.color_overlay }}; 
-        background-position: center bottom; 
-        background-repeat: no-repeat; 
-        -moz-background-size: cover;
-        -o-background-size: cover; 
-        -webkit-background-size: cover; 
-        background-size: cover;
-        {% if site.data.pages.about.block_3.visible == true %}
-        display: block; 
-        {% else %}
-        display: none;
-        {% endif %}"
-        >
+          </section>
+        </div>
+        <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
+        <div class="content_web expert_transaltion_services_page">
+          <section class="why_mars_block clearfix" style="background-image: url({{ site.data.pages.about.block_4.background_image }});
+          box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_4.color_overlay }}; 
+          background-position: center bottom; 
+          background-repeat: no-repeat; 
+          -moz-background-size: cover;
+          -o-background-size: cover; 
+          -webkit-background-size: cover; 
+          background-size: cover;
+          {% if site.data.pages.about.block_4.visible == true %}
+          display: block; 
+          {% else %}
+          display: none;
+          {% endif %}">
             <div class="container">
-                <div class="text_row text-center">
-                    <h2 class="heading">{{site.data.pages.about.block_3.title}}</h2>
-
-                    <div class="font_16">{{site.data.pages.about.block_3.text | markdownify }}</div>
-                </div>
-
-                {% for item in site.data.pages.about.block_3.items %}
-                <div class="col-md-3 col-sm-6 col-xs-6 
-                {% if forloop.first == true %}
-                col-offset-1
-                {% elsif forloop.last == true %}
-                col-offset-left-1
-                {% endif %}">
-                    <div class="media text-center">
-                        <span class="media-left">
-                            <div class="media-object">
-                                <image src="{{item.icon}}" style="width: 100%"></image>
-                            </div>
-                        </span>
-
-                        <div class="media-body">
-                            <h4 class="media-heading">{{item.title}}</h4>
-
-                            <div>{{ item.text | markdownify }}</div>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-
-            </div>
-        </section>
-
-        <section class="section_grey_bg pd_lg features_block clearfix" 
-        style="background-image: url({{ site.data.pages.about.block_4.background_image }});
-        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_4.color_overlay }}; 
-        background-position: center bottom; 
-        background-repeat: no-repeat; 
-        -moz-background-size: cover;
-        -o-background-size: cover; 
-        -webkit-background-size: cover; 
-        background-size: cover;
-        {% if site.data.pages.about.block_4.visible == true %}
-        display: block; 
-        {% else %}
-        display: none;
-        {% endif %}"
-        >
-            <div class="container">
-                <div class="text_row text-center">
-                    <h2 class="heading">{{site.data.pages.about.block_4.title}}</h2>
-
-                    <div class="font_16">{{site.data.pages.about.block_4.text | markdownify }}</div>
-                </div>
-
+              <div class="text_row text-center">
+                <h3 class="heading">{{site.data.pages.about.block_4.title }}</h3>
+                <div class="desc">{{site.data.pages.about.block_4.text | markdownify }}</div>
+              </div>
+              <ul class="spacifications_list flexbox_container three_columns space_between list-unstyled clearfix">
                 {% for item in site.data.pages.about.block_4.items %}
-                <div class="col-md-3 col-sm-6 col-xs-6 
-                {% if forloop.first == true %}
-                col-offset-1
-                {% elsif forloop.last == true %}
-                col-offset-left-1
-                {% endif %}">
-                    <div class="media text-center">
-                        <span class="media-left">
-                            <div class="media-object">
-                                <image src="{{item.icon}}" style="width: 100%"></image>
-                            </div>
-                        </span>
-
-                        <div class="media-body">
-                            <h4 class="media-heading">{{item.title}}</h4>
-
-                            <div>{{ item.text | markdownify }}</div>
-                        </div>
-                    </div>
-                </div>
+                <li class="media spac_item">
+                  <div class="media-left">
+                    <p class="media-object svg_icon">
+                      <image src="{{item.icon}}" style="width: 100%"></image>
+                    </p>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">{{item.title}}</h4>
+                  </div>
+                  <div class="desc">{{item.text | markdownify }}</div>
+                </li>
                 {% endfor %}
-
+              </ul>
             </div>
-        </section>
+          </section>
+        </div>
 
         <section class="section_grey_bg pd_lg features_block clearfix" 
         style="background-image: url({{ site.data.pages.about.block_5.background_image }});

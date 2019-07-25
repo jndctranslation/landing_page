@@ -75,32 +75,41 @@ block_5:
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
     - icon: /assets/images/upload/law-512.png
-      text: ''
       title: Legal
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/img_462268.png
-      text: ''
       title: Financial
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/40105.png
-      text: ''
       title: Engineering
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/img_561215.png
       title: Certificate
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/icons8-windows-8-programming-software-box.ico
       title: IT & Software
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/1473237-200.png
       title: Blockchain and Crypto
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/65687.png
       title: Mobile & Video Game
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/img_146257.png
       title: 'Retail '
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/marketing-icon.png
       title: Marketing
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/57589.png
       title: E - Commerce
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/1534390-200.png
       title: Manufacturing
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
     - icon: /assets/images/upload/more-512.png
       title: Much More
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
   text: >-
     We have translators with specific domain expertise, skills, background, and
     understanding so your <br/>projects are handled by the most relevant
