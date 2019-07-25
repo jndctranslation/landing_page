@@ -68,7 +68,7 @@ block_4:
     name: Contact Us
   color_overlay: 'rgba(28, 0, 88, 0.5)'
   text: ''
-  title: 'Start your global journey with us today and get 10% discount '
+  title: 'Start your global journey today and get 10% discount '
   visible: true
 block_5:
   background_image: ''
@@ -144,7 +144,7 @@ block_7:
     you an incredible amount of time and resources. We support all languages
     including Java, PHP, Node and Rails.
   title: Integrate with your Systems
-  visible: true
+  visible: false
 block_8:
   background_image: ''
   button:
@@ -162,12 +162,12 @@ block_9:
     link: '#'
     name: Become a Translator
   color_overlay: 'rgba(50, 50, 50, 0)'
-  image: /assets/images/upload/hand_punch.jpg
+  image: /assets/images/upload/0_8yom60axa7t7ivoh.jpg
   text: >-
-    Great Work requires Great Talent. Join the Mar’s community and work with our
-    cutting edge platform on a wide range of projects according to your
-    expertise.
-  title: Translators on MARS
+    Become a part of an amazing translators community. <br/>We offer
+    professional translators and linguists honest terms, full transparency,
+    instant payments, and other advantages
+  title: Become JNDC - Translator
   visible: true
 block_10:
   background_image: ''
