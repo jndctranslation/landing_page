@@ -108,12 +108,12 @@ block_5:
   title: OUR TRANSLATION INDUSTRIES
   visible: true
 block_6:
-  background_image: ''
+  background_image: /assets/images/upload/office-environment-.jpg
   button:
     link: '#'
-    name: More Languages
+    name: Get Quote
   color_overlay: 'rgba(50, 50, 50, 0)'
-  image: /assets/images/upload/hand_punch.jpg
+  image: /assets/images/upload/office-environment-.jpg
   text: >-
     JNDC - Translation has a community of 100+ professional human translators in
     Vietnamese languages. We provide human-only translation, click below to send
