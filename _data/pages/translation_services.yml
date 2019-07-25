@@ -48,7 +48,7 @@ block_2:
       title: Trademarks & Copyrights
   text: ''
   title: Which Legal Documents Do We Translate?
-  visible: true
+  visible: false
 block_3:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
