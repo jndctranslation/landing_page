@@ -165,7 +165,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_3'
@@ -181,7 +181,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_4'
@@ -212,7 +212,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_6'
@@ -339,7 +339,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_4'
@@ -355,7 +355,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_5'
@@ -371,7 +371,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_6'
@@ -387,7 +387,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_7'
@@ -421,7 +421,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
     
@@ -451,7 +451,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_3'
@@ -467,7 +467,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
 
@@ -506,7 +506,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
       - name: 'block_4'
@@ -522,7 +522,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
 
@@ -621,7 +621,7 @@ collections:
           label: 'Items'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'string', required: false}
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - name: 'questions'
             title: 'Question'
