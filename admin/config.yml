@@ -504,6 +504,59 @@ collections:
           - {name: 'title', label: 'Title', widget: 'string', required: false}
           - {name: 'text', label: 'Text', widget: 'markdown', required: false}
 
+    - name: 'pricing'
+      label: 'Pricing'
+      file: '_data/pages/pricing'
+      fields:
+      - name: 'block_1'
+        label: 'Block 1'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
+        - name: 'button'
+          label: 'Button'
+          widget: 'object'
+          fields:
+          - {name: 'button', label: 'Button', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}
+        - {name: 'standard', label: 'Standard', widget: 'string', required: false}
+        - {name: 'standard_plus', label: 'Standard Plus', widget: 'string', required: false}
+        - {name: 'proffesional', label: 'Proffesional', widget: 'string', required: false}
+        - {name: 'proffesional_plus', label: 'Proffesional Plus', widget: 'string', required: false}
+      - name: 'block_2'
+        label: 'Block 2'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - {name: 'title', label: 'Title', widget: 'string', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
+        - name: 'items'
+          label: 'Items'
+          widget: 'list'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'price_1', label: 'Price 1', widget: 'string', required: false}
+          - {name: 'price_2', label: 'Price 2', widget: 'string', required: false}
+      - name: 'block_3'
+        label: 'Block 3'
+        widget: 'object'
+        fields:
+        - {name: 'visible', label: 'Visible', widget: 'boolean'}
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+        - name: 'items'
+          label: 'Items'
+          widget: 'list'
+          fields:
+          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
+          - {name: 'text', label: 'Text', widget: 'markdown', required: false}
+
     - name: 'customer_support'
       label: 'Customer Support'
       file: '_data/pages/support.yml'
