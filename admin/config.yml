@@ -1047,3 +1047,13 @@ collections:
     - {name: 'thumb_image', label: 'Thumb Image', widget: 'image'}
     - {name: 'author', label: 'Author', widget: 'string'}
     - {name: 'body', label: 'Body', widget: 'markdown'}
+
+  - name: 'title_and_description'
+    label: 'Title and Description'
+    files:
+    - name: 'about_page'
+      label: 'About Page'
+      file: 'about.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}

@@ -712,7 +712,6 @@ description: 'This is the description of the page'
 
     <meta itemprop="datePublished" content="2015-04-29T14:34:36+08:00" />
     <meta content="http://www.marstranslation.com/page/company-profile" itemprop="url">
-
 </div>
 
 <!-- CONTENT END -->
