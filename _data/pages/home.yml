@@ -6,7 +6,7 @@ block_1:
   visible: true
 block_2:
   background_image: ''
-  color_overlay: 'rgba(50, 50, 50, 0)'
+  color_overlay: 'rgba(28, 0, 88, 0.05)'
   items:
     - icon: /assets/images/upload/987-200.png
       text: >-
@@ -66,9 +66,9 @@ block_4:
   button:
     link: '#'
     name: Contact Us
-  color_overlay: 'rgba(50, 50, 50, 0)'
-  text: Contact us to become part of our group of successful people
-  title: We have written 3000+ Success Stories
+  color_overlay: 'rgba(28, 0, 88, 0.5)'
+  text: ''
+  title: 'Start your global journey with us today and get 10% discount '
   visible: true
 block_5:
   background_image: ''
@@ -120,15 +120,14 @@ block_6:
   background_image: ''
   button:
     link: '#'
-    name: More Languages
+    name: Get Quote
   color_overlay: 'rgba(50, 50, 50, 0)'
-  image: /assets/images/upload/hand_punch.jpg
+  image: /assets/images/upload/office-environment-.jpg
   text: >-
-    Our language translation services span to over 90+ languages. We have over
-    3000+ native translators who hold a great command of their area of expertise
-    and specialist in their language, so what we deliver is sheer brilliance and
-    excellence.
-  title: Languages
+    JNDC - Translation has a community of 100+ professional human translators in
+    Vietnamese languages. We provide human-only translation, click below to send
+    your translation request now.
+  title: Human Translation Expert
   visible: true
 block_7:
   background_image: ''
