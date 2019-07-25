@@ -113,14 +113,11 @@ block_7:
   background_image: /assets/images/upload/hand_punch.jpg
   color_overlay: 'rgba(50, 50, 60, 0.5)'
   text: >-
-    Our mission is to provide translation customers with a sophisticated yet
-    streamlined online portal that is more than just another platform – offers
-    innovative features to accomplish more – and which connects them with
-    top-rated translators across the world so that both customers and
-    translators enjoy a win-win situation, resulting from making every project a
-    success.
-  title: Mission
-  visible: false
+    Our vision is to affirm the position of Vietnamese People in the world and
+    to help people around the world come close together by breaking their
+    languages barriers.
+  title: VISION
+  visible: true
 block_8:
   background_image: ''
   color_overlay: 'rgba(28, 0, 88, 0.5)'
@@ -131,7 +128,7 @@ block_8:
     at providing our high-qualified Vietnamese Translation Services which we are
     most confident.
   title: OUR VISION
-  visible: true
+  visible: false
 block_9:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
