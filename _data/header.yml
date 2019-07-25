@@ -1,12 +1,10 @@
 extra_nav:
   left:
-    link: '#'
-    title: Get Free Consultation
+    link: '/contact_us'
+    title: Contact Us
   right:
     - link: /blog
       title: Blog
-    - link: /contact
-      title: Contact Us
     - link: /support
       title: Support
 primary_nav:

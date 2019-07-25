@@ -566,6 +566,31 @@ description: 'This is the description of the page'
           </section>
         </div>
 
+        <section class="section_green_bg vision_block pd_lg text-center"  id="block_8"
+        style="background-image: url({{ site.data.pages.about.block_8.background_image }});
+        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_8.color_overlay }}; 
+        background-position: center bottom; 
+        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-size: cover;
+        {% if site.data.pages.about.block_8.visible == true %}
+        display: block; 
+        {% else %}
+        display: none;
+        {% endif %}"
+        >
+            <div class="container">
+                <div class="text_row less_space">
+                    <h2 class="heading">{{site.data.pages.about.block_8.title}}</h2>
+                </div>
+
+                <div class="font_21">{{site.data.pages.about.block_8.text}}</div>
+            </div>
+        </section>
+
+
         <section class="section_grey_bg pd_lg features_block clearfix" 
         style="background-image: url({{ site.data.pages.about.block_5.background_image }});
         box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_5.color_overlay }}; 
@@ -614,6 +639,54 @@ description: 'This is the description of the page'
             </div>
         </section>
 
+        <section class="section_grey_bg pd_lg features_block clearfix" 
+        style="background-image: url({{ site.data.pages.about.block_6.background_image }});
+        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_6.color_overlay }}; 
+        background-position: center bottom; 
+        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-size: cover;
+        {% if site.data.pages.about.block_6.visible == true %}
+        display: block; 
+        {% else %}
+        display: none;
+        {% endif %}"
+        >
+            <div class="container">
+                <div class="text_row text-center">
+                    <h2 class="heading">{{site.data.pages.about.block_6.title}}</h2>
+
+                    <div class="font_16">{{site.data.pages.about.block_6.text | markdownify }}</div>
+                </div>
+
+                {% for item in site.data.pages.about.block_6.items %}
+                <div class="col-md-3 col-sm-6 col-xs-6 
+                {% if forloop.first == true %}
+                col-offset-1
+                {% elsif forloop.last == true %}
+                col-offset-left-1
+                {% endif %}">
+                    <div class="media text-center">
+                        <span class="media-left">
+                            <div class="media-object">
+                                <image src="{{item.icon}}" style="width: 100%"></image>
+                            </div>
+                        </span>
+
+                        <div class="media-body">
+                            <h4 class="media-heading">{{item.title}}</h4>
+
+                            <div>{{ item.text | markdownify }}</div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+        </section>
+
         <section class="mission_block pd_lg text-center" id="block_7" 
         style="background-image: url({{ site.data.pages.about.block_7.background_image }});
         box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_7.color_overlay }}; 
@@ -635,30 +708,6 @@ description: 'This is the description of the page'
                 </div>
 
                 <div class="font_21">{{site.data.pages.about.block_7.text}}</div>
-            </div>
-        </section>
-
-        <section class="section_green_bg vision_block pd_lg text-center" 
-        style="background-image: url({{ site.data.pages.about.block_8.background_image }});
-        box-shadow:inset 0 0 0 10000px {{ site.data.pages.about.block_8.color_overlay }}; 
-        background-position: center bottom; 
-        background-repeat: no-repeat; 
-        -moz-background-size: cover;
-        -o-background-size: cover; 
-        -webkit-background-size: cover; 
-        background-size: cover;
-        {% if site.data.pages.about.block_8.visible == true %}
-        display: block; 
-        {% else %}
-        display: none;
-        {% endif %}"
-        >
-            <div class="container">
-                <div class="text_row less_space">
-                    <h2 class="heading">{{site.data.pages.about.block_8.title}}</h2>
-                </div>
-
-                <div class="font_21">{{site.data.pages.about.block_8.text}}</div>
             </div>
         </section>
 

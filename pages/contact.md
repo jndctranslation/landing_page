@@ -1,5 +1,5 @@
 ---
-permalink: '/contact'
+permalink: '/contact_us'
 layout: 'default'
 title: 'Professional Translation Services | Mars Translation'
 description: 'This is the description of the page'
@@ -17,12 +17,14 @@ description: 'This is the description of the page'
 
         <div id="sales_form" class="form_wrap clearfix" style="display: block;">
             <div class="col-sm-8 col-xs-12 col_left">
-                <form name="" action="https://formspree.io/kara.jr.original@gmail.com" method="POST" class="contact_form" enctype="multipart/form-data">
+                <form name="" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSds79EsYaydiWGqKdzq3JuFuWNo0hj-L1qjI2hffokYX9p64Q/formResponse" method="POST"
+                    class="contact_form" enctype="multipart/form-data"
+                    target="hidden_iframe" onsubmit="submitted=true;">
                     <div class="row">
                         <div class="col-sm-6 col-xs-12">
                             <div class="form-group clearfix">
                                 <label class="control-label">Full Name<span class="red">*</span></label>
-                                <input type="text" id="fullname" name="fullname" required="required" tabindex="1"
+                                <input type="text" id="fullname" name="entry.686437748" required="required" tabindex="1"
                                     class="form-control" title="Name is required." />
                                 <div class="error_text text-danger"></div>
                             </div>
@@ -30,16 +32,15 @@ description: 'This is the description of the page'
                         <div class="col-sm-6 col-xs-12">
                             <div class="form-group clearfix">
                                 <label class="control-label">Business Email<span class="red">*</span></label>
-                                <input type="email" id="email" name="email" required="required" value="" tabindex="2"
+                                <input type="email" id="email" name="entry.836208186" required="required" value="" tabindex="2"
                                     class="form-control" title="Email is required." />
                                 <div class="error_text text-danger"></div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12">
                             <div class="form-group clearfix">
-                                
                                 <label class="control-label">Phone<span class="red">*</span></label>
-                                <input type="text" id="phone" name="phone" required="required" tabindex="3"
+                                <input type="tel" id="phone" name="entry.1464149213" required="required" tabindex="3"
                                     class="form-control country-code" />
                                 <div class="error_text text-danger"></div>
                             </div>
@@ -47,11 +48,11 @@ description: 'This is the description of the page'
                         <div class="col-sm-6 col-xs-12 find_us_through">
                             <div class="form-group clearfix">
                                 <label class="control-label">How you find us?</label>
-                                <select id="findUsThrough" name="findUsThrough" tabindex="4" class="chosen-select">
-                                    <option value="" selected="selected">How You Find Us</option>
-                                    <option value="google or other search">Google or other search</option>
-                                    <option value="online ads">Online Ads</option>
-                                    <option value="email marketing">Email Marketing</option>
+                                <select id="findUsThrough" name="entry.762168496" tabindex="4" class="chosen-select">
+                                    <option value="" selected="selected">How you find us?</option>
+                                    <option value="Google or other search">Google or other search</option>
+                                    <option value="Online Ads">Online Ads</option>
+                                    <option value="Email Marketing">Email Marketing</option>
                                 </select>
                                 <div class="error_text text-danger"></div>
                             </div>
@@ -60,25 +61,10 @@ description: 'This is the description of the page'
                             <div class="form-group clearfix">
                                 <label class="control-label" id="description">What can we do for you?<span
                                         class="red">*</span></label>
-                                <textarea id="contact_description" name="contact_description" required="required"
+                                <textarea id="contact_description" name="entry.1809341504" required="required"
                                     class="form-control textarea" tabindex="5" required="required"
                                     title="Description is required."></textarea>
                                 <div class="error_text text-danger"></div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="form-group  file clearfix">
-                                <label class="control-label">Attachment</label>
-                                <div class="file_upload_input" style="overflow:hidden;">
-                                    <span class="overlay">Choose File
-                                        <input type="file" id="attachment" name="attachment" tabindex="6" class="" />
-                                    </span>
-                                    <span id="attachment_name" class="text-default" style="font-size:12px;color:#333;">
-                                    </span>
-
-                                </div>
-                                <div id="attach-error" class="error_text text-danger"></div>
                             </div>
                         </div>
 
@@ -96,3 +82,7 @@ description: 'This is the description of the page'
         </div>
     </div>
 </div>
+
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+onload="if(submitted) {window.location='/thank_you';}"></iframe>
