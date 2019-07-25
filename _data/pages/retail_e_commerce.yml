@@ -2,7 +2,11 @@ block_1:
   background_image: >-
     /assets/images/upload/retail-data_montri-nipitvittaya_shutterstock_525896359.jpg
   color_overlay: 'rgba(50, 50, 50, 0.5)'
-  text: "Addressing customers in their native language is a retailer’s biggest advantage in reaching millions of people around the world instantaneously.\r <br/>JNDC - Translation provides e-commerce translations that turn internet traffic into international sales. We have implemented a patented review methodology that produces effective retail and e-commerce translations and localization."
+  text: >-
+    JNDC - Translation provides e-commerce translations that turn internet
+    traffic into international sales. We have implemented a patented review
+    methodology that produces effective retail and e-commerce translations and
+    localization.
   title: Retail & E-Commerce Translation Services
   visible: true
 block_2:
