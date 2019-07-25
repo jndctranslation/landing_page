@@ -33,13 +33,13 @@ block_3:
   items:
     - icon: /assets/images/upload/d1107f60b3a61d8e361ee4741e0a4dfa.png
       text: We believe what we do is challenging existing limitation
-      title: ''
+      title: Our Believe
     - icon: /assets/images/upload/directions-icon-png-5.png
       text: What we think and what we action is making a difference
-      title: ''
+      title: Our Think
     - icon: /assets/images/upload/44386.png
       text: We believe that together we can create a better world
-      title: ''
+      title: Together
   text: ''
   title: WHAT DO WE BELIEVE?
   visible: true
