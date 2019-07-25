@@ -6,7 +6,7 @@ block_1:
   visible: true
 block_2:
   background_image: ''
-  color_overlay: 'rgba(28, 0, 88, 0.1)'
+  color_overlay: 'rgba(28, 0, 88, 0.05)'
   items:
     - icon: /assets/images/upload/987-200.png
       text: >-
