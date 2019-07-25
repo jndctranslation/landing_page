@@ -136,9 +136,6 @@ block_9:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/2021872-200.png
-      text: ''
-      title: Customer Focus
     - icon: /assets/images/upload/213124-200.png
       text: ''
       title: Transparency
