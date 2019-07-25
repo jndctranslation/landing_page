@@ -1,53 +1,56 @@
 block_1:
-  background_image: /assets/images/upload/d923dbbf84f549bb2d91ba8cf91461a8.jpg
+  background_image: /assets/images/upload/61352-rd0o0hr3hw.jpg
   color_overlay: 'rgba(50, 50, 50, 0.5)'
   text: >-
-    As experts in Vietnamese, our certified legal translators and reviewers will
-    accurately translate sensitive legal materials into your desired language.
-  title: Expert Translation Services
+    As experts in Vietnamese, our certified financial translators and reviewers
+    will accurately translate financial materials into Vietnamese.
+  title: Financial Translation Services
   visible: true
 block_2:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/img_417598.png
+    - icon: /assets/images/upload/1476210-200.png
       text: >-
-        Whether you’re a big corporation or small business, your contracts must
-        be translated accurately to ensure that all parties involved fully
-        understand what is being agreed upon.
-      title: Contract
-    - icon: >-
-        /assets/images/upload/4137121-health-evaluate-svg-png-icon-free-download-168769-evaluates-png-888_981_preview.png
+        In Fintech, it’s important that your clients and prospective clients to
+        take you seriously. Our professional translators will ensure that your
+        Fintech company’s website communicates its message clearly in
+        Vietnamese.
+      title: Fintech Websites
+    - icon: /assets/images/upload/776681-200.png
       text: >-
-        Most people may skip reading the Terms and Conditions online, but that
-        doesn’t mean you should skip accurately translating them. It’s an
-        important legal document that can have many serious implications.
-      title: Term and Conditions
+        Most With Requests for Information (RFIs) and Requests for Proposals
+        (RFPs), you’re trying to convince a company to use your services or
+        products. Make sure these documents are clear and effective in
+        Vietnamese.
+      title: 'RFIs, RFPs'
+    - icon: /assets/images/upload/225616-200.png
+      text: >-
+        You’re showing investors what they need to know about the investments
+        their putting their money into. They’re counting on these documents to
+        convey the correct information regardless of which language they speak.
+      title: Key Investor Information Documents
     - icon: /assets/images/upload/img_517072.png
       text: >-
-        In order to do business anywhere, you need the appropriate permits and
-        licenses. When you’re conducting business across borders, getting an
-        accurate translation of permits is imperative.
-      title: Permits/ Licenses
-    - icon: /assets/images/upload/img_517072.png
+        Financial reports may be full of numbers, but you can’t overlook the
+        text. Shareholders and stakeholders are counting on your company’s
+        financial reports to make informed decisions. Make sure they are
+        translated accurately with our financial translation services.
+      title: Financial Reports
+    - icon: /assets/images/upload/604_-_business_plan-512.png
       text: >-
-        Our translation platform is equipped to process translation projects of
-        high volume and technical nature, ensuring quick turnaround
-      title: Policies & GDPR
-    - icon: /assets/images/upload/56-512.png
+        Your employees, board members, investors, and stakeholders need to
+        clearly understand where your business is going. That’s where your
+        company’s roadmap can be found. Don’t let that get lost in translation.
+      title: Business Plans
+    - icon: /assets/images/upload/159448.png
       text: >-
-        No matter the service, no matter the language, our certified and
-        experienced translators will ensure that your service agreements are
-        coherent to all parties involved.
-      title: Service Agreements
-    - icon: /assets/images/upload/img_310481.png
-      text: >-
-        Intellectual property protection is no joke. With our professional legal
-        translation services, you can trust that your trademarks and copyrights
-        will be understood in Vietnamese.
-      title: Trademarks & Copyrights
+        With so many important details present in insurance documents, an
+        accurate and error-free translation is imperative for both the
+        individuals buying the insurance and the ones selling it.
+      title: Insurance Documents
   text: ''
-  title: Which Legal Documents Do We Translate?
+  title: Which financial documents and content do we translate?
   visible: true
 block_3:
   background_image: ''
