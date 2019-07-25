@@ -68,7 +68,7 @@ block_4:
     name: Contact Us
   color_overlay: 'rgba(28, 0, 88, 0.5)'
   text: ''
-  title: 'Start your global journey with us today and get 10% discount '
+  title: 'Start your global journey today and get 10% discount '
   visible: true
 block_5:
   background_image: ''
@@ -144,7 +144,7 @@ block_7:
     you an incredible amount of time and resources. We support all languages
     including Java, PHP, Node and Rails.
   title: Integrate with your Systems
-  visible: true
+  visible: false
 block_8:
   background_image: ''
   button:
