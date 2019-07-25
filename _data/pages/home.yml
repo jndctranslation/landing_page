@@ -75,88 +75,40 @@ block_5:
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
     - icon: /assets/images/upload/law-512.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: Legal
     - icon: /assets/images/upload/img_462268.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: Financial
     - icon: /assets/images/upload/40105.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: Engineering
     - icon: /assets/images/upload/img_561215.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: Certificate
     - icon: /assets/images/upload/icons8-windows-8-programming-software-box.ico
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: IT & Software
     - icon: /assets/images/upload/1473237-200.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: Blockchain and Crypto
     - icon: /assets/images/upload/65687.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: Mobile & Video Game
     - icon: /assets/images/upload/img_146257.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: 'Retail '
     - icon: /assets/images/upload/marketing-icon.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: Marketing
     - icon: /assets/images/upload/57589.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: E - Commerce
     - icon: /assets/images/upload/1534390-200.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: Manufacturing
     - icon: /assets/images/upload/more-512.png
-      text: >-
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book
+      text: ''
       title: Much More
   text: >-
     We have translators with specific domain expertise, skills, background, and
