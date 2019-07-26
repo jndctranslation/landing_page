@@ -2,7 +2,7 @@ block_1:
   background_image: /assets/images/upload/landmark-81-banner-1920x800px.jpg
   color_overlay: 'rgba(50, 50, 50, 0.6)'
   text: Get your translation by the top-rated Vietnamese native speaker
-  title: Developing your business in Global Market with JNDC - Translation
+  title: Developing your business in Global Market with JNDC Translation
   visible: true
 block_2:
   background_image: ''
@@ -42,7 +42,7 @@ block_3:
       text: >-
         We have specially designed packages to address the translation needs of
         all our customers. Our affordable and competitive prices start from
-        $0.05/word so that all the businesses can pursue their dream of going
+        $0.06/word so that all the businesses can pursue their dream of going
         global.
       title: Rates
     - icon: /assets/images/upload/749128-200.png
@@ -124,7 +124,7 @@ block_6:
   color_overlay: 'rgba(28, 0, 88, 0.05)'
   image: /assets/images/upload/office-environment-.jpg
   text: >-
-    JNDC - Translation has a community of 100+ professional human translators in
+    JNDC Translation has a community of 100+ professional human translators in
     Vietnamese languages. We provide human-only translation, click below to send
     your translation request now.
   title: Human Translation Expert
@@ -152,8 +152,8 @@ block_8:
     name: Learn More
   color_overlay: 'rgba(50, 50, 50, 0)'
   text: >-
-    Since our startup, two decades back, we have been getting better and better
-    only!
+    Since our startup, over these years, we have been trying to get better and
+    better every single day!
   title: Customers Feedback
   visible: true
 block_9:
@@ -220,7 +220,7 @@ block_10:
         market, we ensure that cultural sensitivity is not compromised in the
         translation. We believe that these factors play a major role in creating
         a positive for our clients.
-      title: Why Choose JNDC - Translation?
+      title: Why Choose JNDC Translation?
     - text: >-
         ### Professional and Reliable
 
