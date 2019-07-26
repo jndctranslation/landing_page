@@ -14,7 +14,7 @@ description: 'This is the description of the page'
                 <div class="col-sm-1 col-xs-12"> </div>
 
                 <div class="col-sm-6 col-xs-12">
-                    <p class="desc" style="color:#9d2a3b">If you are being redirected from Mars home page, please
+                    <p class="desc" style="color:#9d2a3b">If you are being redirected from JNDC Translation home page, please
                         clear your browser cache and try again.</p>
 
                     <h1 class="heading">404 – Page You are looking for is not found.</h1>
