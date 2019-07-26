@@ -19,11 +19,11 @@ block_2:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   text: >-
-    JNDC - Translation is a Vietnamese Languages Company. We is a leading in
+    JNDC Translation is a Vietnamese Languages Company. We is a leading in
     providing translation services in the translation marketplace that offers a
     transparent, intuitive and cost-effective online portal to customers who
     need documents, web content and video content translated guaranteeing
-    high-quality and high speed. JNDC - Translation connects its customers with
+    high-quality and high speed. JNDC Translation connects its customers with
     highly rated, certified, Vietnamese native translators who can deliver
     quality translation and follow our company strict standards.
   visible: true
@@ -51,7 +51,7 @@ block_4:
       text: >-
         We put our heart in every word, every sentence, every page and every
         project that we do
-      title: Our Heart in What we do
+      title: Put Our Heart
     - icon: /assets/images/upload/987-200.png
       text: >-
         We strive to provide the best services by our rich experience
@@ -63,7 +63,7 @@ block_4:
         with the excellent quality.
       title: Fast Turnaround Time
   text: ''
-  title: WHAT DO WE DO?
+  title: HOW DO WE DO?
   visible: true
 block_5:
   background_image: ''
@@ -83,7 +83,7 @@ block_5:
       text: ''
       title: Deep knowledge in translate field
   text: >-
-    JNDC - Translation has a community of 100+ professional human translators in
+    JNDC Translation has a community of 100+ professional human translators in
     Vietnamese languages <br/>with at least 5 years of experience
   title: OUR TRANSLATOR TEAM
   visible: true
@@ -122,9 +122,9 @@ block_8:
   background_image: ''
   color_overlay: 'rgba(28, 0, 88, 0.5)'
   text: >-
-    Our vision is to affirm the position of Vietnamese People in the world and
-    to help people around the world come close together by breaking their
-    languages barriers.
+    Our vision is to affirm the position of Vietnamese People in the world by
+    providing the number one Translation Services and to help people around the
+    world come close together by breaking their languages barriers.
   title: VISION
   visible: true
 block_9:
@@ -143,7 +143,7 @@ block_9:
     - icon: /assets/images/upload/169319-200.png
       title: Confidentiality
   text: >-
-    JNDC - Translation practices following business values to ensure both
+    JNDC Translation practices following business values to ensure both
     customers and translators <br />enjoy a sustainable work-relationship.
   title: Values
   visible: true
