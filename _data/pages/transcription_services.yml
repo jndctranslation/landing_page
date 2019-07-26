@@ -2,8 +2,8 @@ block_1:
   background_image: /assets/images/upload/d923dbbf84f549bb2d91ba8cf91461a8.jpg
   color_overlay: 'rgba(50, 50, 50, 0.5)'
   text: >-
-    As experts in Vietnamese, our certified legal translators and reviewers will
-    accurately translate sensitive legal materials into your desired language.
+    As experts in Translation, our certified legal translators and reviewers
+    will accurately translate sensitive legal materials into Vietnamese.
   title: Expert Translation Services
   visible: true
 block_2:
@@ -65,5 +65,5 @@ block_3:
   text: >-
     Enable globalization for your business with our excellent quality of
     translation services at cost-effective rates.
-  title: Why Choose JNDC - Translation?
+  title: Why Choose JNDC Translation?
   visible: true
