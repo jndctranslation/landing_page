@@ -1,102 +1,67 @@
 block_1:
-  background_image: /assets/images/upload/landmark-81-banner-1920x800px.jpg
+  background_image: /assets/images/upload/2-154521299064770309284.jpg
   color_overlay: 'rgba(50, 50, 50, 0.6)'
+  text: >-
+    JNDC - Translation helps you to provide self-service support 24/7 that will
+    increase customer satisfaction.
   title: Customer Support
-  text: Mars Translation helps you to provide self-service support 24/7 that will increase customer satisfaction.
   visible: true
-
 block_2:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
-  visible: true
   items:
-  - icon: /assets/images/upload/987-200.png
-    title: About Mars Translation
-    questions:
-    - title: Why should I choose Mars Translation?
-      link: #
-    - title: What languages do you translate?
-      link: #
-    - title: What kind of services do you offer?
-      link: #
-    - title: Will I receive a certificate of translation?
-      link: #
-    - title: Do you offer industry expert translation?
-      link: #
-    - title: Do you offer website translation/localization services?
-      link: #
-  - icon: /assets/images/upload/987-200.png
-    title: Receiving your Translation
-    questions:
-    - title: Why should I choose Mars Translation?
-      link: #
-    - title: What languages do you translate?
-      link: #
-    - title: What kind of services do you offer?
-      link: #
-    - title: Will I receive a certificate of translation?
-      link: #
-    - title: Do you offer industry expert translation?
-      link: #
-    - title: Do you offer website translation/localization services?
-      link: #
-  - icon: /assets/images/upload/987-200.png
-    title: Placing an Order
-    questions:
-    - title: Why should I choose Mars Translation?
-      link: #
-    - title: What languages do you translate?
-      link: #
-    - title: What kind of services do you offer?
-      link: #
-    - title: Will I receive a certificate of translation?
-      link: #
-    - title: Do you offer industry expert translation?
-      link: #
-    - title: Do you offer website translation/localization services?
-      link: #
-  - icon: /assets/images/upload/987-200.png
-    title: Pricing
-    questions:
-    - title: Why should I choose Mars Translation?
-      link: #
-    - title: What languages do you translate?
-      link: #
-    - title: What kind of services do you offer?
-      link: #
-    - title: Will I receive a certificate of translation?
-      link: #
-    - title: Do you offer industry expert translation?
-      link: #
-    - title: Do you offer website translation/localization services?
-      link: #
-  - icon: /assets/images/upload/987-200.png
-    title: Troubleshooting and Maintenance
-    questions:
-    - title: Why should I choose Mars Translation?
-      link: #
-    - title: What languages do you translate?
-      link: #
-    - title: What kind of services do you offer?
-      link: #
-    - title: Will I receive a certificate of translation?
-      link: #
-    - title: Do you offer industry expert translation?
-      link: #
-    - title: Do you offer website translation/localization services?
-      link: #
-  - icon: /assets/images/upload/987-200.png
-    title: Payment
-    questions:
-    - title: Why should I choose Mars Translation?
-      link: #
-    - title: What languages do you translate?
-      link: #
-    - title: What kind of services do you offer?
-      link: #
-    - title: Will I receive a certificate of translation?
-      link: #
-    - title: Do you offer industry expert translation?
-      link: #
-    - title: Do you offer website translation/localization services?
-      link: #
+    - icon: /assets/images/upload/987-200.png
+      questions:
+        - title: Why should I choose Mars Translation?
+        - title: What languages do you translate?
+        - title: What kind of services do you offer?
+        - title: Will I receive a certificate of translation?
+        - title: Do you offer industry expert translation?
+        - title: Do you offer website translation/localization services?
+      title: About Mars Translation
+    - icon: /assets/images/upload/987-200.png
+      questions:
+        - title: Why should I choose Mars Translation?
+        - title: What languages do you translate?
+        - title: What kind of services do you offer?
+        - title: Will I receive a certificate of translation?
+        - title: Do you offer industry expert translation?
+        - title: Do you offer website translation/localization services?
+      title: Receiving your Translation
+    - icon: /assets/images/upload/987-200.png
+      questions:
+        - title: Why should I choose Mars Translation?
+        - title: What languages do you translate?
+        - title: What kind of services do you offer?
+        - title: Will I receive a certificate of translation?
+        - title: Do you offer industry expert translation?
+        - title: Do you offer website translation/localization services?
+      title: Placing an Order
+    - icon: /assets/images/upload/987-200.png
+      questions:
+        - title: Why should I choose Mars Translation?
+        - title: What languages do you translate?
+        - title: What kind of services do you offer?
+        - title: Will I receive a certificate of translation?
+        - title: Do you offer industry expert translation?
+        - title: Do you offer website translation/localization services?
+      title: Pricing
+    - icon: /assets/images/upload/987-200.png
+      questions:
+        - title: Why should I choose Mars Translation?
+        - title: What languages do you translate?
+        - title: What kind of services do you offer?
+        - title: Will I receive a certificate of translation?
+        - title: Do you offer industry expert translation?
+        - title: Do you offer website translation/localization services?
+      title: Troubleshooting and Maintenance
+    - icon: /assets/images/upload/987-200.png
+      questions:
+        - title: Why should I choose Mars Translation?
+        - title: What languages do you translate?
+        - title: What kind of services do you offer?
+        - title: Will I receive a certificate of translation?
+        - title: Do you offer industry expert translation?
+        - title: Do you offer website translation/localization services?
+      title: Payment
+  visible: true

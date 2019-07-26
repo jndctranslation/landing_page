@@ -1,53 +1,38 @@
 block_1:
-  background_image: /assets/images/upload/d923dbbf84f549bb2d91ba8cf91461a8.jpg
+  background_image: /assets/images/upload/almaviva-blockchain.jpg
   color_overlay: 'rgba(50, 50, 50, 0.5)'
   text: >-
-    As experts in Vietnamese, our certified legal translators and reviewers will
-    accurately translate sensitive legal materials into your desired language.
-  title: Expert Translation Services
+    New technologies can cause apprehension. Don’t add to the confusion with
+    inaccurate content and documents. Blockchain and cryptocurrency companies
+    trust JNDC - Translation for their translation needs.
+  title: Blockchain & Cryptocurrency Translation Services
   visible: true
 block_2:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/img_417598.png
+    - icon: /assets/images/upload/img_414428.png
       text: >-
-        Whether you’re a big corporation or small business, your contracts must
-        be translated accurately to ensure that all parties involved fully
-        understand what is being agreed upon.
-      title: Contract
-    - icon: >-
-        /assets/images/upload/4137121-health-evaluate-svg-png-icon-free-download-168769-evaluates-png-888_981_preview.png
+        Do you want to reach a wider audience, open up your service to new
+        users, expand your trading volume, and inform your current
+        customers/clients? Our certified translators will ensure websites for
+        blockchain and cryptocurrencies companies are clear in Vietnamese.
+      title: Websites
+    - icon: /assets/images/upload/tips-hemsida.png
       text: >-
-        Most people may skip reading the Terms and Conditions online, but that
-        doesn’t mean you should skip accurately translating them. It’s an
-        important legal document that can have many serious implications.
-      title: Term and Conditions
-    - icon: /assets/images/upload/img_517072.png
+        The mobile apps and software you’ve created to help people invest in
+        cryptocurrencies should be easy to use. Our certified translators will
+        make sure the text is clear in Vietnamese.
+      title: Apps and Software
+    - icon: /assets/images/upload/29508.png
       text: >-
-        In order to do business anywhere, you need the appropriate permits and
-        licenses. When you’re conducting business across borders, getting an
-        accurate translation of permits is imperative.
-      title: Permits/ Licenses
-    - icon: /assets/images/upload/img_517072.png
-      text: >-
-        Our translation platform is equipped to process translation projects of
-        high volume and technical nature, ensuring quick turnaround
-      title: Policies & GDPR
-    - icon: /assets/images/upload/56-512.png
-      text: >-
-        No matter the service, no matter the language, our certified and
-        experienced translators will ensure that your service agreements are
-        coherent to all parties involved.
-      title: Service Agreements
-    - icon: /assets/images/upload/img_310481.png
-      text: >-
-        Intellectual property protection is no joke. With our professional legal
-        translation services, you can trust that your trademarks and copyrights
-        will be understood in Vietnamese.
-      title: Trademarks & Copyrights
+        Don’t lose potential investors and funding because they can’t understand
+        your company’s Initial Coin Offering (ICO). Enlist the help of our
+        experienced translators to make sure your ICO secures the funding you
+        need to for the future your business.
+      title: Initial Coin Offering (ICO)
   text: ''
-  title: Which Legal Documents Do We Translate?
+  title: What kind of Blockchain & Cryptocurrency content do we translate?
   visible: true
 block_3:
   background_image: ''
