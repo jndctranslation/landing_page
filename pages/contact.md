@@ -7,7 +7,14 @@ description: 'This is the description of the page'
 
 <link rel="stylesheet" href="/assets/v3/css/contact-us.css">
 
-<div class="content_web contact_page">
+<div class="content_web contact_page" style="background-image: url({{ site.data.pages.contact.background_image }});
+    box-shadow:inset 0 0 0 10000px {{ site.data.pages.contact.color_overlay }}; 
+    background-position: center bottom; 
+    background-repeat: no-repeat; 
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-size: cover;">
     <div class="container less_width">
         <div class="contact_head clearfix text-center">
             <div class="text_row">

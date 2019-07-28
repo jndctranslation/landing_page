@@ -1035,6 +1035,19 @@ collections:
             - {name: 'title', label: 'Title', widget: 'string', required: false}
             - {name: 'link', label: 'Link', widget: 'string', required: false}
 
+    - name: 'quote'
+      label: 'Instant Quote'
+      file: '_data/pages/quote.yml'
+      fields:
+        - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+        - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
+
+    - name: 'contact'
+      label: 'Contact Us'
+      file: '_data/pages/contact.yml'
+      fields:
+      - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
+      - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
 
   - name: 'blog_posts'
     label: 'Blog Posts'

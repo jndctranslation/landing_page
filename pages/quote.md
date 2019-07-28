@@ -5,7 +5,7 @@ title: 'Professional Translation Services | Mars Translation'
 description: 'This is the description of the page'
 ---
 
-<link rel="stylesheet" href="https://www.marstranslation.com/assets/v3/css/instant-quote-new.css?version=24">
+<link rel="stylesheet" href="/assets/v3/css/instant-quote-new.css">
 <style>
     .labelCountError {
         display: none;
@@ -13,7 +13,16 @@ description: 'This is the description of the page'
 </style>
 
 <!-- CONTENT START -->
-<div class="content_web instant_quote_page">
+<div class="content_web instant_quote_page" style="background-image: url({{ site.data.pages.quote.background_image }});
+box-shadow:inset 0 0 0 10000px {{ site.data.pages.quote.color_overlay }}; 
+background-position: center bottom; 
+background-repeat: no-repeat; 
+-moz-background-size: cover;
+-o-background-size: cover; 
+-webkit-background-size: cover; 
+background-size: cover;">
+<div class="container less_width">
+    <div class="contact_head clearfix text-center">
     <div class="container">
         <div class="instant_quote_form clearfix">
             <div class="banner_text_block text-center">

@@ -1,7 +1,7 @@
-.contact_page {background: #f9f9fa url('/assets/images/ui/map.jpg?version=1.7.40') no-repeat top;background-attachment: fixed;min-height: 500px;}
+.contact_page {background-attachment: fixed;min-height: 500px;}
 .contact_page .text_row {margin-top: 48px;}
 .contact_page .text_row h1 {margin-bottom: 50px;}
-.contact_page .text_row h1 .icon_envelope {width: 52px;height: 22px;background: url('/assets/images/ui/sprites.png?version=1.7.40') no-repeat -255px 0;display: inline-block;vertical-align: middle;}
+.contact_page .text_row h1 .icon_envelope {width: 52px;height: 22px;background: url('/assets/images/ui/sprites.png') no-repeat -255px 0;display: inline-block;vertical-align: middle;}
 .contact_page .text_row .dropdown_holder .text {margin-right: 22px;font-size: 17px;vertical-align: middle;}
 .form_wrap {margin-bottom: 40px;}
 .form_wrap .col_left {background-color: white;padding: 60px 70px;float: none;display: table-cell;vertical-align: top;box-shadow: 0 4px 11px #ccc;}
