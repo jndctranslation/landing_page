@@ -995,7 +995,7 @@ collections:
 
     - name: 'pricing'
       label: 'Pricing'
-      file: '_data/pages/pricing'
+      file: '_data/pages/pricing.yml'
       fields:
       - name: 'block_1'
         label: 'Block 1'
