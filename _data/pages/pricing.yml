@@ -1,106 +1,83 @@
 block_1:
   background_image: /assets/images/upload/d923dbbf84f549bb2d91ba8cf91461a8.jpg
+  button:
+    link: '#'
   color_overlay: 'rgba(50, 50, 50, 0.5)'
-  title: Expert Translation Services
+  industries:
+    - icon: /assets/images/upload/heart_font_awesome.svg.png
+      title: General
+  proffesional: Expert translator who passed our advanced level test
+  proffesional_plus: Expert level translator with one advanced level proofreader
+  sources:
+    - icon: /assets/images/upload/heart_font_awesome.svg.png
+      title: Vietnamese
+  standard: Translator who passed our Standard level test.
+  standard_plus: Standard level translator with one experienced proofreader
+  targets:
+    - icon: /assets/images/upload/heart_font_awesome.svg.png
+      title: Vietnamese
   text: >-
     As experts in Vietnamese, our certified legal translators and reviewers will
     accurately translate sensitive legal materials into your desired language.
+  title: Expert Translation Services
   visible: true
-  button:
-    name: 'Order Now'
-    link: '#'
-  sources:
-  - icon: /assets/images/upload/heart_font_awesome.svg.png
-    title: Vietnamese
-  targets:
-  - icon: /assets/images/upload/heart_font_awesome.svg.png
-    title: Vietnamese
-  industries:
-  - icon: /assets/images/upload/heart_font_awesome.svg.png
-    title: General
-  items:
-  - name: STANDARD
-    price: $0.044
-    unit: per word
-    expert: '1 Translator'
-    desc: Translator who passed our Standard level test.
-  - name: STANDARD
-    price: $0.044
-    unit: per word
-    expert: '1 Translator <br/><br/>+<br/><br/>1 Proofreader'
-    desc: Standard level translator with one experienced proofreader
-  - name: PROFESSIONAL
-    price: $0.056
-    unit: per word
-    expert: 1 Expert Translator
-    desc: Expert translator who passed our advanced level test
-  - name: PROFESSIONAL PLUS
-    price: $0.072
-    unit: per word
-    expert: '1 Expert Translator <br/><br/>+<br/><br/>1 Proofreader'
-    desc: Expert level translator with one advanced level proofreader
 block_2:
-  background_image: 
   color_overlay: 'rgba(50, 50, 50, 0)'
-  visible: true
-  button:
-    name: 'BUY NOW'
-    link: '#'
   items:
-  - name: 'SMALL'
-    price_1: '$500'
-    price_2: '$20'
-  - name: 'LARGE'
-    price_1: '$500'
-    price_2: '$20'
-  - name: 'X LARGE'
-    price_1: '$500'
-    price_2: '$20'
-  - name: 'XXL'
-    price_1: '$500'
-    price_2: '$20'
+    - name: SMALL
+      price_1: $500
+      price_2: $20
+    - name: LARGE
+      price_1: $500
+      price_2: $20
+    - name: X LARGE
+      price_1: $500
+      price_2: $20
+    - name: XXL
+      price_1: $500
+      price_2: $20
+  visible: true
 block_3:
-  background_image: 
   color_overlay: 'rgba(50, 50, 50, 0)'
-  visible: true
   items:
-  - icon: '/assets/images/upload/rapid-icon-9.png'
-    text: '### App
+    - icon: /assets/images/upload/icon-for-app-store-18.png
+      text: |-
+        ### App
 
-    1500 Words
-    
-    Starts from
+        1500 Words
+        Starts from
 
-    ### $75'
-  - icon: '/assets/images/upload/rapid-icon-9.png'
-    text: '### App
+        ### $90
+    - icon: /assets/images/upload/world-wide-web-visit-512.png
+      text: |-
+        ### Website
 
-    1500 Words
-    
-    Starts from
+        5000 Words
+        Starts from
 
-    ### $75'
-  - icon: '/assets/images/upload/rapid-icon-9.png'
-    text: '### App
+        ### $300
+    - icon: /assets/images/upload/documents-symbol.png
+      text: |-
+        ### Document
 
-    1500 Words
-    
-    Starts from
+        300 Words
+        Starts from
 
-    ### $75'
-  - icon: '/assets/images/upload/rapid-icon-9.png'
-    text: '### App
+        ### $18
+    - icon: /assets/images/upload/img_139240.png
+      text: |-
+        ### Manual
 
-    1500 Words
-    
-    Starts from
+        3000 Words
+        Starts from
 
-    ### $75'
-  - icon: '/assets/images/upload/rapid-icon-9.png'
-    text: '### App
+        ### $180
+    - icon: /assets/images/upload/1024px-oojs_ui_icon_article-ltr.svg.png
+      text: |-
+        ### Artical
 
-    1500 Words
-    
-    Starts from
+        500 Words
+        Starts from
 
-    ### $75'
+        ### $30
+  visible: true
