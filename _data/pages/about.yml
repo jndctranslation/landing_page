@@ -69,19 +69,18 @@ block_5:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: >-
-        /assets/images/upload/kissclipart-skills-icon-transparent-clipart-computer-icons-ski-2b534be31097f804.png
+    - icon: /assets/images/upload/skills-icon-png-3.png
       text: ''
-      title: Our Translators have exellent translation skills
-    - icon: /assets/images/upload/23614102untitled-3-512.png
+      title: Our translators have exellent translation skills
+    - icon: /assets/images/upload/23111256untitled-3-512.png
       text: ''
-      title: Our translator are all native speaker
-    - icon: /assets/images/upload/recruitment-icon-30.png
+      title: Our translators are all native speaker
+    - icon: /assets/images/upload/recruit_734177.png
       text: ''
-      title: Our translator are recruited strictly
-    - icon: /assets/images/upload/35083-200.png
+      title: Our translators are recruited strictly
+    - icon: /assets/images/upload/knowledge-icon-20.png
       text: ''
-      title: Deep knowledge in translate field
+      title: Deep knowledge in translation fields
   text: >-
     JNDC Translation has a community of 100+ professional human translators in
     Vietnamese languages <br/>with at least 5 years of experience
