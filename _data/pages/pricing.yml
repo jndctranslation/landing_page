@@ -43,6 +43,7 @@ block_2:
   background_image: 
   color_overlay: 'rgba(50, 50, 50, 0)'
   visible: true
+  title: Save money with bundle offers
   button:
     name: 'BUY NOW'
     link: '#'

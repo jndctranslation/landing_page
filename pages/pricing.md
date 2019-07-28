@@ -118,7 +118,7 @@ display: none;
     {% endif %}">
         <div class="container">
             <div class="text_row">
-                <h2 class="border_heading heading text-center">Save money with bundle offers</h2>
+                <h2 class="border_heading heading text-center">{{site.data.pages.pricing.block_2.title}}</h2>
             </div>
             <ul class="credit_bundles text-center">
                  {% for item in site.data.pages.pricing.block_2.items %}
