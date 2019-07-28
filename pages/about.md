@@ -1,8 +1,8 @@
 ---
-permalink: '/pages/about'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: Professional Translation Services | Mars Translation
+description: This is new description of about page
+permalink: /pages/about
+layout: default
 ---
 
 
