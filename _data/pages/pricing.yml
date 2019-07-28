@@ -44,16 +44,14 @@ block_3:
       text: |-
         ### App
 
-        1500 Words
-        Starts from
+        1500 Words <br/>Starts from
 
         ### $90
     - icon: /assets/images/upload/world-wide-web-visit-512.png
       text: |-
         ### Website
 
-        5000 Words
-        Starts from
+        5000 Words <br/>Starts from
 
         ### $300
     - icon: /assets/images/upload/documents-symbol.png
@@ -68,16 +66,14 @@ block_3:
       text: |-
         ### Manual
 
-        3000 Words
-        Starts from
+        3000 Words <br/>Starts from
 
         ### $180
-    - icon: /assets/images/upload/1024px-oojs_ui_icon_article-ltr.svg.png
+    - icon: /assets/images/upload/article.png
       text: |-
         ### Artical
 
-        500 Words
-        Starts from
+        500 Words <br/>Starts from
 
         ### $30
   visible: true
