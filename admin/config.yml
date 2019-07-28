@@ -1061,8 +1061,8 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string'}
       - { label: 'Description', name: 'description', widget: 'string'}
       - { label: 'permalink', name: 'permalink', widget: 'string'}
-      - { label: 'Layout', name: 'layout', widget: 'string'}
-      - { label: 'Body', name: 'body', widget: 'markdown'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
     # - name: 'blockchain_crypto_page'
     #   label: 'Blockchain Crypto Page'
     #   file: '/pages/blockchain_crypto.md'
