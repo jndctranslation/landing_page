@@ -1,5 +1,5 @@
 block_1:
-  background_image: /assets/images/upload/d923dbbf84f549bb2d91ba8cf91461a8.jpg
+  background_image: /assets/images/upload/vietnam.jpg
   button:
     link: '#'
   color_overlay: 'rgba(50, 50, 50, 0.5)'
@@ -25,17 +25,17 @@ block_2:
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
     - name: SMALL
-      price_1: $500
-      price_2: $20
+      price_1: $600
+      price_2: $18
     - name: LARGE
-      price_1: $500
-      price_2: $20
+      price_1: $1200
+      price_2: $48
     - name: X LARGE
-      price_1: $500
-      price_2: $20
+      price_1: $2400
+      price_2: $120
     - name: XXL
-      price_1: $500
-      price_2: $20
+      price_1: $6000
+      price_2: $360
   visible: true
 block_3:
   color_overlay: 'rgba(50, 50, 50, 0)'
