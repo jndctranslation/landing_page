@@ -1,0 +1,62 @@
+block_1:
+  title: 'WHAT WE DO'
+  items:
+  - title: Document Translation
+    link: #
+  - title: E-Commerce Translation
+    link: #
+  - title: Website Translation
+    link: #
+  - title: Video Translation
+    link: #
+  - title: E-Learning Translation
+    link: #
+  - title: DTP & File Conversion
+    link: #
+
+block_2:
+  title: 'RESOURCES'
+  items:
+  - title: Case Studies
+    link: #
+  - title: White Papers
+    link: #
+  - title: Integrations
+    link: #
+  - title: Affiliates
+    link: #
+  - title: API 
+    link: #
+
+block_3:
+  title: FREE TOOLS
+  items:
+  - title: Free Translation
+    link: #
+  - title: Alignment Tool 
+    link: #
+  - title: AutoCad Conversion
+    linl: #
+
+block_4:
+  title: SUPPORT
+  items:
+    - title: Customer Support 
+      link: /support
+  socials:
+    - icon: facebook
+      link: #
+    - icon: twitter
+      link: #
+    - icon: linkedin
+      link: #
+    - icon: youtube
+      link: #
+
+block_5:
+  title: JNDC Translation is a 24/7 language service platform by CCJK Technologies. We Provide competitive prices and have native translators from around the globe.
+  term_link: #
+  policy_link: #
+  contact_link: /contact
+
+      
