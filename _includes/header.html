@@ -5,7 +5,8 @@
     <div class="top-bar">
       <div class="container">
         <div class="pull-left left_col">
-          <a style="border-left:0px !important;" href="{{site.data.header.extra_nav.left.link}}" class="free_consultation_link font_12"
+          <a style="border-left:0px !important;" href="{{site.data.header.extra_nav.left.link}}"
+            class="free_consultation_link font_12"
             id="free-consultation-top-bar">{{site.data.header.extra_nav.left.title}}</a>
         </div>
 
@@ -41,38 +42,40 @@
 
         <div class="collapse navbar-collapse" id="main-navigation">
           <ul class='nav navbar-nav main_navigation'>
-          {% for item in site.data.header.primary_nav.items %}
+            {% for item in site.data.header.primary_nav.items %}
             {% if item.link %}
-              <li class='dropdown'>
-                <a href='{{ item.link }}'>{{ item.title }}
-                </a>
-              </li>
+            <li class='dropdown'>
+              <a href='{{ item.link }}'>{{ item.title }}
+              </a>
+            </li>
             {% else %}
-              <li class='dropdown'>
-                <a href='/services' data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">{{item.title}}<span class="fa fa-chevron-down">&nbsp;</span>
-                </a>
-                <ul class='dropdown-menu'>
-                  {% for sub_item in item.sub_nav %}
-                  <li class='dropdown-submenu'>
-                    <a href='{{sub_item.link}}'>{{sub_item.title}} </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </li>
+            <li class='dropdown'>
+              <a href='/services' data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">{{item.title}}<span class="fa fa-chevron-down">&nbsp;</span>
+              </a>
+              <ul class='dropdown-menu'>
+                {% for sub_item in item.sub_nav %}
+                <li class='dropdown-submenu'>
+                  <a href='{{sub_item.link}}'>{{sub_item.title}} </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
             {% endif %}
-          {% endfor %}
+            {% endfor %}
           </ul>
 
           <ul class="nav navbar-nav navbar-right ">
             {% if site.data.header.primary_nav.button_1.visible == true %}
             <li>
-              <a class="btn btn_maroon text-uppercase" href="{{site.data.header.primary_nav.button_1.link}}" id="menu-instant-quote">{{site.data.header.primary_nav.button_1.name}}</a>
+              <a class="btn btn_maroon text-uppercase" href="{{site.data.header.primary_nav.button_1.link}}"
+                id="menu-instant-quote">{{site.data.header.primary_nav.button_1.name}}</a>
             </li>
             {% endif %}
             {% if site.data.header.primary_nav.button_2.visible == true %}
             <li>
-              <a class="btn btn_grey text-uppercase" id="menu-place-order" href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
+              <a class="btn btn_grey text-uppercase" id="menu-place-order"
+                href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
             </li>
             {% endif %}
           </ul>
@@ -85,11 +88,13 @@
           <ul class="nav navbar-nav navbar-right">
             {% if site.data.header.primary_nav.button_1.visible == true %}
             <li>
-              <a class="btn btn_maroon text-uppercase" href="{{site.data.header.primary_nav.button_1.link}}" id="menu-instant-quote">{{site.data.header.primary_nav.button_1.name}}</a>
+              <a class="btn btn_maroon text-uppercase" href="{{site.data.header.primary_nav.button_1.link}}"
+                id="menu-instant-quote">{{site.data.header.primary_nav.button_1.name}}</a>
             </li>
             {% endif %}
             {% if site.data.header.primary_nav.button_2.visible == true %}
-            <li><a class="btn btn_grey text-uppercase" id="menu-place-order" href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
+            <li><a class="btn btn_grey text-uppercase" id="menu-place-order"
+                href="{{site.data.header.primary_nav.button_2.link}}">{{site.data.header.primary_nav.button_2.name}}</a>
             </li>
             {% endif %}
           </ul>
@@ -113,4 +118,14 @@
     };
 
   });
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143724740-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143724740-1');
 </script>
