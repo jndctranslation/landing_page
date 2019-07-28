@@ -1062,7 +1062,7 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string'}
       - { label: 'permalink', name: 'permalink', widget: 'string'}
       - { label: 'Layout', name: 'layout', widget: 'string'}
-      - { label: 'Body', name: 'body', widget: 'markdownify'}
+      - { label: 'Body', name: 'body', widget: 'markdown'}
     # - name: 'blockchain_crypto_page'
     #   label: 'Blockchain Crypto Page'
     #   file: '/pages/blockchain_crypto.md'
