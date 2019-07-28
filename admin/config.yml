@@ -186,7 +186,7 @@ collections:
           label: 'Social Links'
           widget: 'list'
           fields:
-          - {name: 'icon', label: 'Icon', widget: 'image', required: false}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
           - {name: 'link', label: 'Link', widget: 'string', required: false}
       - name: 'block_5'
         label: 'Block 5'
