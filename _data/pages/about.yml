@@ -47,7 +47,7 @@ block_4:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/heart_font_awesome.svg.png
+    - icon: /assets/images/upload/heart-2-icon.png
       text: >-
         We put our heart in every word, every sentence, every page and every
         project that we do
