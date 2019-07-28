@@ -93,7 +93,7 @@ collections:
         - {name: 'background_image', label: 'Background Image', widget: 'image', required: false}
         - {name: 'color_overlay', label: 'Color Overlay', widget: 'string', required: false}
         - {name: 'title', label: 'Title', widget: 'string', required: false}
-        - {name: 'text', label: 'Text', widget: 'markdownify', required: false}
+        - {name: 'text', label: 'Text', widget: 'markdown', required: false}
         - name: 'items'
           label: 'Items'
           widget: 'list'
