@@ -14,18 +14,18 @@ block_1:
       unit: per word
     - desc: Standard level translator with one experienced proofreader
       expert: 1 Translator <br/><br/>+<br/><br/>1 Proofreader
-      name: STANDARD
-      price: $0.044
+      name: STANDARD PLUS
+      price: $0.09
       unit: per word
     - desc: Expert translator who passed our advanced level test
       expert: 1 Expert Translator
       name: PROFESSIONAL
-      price: $0.056
+      price: $0.08
       unit: per word
     - desc: Expert level translator with one advanced level proofreader
       expert: 1 Expert Translator <br/><br/>+<br/><br/>1 Proofreader
       name: PROFESSIONAL PLUS
-      price: $0.072
+      price: $0.12
       unit: per word
   sources:
     - icon: /assets/images/upload/heart_font_awesome.svg.png
