@@ -1049,20 +1049,20 @@ collections:
     - {name: 'author', label: 'Author', widget: 'string'}
     - {name: 'body', label: 'Body', widget: 'markdown'}
 
-  # - name: 'title_and_description'
-    # label: 'Title and Description'
-    # files:
-    # - name: 'about_page'
-    #   label: 'About Page'
-    #   file: '/pages/about.md'
-    #   editor:
-    #     preview: false
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    #   - { label: 'permalink', name: 'layout', widget: 'string'}
-    #   - { label: 'Layout', name: 'layout', widget: 'hidden'}
-    #   - { label: 'Body', name: 'body', widget: 'hidden'}
+  - name: 'title_and_description'
+    label: 'Title and Description'
+    files:
+    - name: 'about_page'
+      label: 'About Page'
+      file: '/pages/about.md'
+      editor:
+        preview: false
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'string'}
+      - { label: 'Body', name: 'body', widget: 'markdownify'}
     # - name: 'blockchain_crypto_page'
     #   label: 'Blockchain Crypto Page'
     #   file: '/pages/blockchain_crypto.md'
