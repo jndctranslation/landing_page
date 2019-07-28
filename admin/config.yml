@@ -1063,105 +1063,156 @@ collections:
       - { label: 'permalink', name: 'permalink', widget: 'string'}
       - { label: 'Layout', name: 'layout', widget: 'hidden'}
       - { label: 'Body', name: 'body', widget: 'hidden'}
-    # - name: 'blockchain_crypto_page'
-    #   label: 'Blockchain Crypto Page'
-    #   file: '/pages/blockchain_crypto.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'certificate_page'
-    #   label: 'Certificate Page'
-    #   file: '/pages/certificate.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'contact_page'
-    #   label: 'Contact Page'
-    #   file: '/pages/contact.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'financial_page'
-    #   label: 'financial Page'
-    #   file: '/pages/financial.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'general_page'
-    #   label: 'General Page'
-    #   file: '/pages/general.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'home_page'
-    #   label: 'Home Page'
-    #   file: '/pages/home.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'it_software_page'
-    #   label: 'IT and Software Page'
-    #   file: '/pages/it_software.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'legal_page'
-    #   label: 'Legal Page'
-    #   file: '/pages/legal.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'manufacturing_engineering_page'
-    #   label: 'Manufacturing and Engineering Page'
-    #   file: '/pages/manufacturing_engineering.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'mobile_video_game_page'
-    #   label: 'Mobile and Video Game Page'
-    #   file: '/pages/mobile_video_game.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'no_found_page'
-    #   label: 'Not Found Page'
-    #   file: '/pages/no_found.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'pricing_page'
-    #   label: 'Pricing Page'
-    #   file: '/pages/pricing.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'proofreading_page'
-    #   label: 'Proofreading Page'
-    #   file: '/pages/proofreading.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'retail_e_commerce_page'
-    #   label: 'Retail and E-commerce Page'
-    #   file: '/pages/retail_e_commerce.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'support_page'
-    #   label: 'Support Page'
-    #   file: '/pages/support.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'transcription_page'
-    #   label: 'Transcription Page'
-    #   file: '/pages/transcription.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
-    # - name: 'translation_services_page'
-    #   label: 'Translation_services Page'
-    #   file: '/pages/translation_services.md'
-    #   fields:
-    #   - { label: 'Title', name: 'title', widget: 'string'}
-    #   - { label: 'Description', name: 'description', widget: 'string'}
+    - name: 'blockchain_crypto_page'
+      label: 'Blockchain Crypto Page'
+      file: '/pages/blockchain_crypto.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'certificate_page'
+      label: 'Certificate Page'
+      file: '/pages/certificate.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'contact_page'
+      label: 'Contact Page'
+      file: '/pages/contact.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'financial_page'
+      label: 'financial Page'
+      file: '/pages/financial.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'general_page'
+      label: 'General Page'
+      file: '/pages/general.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'home_page'
+      label: 'Home Page'
+      file: '/pages/home.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'it_software_page'
+      label: 'IT and Software Page'
+      file: '/pages/it_software.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'legal_page'
+      label: 'Legal Page'
+      file: '/pages/legal.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'manufacturing_engineering_page'
+      label: 'Manufacturing and Engineering Page'
+      file: '/pages/manufacturing_engineering.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'mobile_video_game_page'
+      label: 'Mobile and Video Game Page'
+      file: '/pages/mobile_video_game.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'no_found_page'
+      label: 'Not Found Page'
+      file: '/pages/no_found.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'pricing_page'
+      label: 'Pricing Page'
+      file: '/pages/pricing.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'proofreading_page'
+      label: 'Proofreading Page'
+      file: '/pages/proofreading.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'retail_e_commerce_page'
+      label: 'Retail and E-commerce Page'
+      file: '/pages/retail_e_commerce.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'support_page'
+      label: 'Support Page'
+      file: '/pages/support.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'transcription_page'
+      label: 'Transcription Page'
+      file: '/pages/transcription.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
+    - name: 'translation_services_page'
+      label: 'Translation_services Page'
+      file: '/pages/translation_services.md'
+      fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { label: 'permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Layout', name: 'layout', widget: 'hidden'}
+      - { label: 'Body', name: 'body', widget: 'hidden'}
