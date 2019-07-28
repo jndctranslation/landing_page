@@ -1,8 +1,8 @@
 ---
-permalink: '/'
-layout: 'home'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: just a test for title
+description: This is the description of the page
+permalink: /
+layout: home
 ---
 
 
