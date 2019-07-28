@@ -1030,10 +1030,15 @@ collections:
           fields:
           - {name: 'icon', label: 'Industry Icon', widget: 'image', required: false}
           - {name: 'title', label: 'Industry name', widget: 'string', required: false}
-        - {name: 'standard', label: 'Standard', widget: 'string', required: false}
-        - {name: 'standard_plus', label: 'Standard Plus', widget: 'string', required: false}
-        - {name: 'proffesional', label: 'Proffesional', widget: 'string', required: false}
-        - {name: 'proffesional_plus', label: 'Proffesional Plus', widget: 'string', required: false}
+        - name: 'items'
+          label: 'Items'
+          widget: 'list'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'price', label: 'Price', widget: 'string', required: false}
+          - {name: 'unit', label: 'Unit', widget: 'string', required: false}
+          - {name: 'expert', label: 'Expert', widget: 'markdown', required: false}
+          - {name: 'desc', label: 'Description', widget: 'string', required: false}
       - name: 'block_2'
         label: 'Block 2'
         widget: 'object'

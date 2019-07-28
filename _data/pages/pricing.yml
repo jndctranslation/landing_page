@@ -18,10 +18,27 @@ block_1:
   industries:
   - icon: /assets/images/upload/heart_font_awesome.svg.png
     title: General
-  standard: 'Translator who passed our Standard level test.' 
-  standard_plus: 'Standard level translator with one experienced proofreader'
-  proffesional: 'Expert translator who passed our advanced level test'
-  proffesional_plus: 'Expert level translator with one advanced level proofreader'
+  items:
+  - name: STANDARD
+    price: $0.044
+    unit: per word
+    expert: '1 Translator'
+    desc: Translator who passed our Standard level test.
+  - name: STANDARD
+    price: $0.044
+    unit: per word
+    expert: '1 Translator <br/><br/>+<br/><br/>1 Proofreader'
+    desc: Standard level translator with one experienced proofreader
+  - name: PROFESSIONAL
+    price: $0.056
+    unit: per word
+    expert: 1 Expert Translator
+    desc: Expert translator who passed our advanced level test
+  - name: PROFESSIONAL PLUS
+    price: $0.072
+    unit: per word
+    expert: '1 Expert Translator <br/><br/>+<br/><br/>1 Proofreader'
+    desc: Expert level translator with one advanced level proofreader
 block_2:
   background_image: 
   color_overlay: 'rgba(50, 50, 50, 0)'

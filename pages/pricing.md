@@ -80,69 +80,22 @@ display: none;
                     </div>
                 </div>
             </div>
+            {% for item in site.data.pages.pricing.block_1.items %}
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="feature_pricing_box text-center">
-                    <div class="plan_name text-uppercase">STANDARD</div>
-                    <h2 class="price" id="standardPrice"></h2>
-                    <span class="pr_word">per word</span>
+                    <div class="plan_name text-uppercase">{{item.name}}</div>
+                    <h2 class="price" id="standardPrice">{{item.price}}</h2>
+                    <span class="pr_word">{{item.unit}}</span>
                     <div class="expert">
-                        <div class="center-block">
-                            <span><i class="icons translator">&nbsp;</i> 1 Translator</span>
+                        <div class="center-block text-center">
+                            <span>{{item.expert | markdownify}}</span>
                         </div>
                     </div>
-                    <p class='desc font_14 font_opensans_light'>Translator who passed our Standard level test.</p>
+                    <p class='desc font_14 font_opensans_light'>{{item.desc}}</p>
                     <a href="{{site.data.pages.pricing.block_1.button.link}}" onclick="orderNow('standard','EP')" class="btn btn-maroon2">{{site.data.pages.pricing.block_1.button.name}}</a>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="feature_pricing_box text-center">
-                    <div class="plan_name text-uppercase">STANDARD PLUS</div>
-                    <h2 class="price" id="standardPlusPrice"></h2>
-                    <span class="pr_word">per word</span>
-                    <div class="expert">
-                        <div class="center-block">
-                            <span><i class="icons translator">&nbsp;</i> 1 Translator</span><span
-                                class="text-center">+</span>
-                            <span><i class="icons profreader">&nbsp;</i> 1 Proofreader</span>
-                        </div>
-                    </div>
-                    <p class='desc font_14 font_opensans_light'>Standard level translator with one experienced
-                        proofreader</p>
-                    <a href="{{site.data.pages.pricing.block_1.button.link}}" onclick="orderNow('standard','PP')" class="btn btn-maroon2">{{site.data.pages.pricing.block_1.button.name}}</a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="feature_pricing_box text-center">
-                    <div class="plan_name text-uppercase">PROFESSIONAL</div>
-                    <h2 class="price" id="professionalPrice"></h2>
-                    <span class="pr_word">per word</span>
-                    <div class="expert">
-                        <div class="center-block">
-                            <span><i class="icons translator">&nbsp;</i> 1 Expert Translator</span>
-                        </div>
-                    </div>
-                    <p class='desc font_14 font_opensans_light'>Expert translator who passed our advanced level
-                        test</p>
-                    <a href="{{site.data.pages.pricing.block_1.button.link}}" onclick="orderNow('professional','EP')" class="btn btn-maroon2">{{site.data.pages.pricing.block_1.button.name}}</a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="feature_pricing_box text-center">
-                    <div class="plan_name text-uppercase">PROFESSIONAL PLUS</div>
-                    <h2 class="price" id="professionalPlusPrice"></h2>
-                    <span class="pr_word">per word</span>
-                    <div class="expert">
-                        <div class="center-block">
-                            <span><i class="icons translator">&nbsp;</i> 1 Expert Translator</span><span
-                                class="text-center">+</span>
-                            <span><i class="icons profreader">&nbsp;</i> 1 Proofreader</span>
-                        </div>
-                    </div>
-                    <p class='desc font_14 font_opensans_light'>Expert level translator with one advanced level
-                        proofreader</p>
-                    <a href="{{site.data.pages.pricing.block_1.button.link}}" onclick="orderNow('professional','PP')" class="btn btn-maroon2">{{site.data.pages.pricing.block_1.button.name}}</a>
-                </div>
-            </div>
+            {% endfor %}
             <div class="clearfix"></div>
         </div>
     </div>
