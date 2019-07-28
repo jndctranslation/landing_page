@@ -19,7 +19,7 @@ block_0:
       title: English to Vietnamese
   text: We cover translations for 120 languages for a smooth global transition
   title: Languages We Support
-  visible: false
+  visible: true
 block_1:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
