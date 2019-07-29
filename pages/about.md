@@ -1,5 +1,5 @@
 ---
-title: Professional Translation Services | Mars Translation
+title: 'JNDC Translation: Provide Highest Vietnamese Translation Services | '
 description: This is new description of about page
 permalink: /pages/about
 layout: default
