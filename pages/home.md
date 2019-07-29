@@ -5,7 +5,7 @@ title: >-
 description: >-
   JNDC Translation strive our best to providing the highest customer
   satisfaction translation services by human translation experts
-permalink: /
+permalink: 'https://www.jndctranslation.com/'
 layout: home
 ---
 
