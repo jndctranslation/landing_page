@@ -5,8 +5,9 @@ block_1:
     link: 'https://www.jndctranslation.com/contact_us'
   color_overlay: 'rgba(50, 50, 50, 0.5)'
   industries:
-    - icon: /assets/images/upload/heart_font_awesome.svg.png
-      title: General
+    - icon: /assets/images/upload/law-512.png
+      title: Legal
+    - {}
   items:
     - desc: Translator who passed our Standard level test.
       expert: 1 Translator
@@ -29,10 +30,18 @@ block_1:
       price: $0.12
       unit: per word
   sources:
-    - icon: /assets/images/upload/heart_font_awesome.svg.png
-      title: Vietnamese
+    - icon: /assets/images/upload/english_us.png
+      title: English
+    - icon: /assets/images/upload/chinese.png
+      title: Simplified Chinese
+    - icon: /assets/images/upload/taiwan.png
+      title: Traditional Chinese
+    - icon: /assets/images/upload/flag-round-250.png
+      title: Japanese
+    - icon: /assets/images/upload/korean.png
+      title: Korean
   targets:
-    - icon: /assets/images/upload/heart_font_awesome.svg.png
+    - icon: /assets/images/upload/vn-01.png
       title: Vietnamese
   text: >-
     As experts in Vietnamese, our certified legal translators and reviewers will
