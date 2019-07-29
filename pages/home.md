@@ -1,8 +1,10 @@
 ---
 title: >-
-  JNDC Translation: We Provided The Highest Customer Satisfaction Translation
+  JNDC Translation: Provided The Highest Customer Satisfaction Translation
   Services 
-description: This is the description of the page
+description: >-
+  JNDC Translation strive our best to providing the highest customer
+  satisfaction translation services by human translation experts
 permalink: /
 layout: home
 ---
