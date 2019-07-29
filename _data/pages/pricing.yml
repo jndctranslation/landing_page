@@ -1,7 +1,8 @@
 block_1:
   background_image: /assets/images/upload/vietnam.jpg
   button:
-    link: '#'
+    button: Order Now
+    link: 'https://www.jndctranslation.com/contact_us'
   color_overlay: 'rgba(50, 50, 50, 0.5)'
   industries:
     - icon: /assets/images/upload/heart_font_awesome.svg.png
