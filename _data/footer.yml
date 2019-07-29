@@ -1,62 +1,59 @@
 block_1:
-  title: 'WHAT WE DO'
   items:
-  - title: Document Translation
-    link: #
-  - title: E-Commerce Translation
-    link: #
-  - title: Website Translation
-    link: #
-  - title: Video Translation
-    link: #
-  - title: E-Learning Translation
-    link: #
-  - title: DTP & File Conversion
-    link: #
-
+    - link: 'https://www.jndctranslation.com/pages/legal'
+      title: Legal
+    - link: 'https://www.jndctranslation.com/pages/financial'
+      title: 'Financial '
+    - link: 'https://www.jndctranslation.com/pages/manufacturing_engineering'
+      title: 'Manufacturing & Engineering '
+    - link: 'https://www.jndctranslation.com/pages/it_software'
+      title: IT and Software
+    - link: 'https://www.jndctranslation.com/pages/blockchain_crypto'
+      title: Blockchain & Crypto
+    - link: 'https://www.jndctranslation.com/pages/mobile_video_game'
+      title: Mobile & Video Games
+    - link: 'https://www.jndctranslation.com/pages/retail_e_commerce'
+      title: Retail & E-Commerce
+  title: Industries
 block_2:
-  title: 'RESOURCES'
   items:
-  - title: Case Studies
-    link: #
-  - title: White Papers
-    link: #
-  - title: Integrations
-    link: #
-  - title: Affiliates
-    link: #
-  - title: API 
-    link: #
-
+    - link: 'https://www.jndctranslation.com/pages/about'
+      title: Who We Are?
+    - link: 'https://www.jndctranslation.com/pages/about'
+      title: Our Vision
+    - link: 'https://www.jndctranslation.com/pages/about'
+      title: Our Values
+    - link: 'https://www.jndctranslation.com/pages/about'
+      title: Who Are We?
+    - link: 'https://www.jndctranslation.com/pages/about'
+      title: What Do We Believe?
+    - link: 'https://www.jndctranslation.com/pages/about'
+      title: Our Translation Team
+  title: About JNDC Translation
 block_3:
-  title: FREE TOOLS
   items:
-  - title: Free Translation
-    link: #
-  - title: Alignment Tool 
-    link: #
-  - title: AutoCad Conversion
-    linl: #
-
+    - link: 'https://www.jndctranslation.com/pages/translation_services'
+      title: 'Translation Services '
+    - link: 'https://www.jndctranslation.com/pages/proofreading_edditing_services'
+      title: 'Proofeading Services '
+    - link: 'https://www.jndctranslation.com/pages/transcription_services'
+      title: 'Transcription Services '
+  title: 'Our Services '
 block_4:
-  title: SUPPORT
   items:
-    - title: Customer Support 
-      link: /support
+    - link: 'https://www.jndctranslation.com/contact_us'
+      title: Customer Support
+    - link: 'https://www.jndctranslation.com/contact_us'
+      title: Translator Support
   socials:
     - name: facebook
-      link: #
     - name: twitter
-      link: #
     - name: linkedin
-      link: #
     - name: youtube
-      link: #
-
+  title: SUPPORT
 block_5:
-  title: JNDC Translation is a 24/7 language service platform by CCJK Technologies. We Provide competitive prices and have native translators from around the globe.
-  term_link: #
-  policy_link: #
   contact_link: /contact
-
-      
+  title: >-
+    JNDC Translation is a 24/7 language service platform by John and David
+    Company. We provided the highest customers satisfaction translation services
+    by the top-rated native speaker
