@@ -1,5 +1,7 @@
 ---
-title: 'JNDC Translation: Highest Customer Satisfaction Translation Services '
+title: >-
+  JNDC Translation: We Provided The Highest Customer Satisfaction Translation
+  Services 
 description: This is the description of the page
 permalink: /
 layout: home
