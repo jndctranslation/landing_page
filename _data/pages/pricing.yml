@@ -7,7 +7,18 @@ block_1:
   industries:
     - icon: /assets/images/upload/law-512.png
       title: Legal
-    - {}
+    - icon: /assets/images/upload/img_462268.png
+      title: Financial
+    - icon: /assets/images/upload/1534390-200.png
+      title: 'Manufacturing & Engineering '
+    - icon: /assets/images/upload/img_414428.png
+      title: IT & Software
+    - icon: /assets/images/upload/1473237-200.png
+      title: 'Blockchain & Cryptocurrency '
+    - icon: /assets/images/upload/65687.png
+      title: Mobile & Video Games
+    - icon: /assets/images/upload/57589.png
+      title: Retail & E-Commerce
   items:
     - desc: Translator who passed our Standard level test.
       expert: 1 Translator
