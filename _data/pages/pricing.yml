@@ -5,7 +5,7 @@ block_1:
     link: 'https://www.jndctranslation.com/contact_us'
   color_overlay: 'rgba(50, 50, 50, 0.5)'
   industries:
-    - icon: /assets/images/upload/law-512.png
+    - icon: /assets/images/upload/194488-200.png
       title: Legal
     - icon: /assets/images/upload/img_462268.png
       title: Financial
