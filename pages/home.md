@@ -1,5 +1,5 @@
 ---
-title: just a test for title
+title: 'JNDC Translation: Highest Customer Satisfaction Translation Services '
 description: This is the description of the page
 permalink: /
 layout: home
