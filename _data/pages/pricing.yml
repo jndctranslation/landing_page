@@ -43,17 +43,29 @@ block_1:
   sources:
     - icon: /assets/images/upload/english_us.png
       title: English
-    - icon: /assets/images/upload/chinese.png
-      title: Simplified Chinese
-    - icon: /assets/images/upload/taiwan.png
-      title: Traditional Chinese
     - icon: /assets/images/upload/flag-round-250.png
       title: Japanese
     - icon: /assets/images/upload/korean.png
       title: Korean
-  targets:
+    - icon: /assets/images/upload/chinese.png
+      title: Simplified Chinese
+    - icon: /assets/images/upload/taiwan.png
+      title: Traditional Chinese
     - icon: /assets/images/upload/vn-01.png
       title: Vietnamese
+  targets:
+    - icon: /assets/images/upload/english_us.png
+      title: English
+    - icon: /assets/images/upload/flag-round-250.png
+      title: Japanese
+    - icon: /assets/images/upload/korean.png
+      title: Korean
+    - icon: /assets/images/upload/vn-01.png
+      title: Vietnamese
+    - icon: /assets/images/upload/taiwan.png
+      title: Traditional Chinese
+    - icon: /assets/images/upload/chinese.png
+      title: Simflified Chinese
   text: >-
     As experts in Vietnamese, our certified legal translators and reviewers will
     accurately translate sensitive legal materials into your desired language.
