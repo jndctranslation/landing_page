@@ -3,7 +3,7 @@ block_1:
   color_overlay: 'rgba(50, 50, 50, 0.6)'
   text: Get your translation by the top-rated Vietnamese native speaker
   title: Developing your business in Global Market with JNDC Translation
-  visible: false
+  visible: true
 block_2:
   background_image: ''
   color_overlay: 'rgba(28, 0, 88, 0.05)'
