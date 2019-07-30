@@ -42,7 +42,7 @@ block_1:
       unit: per word
   sources:
     - icon: /assets/images/upload/english_us.png
-      title: English
+      title: '  English'
     - icon: /assets/images/upload/flag-round-250.png
       title: Japanese
     - icon: /assets/images/upload/korean.png
