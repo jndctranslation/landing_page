@@ -1,8 +1,8 @@
 block_1:
   background_image: /assets/images/upload/vietnam.jpg
   button:
+    link: /contact_us
     name: Order Now
-    link: 'https://www.jndctranslation.com/contact_us'
   color_overlay: 'rgba(50, 50, 50, 0.5)'
   industries:
     - icon: /assets/images/upload/194488-200.png
@@ -72,6 +72,9 @@ block_1:
   title: Expert Translation Services
   visible: true
 block_2:
+  button:
+    link: /contact_us
+    name: Order Now
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
     - name: SMALL
@@ -88,9 +91,6 @@ block_2:
       price_2: $360
   title: Save money with bundle offers
   visible: true
-  button:
-    name: Order Now
-    link: /contact_us
 block_3:
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
