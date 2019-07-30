@@ -1010,7 +1010,7 @@ collections:
           label: 'Button'
           widget: 'object'
           fields:
-          - {name: 'button', label: 'Button', widget: 'string', required: false}
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
           - {name: 'link', label: 'Link', widget: 'string', required: false}
         - name: 'sources'
           label: 'Sources'
@@ -1054,6 +1054,12 @@ collections:
           - {name: 'name', label: 'Name', widget: 'string', required: false}
           - {name: 'price_1', label: 'Price 1', widget: 'string', required: false}
           - {name: 'price_2', label: 'Price 2', widget: 'string', required: false}
+        - name: 'button'
+          label: 'Button'
+          widget: 'object'
+          fields:
+          - {name: 'name', label: 'Name', widget: 'string', required: false}
+          - {name: 'link', label: 'Link', widget: 'string', required: false}  
       - name: 'block_3'
         label: 'Block 3'
         widget: 'object'

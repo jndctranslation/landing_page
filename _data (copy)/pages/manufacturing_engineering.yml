@@ -1,0 +1,74 @@
+block_1:
+  background_image: /assets/images/upload/engineering_mechanical_3042380_cropped.jpg
+  color_overlay: 'rgba(50, 50, 50, 0.5)'
+  text: >-
+    Translations of technical documents require precision and accuracy. Our
+    patented QA procedures guarantee you'll get fast, error-free technical
+    translations.
+  title: Manufacturing & Engineering Translation Services
+  visible: true
+block_2:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  items:
+    - icon: /assets/images/upload/marketing-icon.png
+      text: >-
+        With professional translations of your marketing materials, you can show
+        existing customers and prospective customers around the world why they
+        should use your products/services.
+      title: Marketing Materials
+    - icon: /assets/images/upload/1064024-200.png
+      text: >-
+        Our translations of your training materials will help ensure that all of
+        your employees are well prepared for the responsibilities of their role.
+      title: Training Materials
+    - icon: /assets/images/upload/tips-hemsida.png
+      text: >-
+        Do you want to reach a wider audience, open up your service to new
+        users, and inform your current customers/clients? Our certified
+        translators will ensure your company’s website and apps are clear in
+        Vietnamese.
+      title: Websites and Apps
+    - icon: /assets/images/upload/img_139240.png
+      text: >-
+        Your customers not understanding what your products do and how to use
+        them has very serious implications, including safety risks. Make sure
+        you get precise translations of product specifications and user manuals
+        for all of your customers.
+      title: Product Specifications/User Manuals
+    - icon: /assets/images/upload/17219-200.png
+      text: >-
+        This intellectual property protects your business and keeps it
+        competitive. With accurate translations of your patents, potential
+        competitors will clearly understand that they can’t benefit from your
+        inventions.
+      title: Patents
+    - icon: /assets/images/upload/40105.png
+      text: >-
+        Technical reports are formal reports designed to convey technical
+        information in a clear and easily accessible format. Regardless of which
+        language you need them translated into Vietnamese, our experienced
+        translators will ensure that such important information remains clear
+        and accurate.
+      title: Technical Reports
+  text: ''
+  title: Which industrial manufacturing & engineering documents do we translate?
+  visible: true
+block_3:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  items:
+    - icon: /assets/images/upload/rapid-icon-9.png
+      text: "Our translation platform is equipped to process translation projects of high volume and technical nature, ensuring quick turnaround\r."
+      title: Fast Turnaround
+    - icon: /assets/images/upload/product.png
+      text: "Our translation platform features quality re-assessments and checks to ensure consistent and top-quality of services\r."
+      title: Excellent Quality
+    - icon: /assets/images/upload/img_568492.png
+      text: "Our transparent and affordable translation rates are the lowest among competitors with no extra or hidden charges\r."
+      title: Affordable Rates
+  text: >-
+    Enable globalization for your business with our excellent quality of
+    translation services at cost-effective rates.
+  title: Why Choose JNDC - Translation?
+  visible: true

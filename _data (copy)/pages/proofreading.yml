@@ -1,0 +1,77 @@
+block_1:
+  background_image: /assets/images/upload/1.jpg
+  color_overlay: 'rgba(50, 50, 50, 0.5)'
+  text: >-
+    Our top experts review your content twice and eliminate all the errors to
+    assure excellence.
+  title: Correct your Content
+  visible: true
+block_2:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  text: >-
+    Your digital assets including your websites, blogs, official documents,
+    professional emails and marketing material reflect your standard, quality
+    and professional efficiency. Therefore, it is critical to ensure that your
+    text is free from all the major and minor errors, and that’s what we are
+    here for. We offer proficient proofreading by certified professionals. If
+    you want immaculate proofreading services for any type of content, JNDC -
+    Translation has got you covered.
+  title: 'Fast, Reliable and Affordable Proofreading'
+  visible: true
+block_3:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  items:
+    - icon: /assets/images/upload/img_234448.png
+      text: >-
+        Our proofreading services encompass multiple industries including
+        Medical, Education,, Travel, Financial, Automotive and much more.
+      title: One-stop solution
+    - icon: >-
+        /assets/images/upload/4137121-health-evaluate-svg-png-icon-free-download-168769-evaluates-png-888_981_preview.png
+      text: >-
+        We have Vietnamese certified native experts most live in Vietnam who
+        deliver excellent translations as if they were written in your local
+        language.
+      title: Impeccable Results
+    - icon: /assets/images/upload/35083-200.png
+      text: >-
+        We have been offering proofreading services for more than 5 years. Our
+        experienced professionals remove each and every mistake from your copy.
+      title: Extensive Experience
+    - icon: /assets/images/upload/numbered4.png
+      text: >-
+        Our linguistic experts cover over almost all Vietnamese Translation
+        Pair. We ensure to provide flawless content in time.
+      title: Many Vietnamese Translation Pair
+  text: >-
+    JNDC - Translation signifies quality, style and affordability. We cover all
+    the major industries and our top professionals deliver impeccable results.
+    We are an all-in-one solution for improving your content quality.
+  title: Top Notch Proofreading at competitive rates
+  visible: true
+block_4:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  items:
+    - icon: /assets/images/upload/recommended.png
+      text: >-
+        We provide accurate human proofreading services and guarantee
+        satisfaction.
+      title: High Accuracy
+    - icon: /assets/images/upload/recommended.png
+      text: >-
+        Our proofreaders work skillfully to deliver your content in the promised
+        time.
+      title: Fast Turnaround
+    - icon: /assets/images/upload/recommended.png
+      text: >-
+        We offer matchless quality at an unbeatable price to exceed your
+        expectations.
+      title: Economic Affordability
+  text: >-
+    High precision and delivery of exceptional results make us stand ahead of
+    the competitors.
+  title: Our Core Qualities
+  visible: true

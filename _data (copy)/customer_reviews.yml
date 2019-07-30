@@ -1,0 +1,23 @@
+customers:
+  - avatar: /assets/images/upload/avatar.jpg
+    company: New York University
+    name: Peteru
+    review: >-
+      Since our startup, two decades back, we have been getting better and
+      better only!
+  - avatar: /assets/images/upload/avatar.jpg
+    company: New York University
+    name: Peter
+    review: Hello World!
+  - avatar: /assets/images/upload/avatar.jpg
+    company: New York University
+    name: Peter
+    review: Bye bye World!
+  - avatar: /assets/images/upload/avatar.jpg
+    company: New York University
+    name: Peter
+    review: Goodbye World !!
+  - avatar: /assets/images/upload/avatar.jpg
+    company: New York University
+    name: Peter
+    review: Hell Yeahhhh !!

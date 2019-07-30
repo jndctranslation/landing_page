@@ -1,0 +1,54 @@
+block_1:
+  background_image: /assets/images/upload/7016c284-af5e-49e2-9feb-a371a8806c1f.jpg
+  color_overlay: 'rgba(50, 50, 50, 0.5)'
+  text: >-
+    Game developers can’t afford to ignore the potential revenue that lies
+    beyond their country’s borders. JNDC - Translation guarantees that your
+    target audiences will enjoy the best experience as though your game was
+    originally produced in their native language.
+  title: Mobile & Video Games Translation Services
+  visible: true
+block_2:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  items:
+    - icon: /assets/images/upload/img_210318.png
+      text: >-
+        Your games need to have a user-friendly interface so people will come
+        back time and again and play the games you develop. Design is an
+        important feature of that, but so is text that’s easy to understand.
+      title: User Interface
+    - icon: /assets/images/upload/img_139240.png
+      text: >-
+        Sometimes people need help understanding how to play the games your
+        company develops. With our translation services, you can be sure that
+        users will have the information they need to enjoy playing the games to
+        the fullest.
+      title: Manuals/User Help
+    - icon: /assets/images/upload/244899-200.png
+      text: >-
+        Will your social-network game be the next big thing? If you hope to
+        attract a Vietnamese audience, enlist the help of our professional
+        translators to ensure your users’ gaming experience is an enjoyable one.
+      title: Social-Network Games
+  text: ''
+  title: Which Content Do We Translate for Mobile & Video Game Companies?
+  visible: true
+block_3:
+  background_image: ''
+  color_overlay: 'rgba(50, 50, 50, 0)'
+  items:
+    - icon: /assets/images/upload/rapid-icon-9.png
+      text: "Our translation platform is equipped to process translation projects of high volume and technical nature, ensuring quick turnaround\r."
+      title: Fast Turnaround
+    - icon: /assets/images/upload/product.png
+      text: "Our translation platform features quality re-assessments and checks to ensure consistent and top-quality of services\r."
+      title: Excellent Quality
+    - icon: /assets/images/upload/img_568492.png
+      text: "Our transparent and affordable translation rates are the lowest among competitors with no extra or hidden charges\r."
+      title: Affordable Rates
+  text: >-
+    Enable globalization for your business with our excellent quality of
+    translation services at cost-effective rates.
+  title: Why Choose JNDC - Translation?
+  visible: true

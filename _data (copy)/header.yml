@@ -1,0 +1,52 @@
+extra_nav:
+  left:
+    link: /contact_us
+    title: Contact Us
+  right:
+    - link: /blog
+      title: Blog
+    - link: /support
+      title: Support
+primary_nav:
+  button_1:
+    link: '/quote'
+    name: Get Quote
+    visible: true
+  button_2:
+    link: '#'
+    name: Place Order
+    visible: false
+  items:
+    - link: /pages/about
+      title: About
+    - sub_nav:
+        - link: /pages/translation_services
+          title: Translation Services
+        - link: /pages/proofreading_edditing_services
+          title: Proofreading Services
+        - link: /pages/transcription_services
+          title: Transcription Services
+      title: Services
+    - sub_nav:
+        - link: /pages/general
+          title: General
+        - link: /pages/certificate
+          title: Certificate
+        - link: /pages/legal
+          title: Legal
+        - link: /pages/financial
+          title: Financial
+        - link: /pages/manufacturing_engineering
+          title: Manuafacturing and Engineering
+        - link: /pages/it_software
+          title: IT and Software
+        - link: /pages/blockchain_crypto
+          title: Blockchain and Crypto
+        - link: /pages/mobile_video_game
+          title: Mobile and Video Game
+        - link: /pages/retail_e_commerce
+          title: Retail and E-commerce
+      title: Industries
+    - link: /pages/pricing
+      title: Pricing
+  logo: /assets/images/ui/transparent_logo.png
