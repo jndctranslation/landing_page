@@ -1,20 +1,20 @@
 block_0:
   background_image: ''
   button:
-    link: '#'
+    link: 'https://www.jndctranslation.com/contact_us'
     title: More Vietnamese Language Pairs
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/51vqmvwgzml._sl1500_.jpg
+    - icon: /assets/images/upload/chinese.png
       link: '#'
       title: Chinese to Vietnamese
-    - icon: /assets/images/upload/41dkt4dm17l._sx425_.jpg
+    - icon: /assets/images/upload/korean.png
       link: '#'
       title: Korean to Vietnamese
-    - icon: /assets/images/upload/1200px-flag_of_japan.svg.png
+    - icon: /assets/images/upload/flag-round-250.png
       link: '#'
       title: Japanese to Vietnamese
-    - icon: /assets/images/upload/0_o0-6o1w1dkmi5lbx.png
+    - icon: /assets/images/upload/english_us.png
       link: '#'
       title: English to Vietnamese
   text: We cover translations for 120 languages for a smooth global transition
