@@ -1,10 +1,11 @@
 customers:
-  - avatar: /assets/images/upload/avatar.jpg
-    company: New York University
-    name: Peteru
+  - avatar: /assets/images/upload/a7zmunst.png
+    company: 'http://chiconsultant.net '
+    name: Jutta Arnaud
     review: >-
-      Since our startup, two decades back, we have been getting better and
-      better only!
+      I used the services of JNDC because of positive reviews from others and
+      they did not disappoint. Work was done perfectly, even respecting the
+      formatting of my presentation will certainly use again. Thank you 
   - avatar: /assets/images/upload/avatar.jpg
     company: New York University
     name: Peter
