@@ -94,17 +94,21 @@ block_2:
 block_3:
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/rapid-icon-9.png
+    - icon: /assets/images/upload/icon-for-app-store-18.png
       text: |-
         ### App
+
         1500 Words
         Starts from
-        ### $75
+
+        ### $90
     - icon: /assets/images/upload/rapid-icon-9.png
       text: |-
-        ### App
+        ### Manual
+
         1500 Words
         Starts from
+
         ### $75
     - icon: /assets/images/upload/rapid-icon-9.png
       text: |-
