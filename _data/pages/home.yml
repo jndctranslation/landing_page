@@ -117,7 +117,7 @@ block_5:
 block_6:
   background_image: ''
   button:
-    link: '#'
+    link: 'https://www.jndctranslation.com/quote/'
     name: Get Quote
   color_overlay: 'rgba(28, 0, 88, 0.05)'
   image: /assets/images/upload/office-environment-.jpg
