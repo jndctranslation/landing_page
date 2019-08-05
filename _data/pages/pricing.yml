@@ -6,19 +6,19 @@ block_1:
   color_overlay: 'rgba(50, 50, 50, 0.5)'
   industries:
     - icon: /assets/images/upload/194488-200.png
-      title: Legal
+      title: '  Legal'
     - icon: /assets/images/upload/img_462268.png
-      title: Financial
+      title: '  Financial'
     - icon: /assets/images/upload/1534390-200.png
-      title: 'Manufacturing & Engineering '
+      title: '  Manufacturing & Engineering '
     - icon: /assets/images/upload/img_414428.png
-      title: IT & Software
+      title: '  IT & Software'
     - icon: /assets/images/upload/1473237-200.png
-      title: 'Blockchain & Cryptocurrency '
+      title: '  Blockchain & Cryptocurrency '
     - icon: /assets/images/upload/65687.png
-      title: Mobile & Video Games
+      title: '  Mobile & Video Games'
     - icon: /assets/images/upload/57589.png
-      title: Retail & E-Commerce
+      title: '  Retail & E-Commerce'
   items:
     - desc: Translator who passed our Standard level test.
       expert: 1 Translator
@@ -55,17 +55,17 @@ block_1:
       title: Vietnamese
   targets:
     - icon: /assets/images/upload/english_us.png
-      title: English
+      title: '  English'
     - icon: /assets/images/upload/flag-round-250.png
-      title: Japanese
+      title: '  Japanese'
     - icon: /assets/images/upload/korean.png
-      title: Korean
+      title: '  Korean'
     - icon: /assets/images/upload/vn-01.png
-      title: Vietnamese
+      title: '  Vietnamese'
     - icon: /assets/images/upload/taiwan.png
-      title: Traditional Chinese
+      title: '  Traditional Chinese'
     - icon: /assets/images/upload/chinese.png
-      title: Simflified Chinese
+      title: '  Simflified Chinese'
   text: >-
     As experts in Vietnamese, our certified legal translators and reviewers will
     accurately translate sensitive legal materials into your desired language.
