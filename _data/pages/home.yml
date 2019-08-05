@@ -157,7 +157,8 @@ block_8:
 block_9:
   background_image: ''
   button:
-    link: '#'
+    link: >-
+      https://docs.google.com/forms/d/1nG7Vtl8I0hUvLalHjYVkPe9c_pKq_MzuoFlx10DIWhU/
     name: Become a Translator
   color_overlay: 'rgba(50, 50, 50, 0)'
   image: /assets/images/upload/0_8yom60axa7t7ivoh.jpg
