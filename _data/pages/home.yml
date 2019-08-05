@@ -62,7 +62,7 @@ block_3:
 block_4:
   background_image: ''
   button:
-    link: '#'
+    link: 'https://www.jndctranslation.com/contact_us/'
     name: Contact Us
   color_overlay: 'rgba(28, 0, 88, 0.5)'
   text: ''
