@@ -1,10 +1,10 @@
 ---
 title: >-
-  JNDC Translation: Provided The Highest Customer Satisfaction Translation
-  Services 
+  JNDC Translation: Provided The Highest Customer Satisfaction Vietnamese
+  Translation Services 
 description: >-
   JNDC Translation strive our best to providing the highest customer
-  satisfaction translation services by human translation experts
+  satisfaction Vietnamese translation services by human translation experts
 permalink: /
 layout: home
 ---
