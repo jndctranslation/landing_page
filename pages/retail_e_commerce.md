@@ -1,8 +1,12 @@
 ---
-permalink: '/pages/retail_e_commerce'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: Retail & E-Commerce Translation Services | JNDC Translation
+description: >-
+  JNDC Translation have experienced in providing Retail & E-Commerce translation
+  services for marketing campaigns, products, brochures, catalogs and much more.
+  JNDC Translation strive to provide highest customer Retail & E-Commerce
+  Translation Services.
+permalink: /pages/retail_e_commerce
+layout: default
 ---
 
 <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
