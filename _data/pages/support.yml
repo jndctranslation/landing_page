@@ -2,7 +2,7 @@ block_1:
   background_image: /assets/images/upload/2-154521299064770309284.jpg
   color_overlay: 'rgba(50, 50, 50, 0.6)'
   text: >-
-    JNDC - Translation helps you to provide self-service support 24/7 that will
+    JNDC Translation helps you to provide self-service support 24/7 that will
     increase customer satisfaction.
   title: Customer Support
   visible: true
@@ -12,7 +12,7 @@ block_2:
   items:
     - icon: /assets/images/upload/987-200.png
       questions:
-        - title: Why should I choose Mars Translation?
+        - title: Why should I choose JNDC Translation?
         - title: What languages do you translate?
         - title: What kind of services do you offer?
         - title: Will I receive a certificate of translation?
@@ -21,7 +21,7 @@ block_2:
       title: About Mars Translation
     - icon: /assets/images/upload/987-200.png
       questions:
-        - title: Why should I choose Mars Translation?
+        - title: Why should I choose JNDC Translation?
         - title: What languages do you translate?
         - title: What kind of services do you offer?
         - title: Will I receive a certificate of translation?
