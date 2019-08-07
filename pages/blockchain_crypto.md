@@ -1,8 +1,11 @@
 ---
-permalink: '/pages/blockchain_crypto'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: Blockchain & Cryptocurrency Translation Services | JNDC Translation
+description: >-
+  JNDC Translation have experienced in providing blockchain & cryptocurrency
+  translation services for websites, ICO and much more. JNDC Translation strive
+  to provide highest customer blockchain & cryptocurrency translation services.
+permalink: /pages/blockchain_crypto
+layout: default
 ---
 
 <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
