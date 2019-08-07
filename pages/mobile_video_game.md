@@ -1,8 +1,14 @@
 ---
-permalink: '/pages/mobile_video_game'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: Mobile & Video Games Translation Services | JNDC Translation
+description: >-
+  JNDC Translation have experienced in providing mobile & video games
+  translation services for user interface, user help, social network games and
+  much more. JNDC Translation strive to provide highest customer mobile & video
+  games translation services and guarantees that our customer target audiences
+  will enjoy the best experience as though their game was originally produced in
+  Vietnamese.
+permalink: /pages/mobile_video_game
+layout: default
 ---
 
 <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
