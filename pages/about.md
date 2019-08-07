@@ -1,6 +1,8 @@
 ---
-title: The Highest Satisfiction Translation Agency
-description: This is new description of about page
+title: The Highest Satisfiction Online Translation Agency
+description: >-
+  JNDC Translation strive our best to providing the highest customer
+  satisfaction Vietnamese translation services by human translation experts
 permalink: /pages/about
 layout: default
 ---
