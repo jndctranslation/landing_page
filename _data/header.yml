@@ -9,7 +9,7 @@ extra_nav:
       title: Support
 primary_nav:
   button_1:
-    link: '/quote'
+    link: /quote
     name: Get Quote
     visible: true
   button_2:
@@ -24,14 +24,8 @@ primary_nav:
           title: Translation Services
         - link: /pages/proofreading_edditing_services
           title: Proofreading Services
-        - link: /pages/transcription_services
-          title: Transcription Services
       title: Services
     - sub_nav:
-        - link: /pages/general
-          title: General
-        - link: /pages/certificate
-          title: Certificate
         - link: /pages/legal
           title: Legal
         - link: /pages/financial
