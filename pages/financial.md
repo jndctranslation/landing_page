@@ -1,8 +1,12 @@
 ---
-permalink: '/pages/financial'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: Financial Translation Services | JNDC Translation
+description: >-
+  JNDC Translation have experienced in providing financial translation services
+  for financial report, business plans, fintech and much more. Our certified
+  financial translators and reviewers will accurately translate sensitive
+  financial materials into your desired language.
+permalink: /pages/financial
+layout: default
 ---
 
 <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
