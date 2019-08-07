@@ -1,10 +1,10 @@
 ---
-title: Expert Legal Translation Services | JNDC Translation
+title: Legal Translation Services | JNDC Translation
 description: >-
-  JNDC Translation have experienced in providing expert legal translation
-  services for contract, terms, conditions, permits, policies and much more. our
-  certified legal translators and reviewers will accurately translate sensitive
-  legal materials into your desired language.
+  JNDC Translation have experienced in providing legal translation services for
+  contract, terms, conditions, permits, policies and much more. our certified
+  legal translators and reviewers will accurately translate sensitive legal
+  materials into your desired language.
 permalink: /pages/legal
 layout: default
 ---
