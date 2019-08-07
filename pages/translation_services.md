@@ -1,8 +1,10 @@
 ---
-permalink: '/pages/translation_services'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: 'Expert Translation Services | JNDC Translation '
+description: >-
+  JNDC Translation is providing highest customer satisfaction Expert Translation
+  Services with fast turnaround time, excellent quality and effordable rates
+permalink: /pages/translation_services
+layout: default
 ---
 
 <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
