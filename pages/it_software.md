@@ -1,8 +1,12 @@
 ---
-permalink: '/pages/it_software'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: IT and Software Translation Services | JNDC Translation
+description: >-
+  JNDC Translation have experienced in providing IT and software translation
+  services for mobile apps, software applications, wen content and much more.
+  JNDC Translation strive to provide highest customer IT and software
+  translation services.
+permalink: /pages/it_software
+layout: default
 ---
 
 <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
