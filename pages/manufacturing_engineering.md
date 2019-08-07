@@ -1,8 +1,11 @@
 ---
-permalink: '/pages/manufacturing_engineering'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: Manufacturing & Engineering Translation Services | JNDC Translation
+description: >-
+  JNDC Translation have experienced in providing manufacturing & engineering
+  translation services for technical report, user manual, patents and much more.
+  Our customer will get fast, error-free technical translations.
+permalink: /pages/manufacturing_engineering
+layout: default
 ---
 
 <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
