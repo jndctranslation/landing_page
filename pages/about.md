@@ -1,5 +1,5 @@
 ---
-title: 'JNDC Translation: Provide Highest Vietnamese Translation Services | '
+title: The Highest Satisfiction Translation Agency
 description: This is new description of about page
 permalink: /pages/about
 layout: default
