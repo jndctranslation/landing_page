@@ -1,8 +1,12 @@
 ---
-permalink: '/pages/legal'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: Expert Legal Translation Services | JNDC Translation
+description: >-
+  JNDC Translation have experienced in providing expert legal translation
+  services for contract, terms, conditions, permits, policies and much more. our
+  certified legal translators and reviewers will accurately translate sensitive
+  legal materials into your desired language.
+permalink: /pages/legal
+layout: default
 ---
 
 <link rel="stylesheet" href="/assets/v3/css/expert-translation-services.css">
