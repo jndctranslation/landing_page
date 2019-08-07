@@ -1,8 +1,10 @@
 ---
-permalink: '/pages/pricing'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: Pricing | JNDC Translation
+description: >-
+  Cost Effective and Simple Pricing for Vietnamese Translation Services. No
+  hiden cost, our affordable and competitive prices start from $0.06/ word.
+permalink: /pages/pricing
+layout: default
 ---
 
 
