@@ -64,4 +64,4 @@ block_2:
         - title: Do you offer industry expert translation?
         - title: Do you offer website translation/localization services?
       title: Payment
-  visible: true
+  visible: false
