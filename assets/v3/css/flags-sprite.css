@@ -1,5 +1,5 @@
 ﻿/* FLAGS SPRITES */
-.flags{width:29px; height:29px; background:url("/assets/images/ui/supported_languages_flags2.png") no-repeat -44px -384px; display:inline-block; vertical-align:middle; border-radius: 50px;box-shadow: 0 0 2px 1px #ddd;}
+.flags{width:29px; height:29px; display:inline-block; vertical-align:middle; border-radius: 50px;box-shadow: 0 0 2px 1px #ddd;}
 .flag-af{background-position:0 0;}
 .flag-am{background-position:0 -25px;}
 .flag-ar{background-position:0 0;}
