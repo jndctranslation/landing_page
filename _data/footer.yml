@@ -46,9 +46,12 @@ block_4:
     - link: 'https://www.jndctranslation.com/contact_us'
       title: Translator Support
   socials:
-    - name: facebook
-    - name: twitter
-    - name: linkedin
+    - link: 'https://www.facebook.com/JohnandDavidCompany/'
+      name: facebook
+    - link: 'https://twitter.com/JndcTranslation'
+      name: twitter
+    - link: 'https://www.linkedin.com/in/johnanddavidcompany/'
+      name: LinkedIn
     - name: youtube
   title: SUPPORT
 block_5:
