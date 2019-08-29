@@ -47,17 +47,18 @@ block_4:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/heart-2-icon.png
+    - icon: /assets/images/upload/56376-200.png
       text: >-
         We put our heart in every word, every sentence, every page and every
         project that we do
       title: Work With Heart
-    - icon: /assets/images/upload/987-200.png
+    - icon: /assets/images/upload/7860-200.png
       text: >-
         We strive to provide the best services by our rich experience
         translation experts to our customers.
       title: 'Provide Great Services '
-    - icon: /assets/images/upload/7383-200.png
+    - icon: >-
+        /assets/images/upload/raphael_button-fast-forward_flat-rounded-square-white-on-black_512x512.png
       text: >-
         We make the best effort to complete your project as fast as possible
         with the excellent quality.
