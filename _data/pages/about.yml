@@ -33,13 +33,13 @@ block_3:
   items:
     - icon: /assets/images/upload/d1107f60b3a61d8e361ee4741e0a4dfa.png
       text: We believe what we do is challenging existing limitation
-      title: Our Believe
+      title: WE BELIEVE
     - icon: /assets/images/upload/directions-icon-png-5.png
       text: What we think and what we action is making a difference
-      title: Our Think
+      title: WE THINK
     - icon: /assets/images/upload/44386.png
       text: We believe that together we can create a better world
-      title: Together
+      title: WE CREATE
   text: ''
   title: WHAT DO WE BELIEVE?
   visible: true
@@ -51,12 +51,12 @@ block_4:
       text: >-
         We put our heart in every word, every sentence, every page and every
         project that we do
-      title: Put Our Heart
+      title: Work With Heart
     - icon: /assets/images/upload/987-200.png
       text: >-
         We strive to provide the best services by our rich experience
         translation experts to our customers.
-      title: 'Provide The Best Services '
+      title: 'Provide Great Services '
     - icon: /assets/images/upload/7383-200.png
       text: >-
         We make the best effort to complete your project as fast as possible
