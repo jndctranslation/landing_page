@@ -51,7 +51,7 @@ block_3:
   background_image: ''
   color_overlay: 'rgba(50, 50, 50, 0)'
   items:
-    - icon: /assets/images/upload/rapid-icon-9.png
+    - icon: /assets/images/upload/rapid_icon_-_noun_336661_cc.svg.png
       text: "Our translation platform is equipped to process translation projects of high volume and technical nature, ensuring quick turnaround\r."
       title: Fast Turnaround
     - icon: /assets/images/upload/product.png
