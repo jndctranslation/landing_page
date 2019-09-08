@@ -38,6 +38,22 @@ background-size: cover;">
 
                         <div class="col-sm-6 col-xs-12">
                             <div class="form-group">
+                                <label for="words">Number of words*</label>
+                                <input type="text" id="words" name="entry.415996767" required="required" tabindex="3"
+                                    class="form-control custom_input" placeholder="Number of words" />
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label for="project_industry">Project Industry*</label>
+                                <input type="text" id="project_industry" name="entry.1539702399" required="required" tabindex="3"
+                                    class="form-control custom_input" placeholder="Project Industry" />
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="form-group">
                                 <label for="source_language">Source Language*</label>
                                 <input type="text" id="source_language" name="entry.716853875" required="required" tabindex="3"
                                     class="form-control custom_input" placeholder="Source Language" />
