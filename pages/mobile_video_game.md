@@ -1,8 +1,8 @@
 ---
-title: Mobile & Video Games Translation Services | JNDC Translation
+title: Vietnamese Mobile & Video Games Translation Services | JNDC Translation
 description: >-
-  JNDC Translation have experienced in providing mobile & video games
-  translation services for user interface, user help, social network games and
+  JNDC Translation have experienced in providing Vietnamese Mobile & Video Games
+  Translation Services for user interface, user help, social network games and
   much more. JNDC Translation strive to provide highest customer mobile & video
   games translation services and guarantees that our customer target audiences
   will enjoy the best experience as though their game was originally produced in
