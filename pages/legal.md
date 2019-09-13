@@ -1,10 +1,10 @@
 ---
-title: Legal Translation Services | JNDC Translation
+title: Vietnamese Legal Translation Services | JNDC Translation
 description: >-
-  JNDC Translation have experienced in providing legal translation services for
-  contract, terms, conditions, permits, policies and much more. our certified
-  legal translators and reviewers will accurately translate sensitive legal
-  materials into your desired language.
+  JNDC Translation have experienced in providing Vietnamese Legal Translation
+  Services for contract, terms, conditions, permits, policies and much more. Our
+  certified legal translators and reviewers will accurately translate sensitive
+  legal materials into Vietnamese.
 permalink: /pages/legal
 layout: default
 ---
