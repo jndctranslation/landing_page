@@ -1,9 +1,10 @@
 ---
-title: Manufacturing & Engineering Translation Services | JNDC Translation
+title: Vietnamese Manufacturing & Engineering Translation Services | JNDC Translation
 description: >-
-  JNDC Translation have experienced in providing manufacturing & engineering
-  translation services for technical report, user manual, patents and much more.
-  Our customer will get fast, error-free technical translations.
+  JNDC Translation have experienced in providing Vietnamese Manufacturing &
+  Engineering Translation Services for technical report, user manual, patents
+  and much more. Our customer will get fast, error-free Vietnamese Technical
+  Translations.
 permalink: /pages/manufacturing_engineering
 layout: default
 ---
