@@ -1,10 +1,10 @@
 ---
-title: Retail & E-Commerce Translation Services | JNDC Translation
+title: Vietnamese Retail & E-Commerce Translation Services | JNDC Translation
 description: >-
-  JNDC Translation have experienced in providing Retail & E-Commerce translation
-  services for marketing campaigns, products, brochures, catalogs and much more.
-  JNDC Translation strive to provide highest customer Retail & E-Commerce
-  Translation Services.
+  JNDC Translation have experienced in providing Vietnamese Retail & E-commerce
+  Translation Services for marketing campaigns, products, brochures, catalogs
+  and much more. JNDC Translation strive to provide highest customer Retail &
+  E-Commerce Translation Services.
 permalink: /pages/retail_e_commerce
 layout: default
 ---
