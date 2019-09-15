@@ -17,7 +17,9 @@ block_0:
     - icon: /assets/images/upload/english_us.png
       link: '#'
       title: English to Vietnamese
-  text: We cover translations for 120 languages for a smooth global transition
+  text: >-
+    We cover translations for many Vietnamese languages pair for a smooth global
+    transition
   title: Languages We Support
   visible: true
 block_1:
