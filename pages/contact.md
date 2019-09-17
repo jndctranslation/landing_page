@@ -1,8 +1,8 @@
 ---
-permalink: '/contact_us'
-layout: 'default'
-title: 'Professional Translation Services | Mars Translation'
-description: 'This is the description of the page'
+title: Professional Vietnamese Translation Services | JNDC Translation
+description: This is the description of the page
+permalink: /contact_us
+layout: default
 ---
 
 <link rel="stylesheet" href="/assets/v3/css/contact-us.css">
