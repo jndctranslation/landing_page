@@ -1,6 +1,6 @@
 ---
 title: Professional Vietnamese Translation Services | JNDC Translation
-description: This is the description of the page
+description: 'For more Vietnamese Translation Services. Please contact us '
 permalink: /contact_us
 layout: default
 ---
