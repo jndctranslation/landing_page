@@ -2,7 +2,7 @@
 title: 'Expert Translation Services | JNDC Translation '
 description: >-
   JNDC Translation is providing highest customer satisfaction Expert Translation
-  Services with fast turnaround time, excellent quality and effordable rates
+  Services with fast turnaround time, excellent quality and affordable rates
 permalink: /pages/translation_services
 layout: default
 ---
