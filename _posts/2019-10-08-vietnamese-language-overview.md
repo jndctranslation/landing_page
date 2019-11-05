@@ -1,7 +1,10 @@
 ---
 layout: blog
-title: 'Vietnamese Language Overview '
+title: Vietnamese Language Overview - JNDC Translation
 description: >-
+  Vietnamese Language Overview - JNDC Translation
+
+
   Vietnamese language is the official language of Vietnam, there are over 90
   million people speaking Vietnamese. There are three regional Vietnamese
   dialects: Northern dialect, Central dialect, and Southern dialect.
